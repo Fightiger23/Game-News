@@ -241,14 +241,21 @@ def load_sources():
     return cfg.get("sources", [])
 
 
+# The generic URL used by the day-one sample seed. Real items never use it,
+# so we drop any leftover seed rows on load — otherwise their links all point
+# to the same (wrong) page.
+SEED_PLACEHOLDER_URL = "https://www.hoyolab.com/"
+
+
 def load_existing_events():
     if not os.path.exists(DATA_FILE):
         return []
     try:
         with open(DATA_FILE, "r", encoding="utf-8") as f:
-            return json.load(f).get("events", [])
+            evs = json.load(f).get("events", [])
     except Exception:
         return []
+    return [e for e in evs if e.get("URL") and e.get("URL") != SEED_PLACEHOLDER_URL]
 
 
 def main():
