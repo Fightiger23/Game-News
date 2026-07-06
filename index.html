@@ -46,6 +46,13 @@
   .view{display:none}.view.active{display:block;animation:fade .25s ease}
   @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 
+  /* per-game tabs */
+  .gtabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--line-soft)}
+  .gtab{padding:7px 14px;border-radius:8px;font-size:13px;font-weight:600;color:var(--dim);cursor:pointer;
+    border:1px solid var(--line);background:var(--panel-2);transition:.15s}
+  .gtab:hover{color:var(--text);border-color:var(--accent)}
+  .gtab.active{background:linear-gradient(135deg,var(--accent),#6470ff);color:#fff;border-color:transparent;box-shadow:0 4px 14px var(--glow)}
+
   /* cards */
   .card{background:linear-gradient(180deg,var(--panel),var(--bg-2));border:1px solid var(--line);
     border-radius:var(--radius);padding:20px}
@@ -153,10 +160,11 @@
 
   <!-- filter bar (shared by overview + feed) -->
   <div class="card" id="filterBar" style="margin-bottom:var(--gap)">
+    <div id="gameTabs" class="gtabs"></div>
+    <select id="fGame" style="display:none" onchange="render()"><option value="">All games</option></select>
     <div class="controls">
       <div class="ctl" style="flex:1"><label>Search headlines</label>
         <input type="text" id="fSearch" class="search" placeholder="Search titles, e.g. banner, version, VCT…" oninput="render()"></div>
-      <div class="ctl"><label>Game</label><select id="fGame" onchange="render()"><option value="">All games</option></select></div>
       <div class="ctl"><label>Category</label><select id="fCat" onchange="render()"><option value="">All</option></select></div>
       <div class="ctl"><label>Sales impact</label><select id="fImpact" onchange="render()">
         <option value="">All</option><option>High</option><option>Medium</option><option>Low</option><option>None</option></select></div>
@@ -423,15 +431,30 @@ function toObjects(rows){if(!rows.length)return[];var h=rows[0].map(function(x){
 function initFilters(){
   fillSel('fGame','All games',uniq('Game'));
   fillSel('fCat','All',uniq('Category'));
+  buildGameTabs();
   var sg=document.getElementById('sGame');
   var games=uniq('Game'); sg.innerHTML=games.map(function(g){return '<option>'+esc(g)+'</option>';}).join('');
+}
+function buildGameTabs(){
+  var host=document.getElementById('gameTabs'); if(!host)return;
+  var cur=document.getElementById('fGame').value;
+  var tabs=[{v:'',l:'All games'}].concat(uniq('Game').map(function(g){return {v:g,l:g};}));
+  host.innerHTML=tabs.map(function(t){
+    return '<button class="gtab'+(t.v===cur?' active':'')+'" data-g="'+esc(t.v)+'" onclick="pickGame(this)">'+esc(t.l)+'</button>';
+  }).join('');
+}
+function pickGame(btn){
+  document.getElementById('fGame').value=btn.dataset.g;
+  document.querySelectorAll('#gameTabs .gtab').forEach(function(b){b.classList.remove('active');});
+  btn.classList.add('active');
+  render();
 }
 function uniq(k){return Array.from(new Set(DATA.map(function(r){return r[k];}).filter(Boolean))).sort();}
 function fillSel(id,allLbl,vals){var s=document.getElementById(id),cur=s.value;
   s.innerHTML='<option value="">'+allLbl+'</option>'+vals.map(function(v){return '<option>'+esc(v)+'</option>';}).join('');
   s.value=cur;}
 function resetFilters(){['fSearch','fGame','fCat','fImpact'].forEach(function(id){document.getElementById(id).value='';});
-  document.getElementById('fDays').value='30';render();}
+  document.getElementById('fDays').value='30';buildGameTabs();render();}
 function filtered(){
   var q=document.getElementById('fSearch').value.toLowerCase().trim();
   var g=document.getElementById('fGame').value, cat=document.getElementById('fCat').value,
