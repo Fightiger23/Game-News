@@ -152,6 +152,16 @@
   .sig-driver .dt{color:var(--dim-2);white-space:nowrap;font-size:11.5px}
   .dir-spike{background:var(--good)}.dir-up{background:var(--medium);color:#231a05}
   .dir-flat{background:var(--none)}.dir-dip{background:var(--high)}
+  /* status panel */
+  .stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+  .stat{background:var(--bg-2);border:1px solid var(--line-soft);border-radius:10px;padding:11px 13px}
+  .stat-l{display:block;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+  .stat-v{display:block;font-size:18px;font-weight:750;margin-top:3px}
+  .health{padding:10px 13px;border-radius:10px;font-size:13px;font-weight:600;margin-bottom:8px}
+  .health.ok{background:rgba(63,209,139,.12);color:#7ee0ad;border:1px solid #2c6a4d}
+  .health.bad{background:rgba(255,93,108,.1);color:#ff9aa4;border:1px solid #6a2c34}
+  .tab-badge{background:var(--high);color:#fff;border-radius:999px;padding:1px 7px;font-size:10.5px;font-weight:700;margin-left:7px}
+  .gtab.active .tab-badge{background:rgba(255,255,255,.28)}
   code{background:#0d1017;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:12px;color:var(--accent-2)}
 </style>
 </head>
@@ -290,34 +300,32 @@
   <div class="view" id="view-settings">
     <div class="grid" style="grid-template-columns:1fr 1fr;gap:var(--gap)">
       <div class="card">
-        <h3>Where the news comes from</h3>
-        <p class="sub">This dashboard reads a file called <code>data.json</code>, which GitHub refreshes automatically on a schedule. <b>You normally never need to touch this.</b> Use the box only if you want to test a different data file.</p>
-        <div class="ctl"><label>Data file / URL (advanced)</label><input type="text" id="dataUrl" class="search" placeholder="leave blank — defaults to data.json"></div>
-        <div class="row mt"><button onclick="loadData(document.getElementById('dataUrl').value)">Load this file</button>
-          <button class="ghost" onclick="loadData('data.json')">Reload latest news</button></div>
+        <div class="row between"><h3>Data &amp; status</h3><button class="ghost mini" onclick="loadData()">↻ Refresh now</button></div>
+        <p class="sub">Live snapshot of the news feeding this dashboard.</p>
+        <div id="dataStatus"></div>
+        <label class="switch" style="margin-top:14px"><input type="checkbox" id="autoRefresh" onchange="toggleAuto()"> Auto-refresh every 30 minutes</label>
+      </div>
+
+      <div class="card">
+        <h3>Source health</h3>
+        <p class="sub">Which feeds succeeded or failed in the most recent automatic pull.</p>
+        <div id="sourceHealth"></div>
       </div>
 
       <div class="card">
         <h3>Valorant preview key <span class="pill">optional</span></h3>
-        <p class="sub">Only needed if you want the <b>Preview</b> button in the Sources tab to pull Valorant news instantly in your browser. The automatic scheduled pull already uses the key you saved in GitHub, so most people can ignore this.</p>
-        <div class="ctl"><label>HenrikDev API key</label><input type="password" id="henrikKey" class="search" placeholder="free key from api.henrikdev.xyz/dashboard"></div>
+        <p class="sub">Only needed for the <b>Preview</b> button in the Sources tab. The automatic pull uses the key stored in GitHub, so most people can ignore this.</p>
+        <div class="ctl"><label>HenrikDev API key</label><input type="password" id="henrikKey" class="search" placeholder="free key from api.henrikdev.xyz"></div>
         <div class="row mt"><button class="ghost" onclick="saveHenrik()">Save key in this browser</button></div>
       </div>
 
       <div class="card">
-        <h3>Smarter categorization <span class="pill">coming later</span></h3>
-        <p class="sub">Right now, news is sorted into categories using simple keyword rules. Later, we can let <b>Claude (AI) read each headline</b> and judge its type and sales impact far more accurately — even in other languages. This isn't switched on yet; when you're ready, add an Anthropic key in GitHub and flip one setting.</p>
-        <div class="ctl"><label>Anthropic API key</label><input type="password" disabled placeholder="not active yet"></div>
-      </div>
-
-      <div class="card">
-        <h3>How it all works</h3>
-        <p class="note"><b>1. Collect</b> — GitHub automatically pulls official news from each game on a timer.
-        <b>2. Categorize</b> — each item is tagged (Banner / Update / Event / Maintenance / Esports / Cosmetic / Other) with a likely sales impact.
-        <b>3. Show</b> — it appears here in the dashboard.
-        <b>4. Predict</b> — the Sales Impact tab turns high-impact news into a spike/dip signal.
-        No Google Sheet and no server to maintain.</p>
-        <p class="note mt" id="genInfo"></p>
+        <h3>How it works</h3>
+        <p class="note"><b>1. Collect</b> — GitHub automatically pulls news from each source on a timer (every 6 hours).
+        <b>2. Categorize</b> — each item is tagged Banner / Update / Event / Maintenance / Esports / Cosmetic / Other, with a likely sales impact, and marked Official or Media.
+        <b>3. Show</b> — it appears here.
+        <b>4. Predict</b> — the Sales Impact tab turns official high-impact news into a spike/dip signal.
+        No Google Sheet, no server. Categorization currently uses keyword rules; a Claude-powered upgrade is ready to switch on later for higher accuracy.</p>
       </div>
     </div>
   </div>
@@ -424,6 +432,8 @@ var SAMPLE=[
 
 /* ================= state ================= */
 var DATA = SAMPLE.slice();
+var META = {generated_at:'',total:0,errors:[]};
+var autoTimer = null;
 var SOURCES = loadSources();
 var sortKey='date', sortDir=-1;
 var charts={};
@@ -449,15 +459,16 @@ function loadData(url){
     var objs;
     if(o.t.trim().charAt(0)==='{'||o.t.trim().charAt(0)==='['){
       var j=JSON.parse(o.t); objs=Array.isArray(j)?j:(j.events||[]);
-      if(j.generated_at)document.getElementById('genInfo').textContent='Data generated: '+new Date(j.generated_at).toLocaleString()+' · '+(j.total||objs.length)+' items'+((j.errors&&j.errors.length)?' · '+j.errors.length+' source error(s)':'');
-    } else { objs=toObjects(parseCSV(o.t)); }
+      META={generated_at:j.generated_at||'',total:j.total||objs.length,errors:j.errors||[]};
+    } else { objs=toObjects(parseCSV(o.t)); META={generated_at:'',total:objs.length,errors:[]}; }
     if(objs && objs.length && ('Likely_Sales_Impact' in objs[0])){
-      DATA=objs; setStatus('Live · '+objs.length+' items',false);
+      DATA=objs; setStatus('Live · '+objs.length+' items'+(META.generated_at?' · updated '+relTime(META.generated_at):''),false);
     } else { setStatus('Loaded but no valid items — showing sample',true); }
-    initFilters(); render(); renderSources(); renderSales();
+    initFilters(); render(); renderSources(); renderSales(); renderStatus();
   }).catch(function(e){
+    META={generated_at:'',total:0,errors:['Could not load data.json — the scheduled pull may not have run yet.']};
     setStatus('No data.json yet — showing sample data',true);
-    initFilters(); render(); renderSources(); renderSales();
+    initFilters(); render(); renderSources(); renderSales(); renderStatus();
   });
 }
 function parseCSV(t){var rows=[],f='',row=[],q=false,i=0;for(;i<t.length;i++){var c=t[i];
@@ -477,10 +488,14 @@ function initFilters(){
 }
 function buildGameTabs(){
   var host=document.getElementById('gameTabs'); if(!host)return;
-  var cur=document.getElementById('fGame').value;
-  var tabs=[{v:'',l:'All games'}].concat(uniq('Game').map(function(g){return {v:g,l:g};}));
+  var cur=document.getElementById('fGame').value, now=new Date();
+  var hi={},all=0;
+  DATA.forEach(function(r){if(r.Likely_Sales_Impact!=='High')return;var dt=rowDate(r);if(!dt||daysBetween(now,dt)>30)return;
+    hi[r.Game]=(hi[r.Game]||0)+1;all++;});
+  var tabs=[{v:'',l:'All games',n:all}].concat(uniq('Game').map(function(g){return {v:g,l:g,n:hi[g]||0};}));
   host.innerHTML=tabs.map(function(t){
-    return '<button class="gtab'+(t.v===cur?' active':'')+'" data-g="'+esc(t.v)+'" onclick="pickGame(this)">'+esc(t.l)+'</button>';
+    var badge=t.n?'<span class="tab-badge" title="high-impact items in last 30 days">'+t.n+'</span>':'';
+    return '<button class="gtab'+(t.v===cur?' active':'')+'" data-g="'+esc(t.v)+'" onclick="pickGame(this)">'+esc(t.l)+badge+'</button>';
   }).join('');
 }
 function pickGame(btn){
@@ -737,6 +752,30 @@ function classify(title,native){var kw=kwMatch(title);
 
 /* ================= misc ================= */
 function saveHenrik(){localStorage.setItem(LS.henrik,val('henrikKey'));toast('Key saved in this browser');}
+function relTime(iso){var t=new Date(iso);if(isNaN(t))return '';var s=(Date.now()-t)/1000;
+  if(s<90)return 'just now';var m=s/60;if(m<90)return Math.round(m)+' min ago';var h=m/60;
+  if(h<36)return Math.round(h)+' h ago';return Math.round(h/24)+' d ago';}
+function renderStatus(){
+  var ds=document.getElementById('dataStatus'); if(!ds)return;
+  var official=DATA.filter(function(r){return (r.Tier||tierFor(r.Source))==='Official';}).length;
+  var media=DATA.length-official, games=new Set(DATA.map(function(r){return r.Game;})).size;
+  var rows=[
+    ['Last updated', META.generated_at?relTime(META.generated_at)+' <span class="note">('+new Date(META.generated_at).toLocaleString()+')</span>':'sample data'],
+    ['Total items', DATA.length],
+    ['Official / Media', official+' / '+media],
+    ['Games tracked', games]
+  ];
+  ds.innerHTML='<div class="stat-grid">'+rows.map(function(r){return '<div class="stat"><span class="stat-l">'+r[0]+'</span><span class="stat-v">'+r[1]+'</span></div>';}).join('')+'</div>';
+  var sh=document.getElementById('sourceHealth'); if(sh){
+    if(META.errors&&META.errors.length){sh.innerHTML='<div class="health bad">⚠ '+META.errors.length+' issue(s) in the last pull</div>'+
+      META.errors.map(function(e){return '<div class="sig-driver"><span>'+esc(e)+'</span></div>';}).join('');}
+    else{sh.innerHTML='<div class="health ok">✓ All sources healthy in the last pull</div>';}
+  }
+}
+function toggleAuto(silent){var on=document.getElementById('autoRefresh').checked;
+  localStorage.setItem('gni_auto',on?'1':'0');
+  if(autoTimer){clearInterval(autoTimer);autoTimer=null;}
+  if(on){autoTimer=setInterval(function(){loadData();},1800000);if(!silent)toast('Auto-refresh on — every 30 min');}}
 function download(name,txt,mime){var b=new Blob([txt],{type:mime});var a=document.createElement('a');
   a.href=URL.createObjectURL(b);a.download=name;a.click();setTimeout(function(){URL.revokeObjectURL(a.href);},500);}
 
@@ -754,6 +793,7 @@ updateTypeHint();
 /* init */
 (function(){
   var hk=localStorage.getItem(LS.henrik);if(hk)document.getElementById('henrikKey').value=hk;
+  if(localStorage.getItem('gni_auto')==='1'){document.getElementById('autoRefresh').checked=true;toggleAuto(true);}
   var override=new URLSearchParams(location.search).get('data');
   loadData(override||DEFAULT_DATA_URL);
 })();
