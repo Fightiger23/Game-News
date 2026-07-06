@@ -100,6 +100,9 @@
     background:var(--panel-2);border:1px solid var(--line);color:var(--dim)}
   .chip-official{border-color:#2c6a4d;color:#7ee0ad}
   .chip-media{border-color:#6a5a2c;color:#f5c877}
+  .rel-ok{border-color:#2c6a4d;color:#7ee0ad;background:rgba(63,209,139,.10)}
+  .rel-mid{border-color:var(--line);color:var(--dim)}
+  .rel-warn{border-color:#6a2c34;color:#ff9aa4;background:rgba(255,93,108,.10)}
 
   /* controls */
   .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:end}
@@ -199,6 +202,8 @@
         <option value="">All</option><option>High</option><option>Medium</option><option>Low</option><option>None</option></select></div>
       <div class="ctl"><label>Source tier</label><select id="fTier" onchange="render()">
         <option value="">All</option><option>Official</option><option>Media</option></select></div>
+      <div class="ctl"><label>Reliability</label><select id="fRel" onchange="render()">
+        <option value="">All</option><option>Confirmed</option><option>Reported</option><option value="Rumor/Leak">Rumor/Leak</option></select></div>
       <div class="ctl"><label>Window</label><select id="fDays" onchange="render()">
         <option value="0">All time</option><option value="7">7 days</option><option value="14">14 days</option>
         <option value="30" selected>30 days</option><option value="90">90 days</option></select></div>
@@ -229,7 +234,7 @@
 
     <div class="card mt" id="watchCard">
       <div class="row between">
-        <div><h3>⭐ High-impact watchlist</h3><p class="sub">The items most likely to move marketplace sales. Click a title to open the exact announcement.</p></div>
+        <div><h3>⭐ High-impact watchlist</h3><p class="sub">The confirmed items most likely to move marketplace sales — rumors and leaks are excluded here. Click a title to open the exact announcement.</p></div>
         <span class="pill" id="watchCount">0 items</span>
       </div>
       <div class="tbl-wrap"><table>
@@ -253,7 +258,7 @@
         <thead><tr>
           <th onclick="sortFeed('date')">Date</th><th onclick="sortFeed('Game')">Game</th>
           <th onclick="sortFeed('Category')">Category</th><th onclick="sortFeed('Likely_Sales_Impact')">Impact</th>
-          <th onclick="sortFeed('Tier')">Tier</th><th onclick="sortFeed('Source')">Source</th><th onclick="sortFeed('Title')">Title</th>
+          <th onclick="sortFeed('Reliability')">Reliability</th><th onclick="sortFeed('Tier')">Tier</th><th onclick="sortFeed('Source')">Source</th><th onclick="sortFeed('Title')">Title</th>
         </tr></thead><tbody id="feedBody"></tbody>
       </table></div>
     </div>
@@ -393,6 +398,10 @@ var DEFAULT_SOURCES = [
 
 var OFFICIAL_TYPES={steam:1,hoyolab:1,valorant:1};
 function tierFor(st){return OFFICIAL_TYPES[st]?'Official':'Media';}
+var LEAK_WORDS=['leak','rumor','rumour','rumored','rumoured','reportedly','datamine','data mine','allegedly','unconfirmed','speculation','supposedly'];
+function reliabilityFor(tier,title){if(tier==='Official')return 'Confirmed';
+  var t=String(title||'').toLowerCase();for(var i=0;i<LEAK_WORDS.length;i++){if(t.indexOf(LEAK_WORDS[i])!==-1)return 'Rumor/Leak';}return 'Reported';}
+function relOf(r){return r.Reliability||reliabilityFor(r.Tier||tierFor(r.Source),r.Title);}
 
 var TYPE_HINTS = {
   steam:'Source ID = Steam appid (e.g. ZZZ 4162040). Official, clean & stable.',
@@ -406,7 +415,7 @@ var TYPE_HINTS = {
 
 /* ================= sample fallback ================= */
 function d(n){var x=new Date();x.setDate(x.getDate()-n);return x.toISOString();}
-function mk(g,c,s,t,db,cat,imp){return {Pulled_At:d(db),Game:g,Category_ID:c,Source:s,Tier:'Official',Title:t,
+function mk(g,c,s,t,db,cat,imp){return {Pulled_At:d(db),Game:g,Category_ID:c,Source:s,Tier:'Official',Reliability:'Confirmed',Title:t,
   URL:'https://www.hoyolab.com/',Published_Date:d(db),Category:cat,Likely_Sales_Impact:imp,Reviewed:'N'};}
 var SAMPLE=[
  mk('Genshin Impact','GI','hoyolab','Version 5.6 "Nightsong" Update Notice',1,'Update','High'),
@@ -508,18 +517,19 @@ function uniq(k){return Array.from(new Set(DATA.map(function(r){return r[k];}).f
 function fillSel(id,allLbl,vals){var s=document.getElementById(id),cur=s.value;
   s.innerHTML='<option value="">'+allLbl+'</option>'+vals.map(function(v){return '<option>'+esc(v)+'</option>';}).join('');
   s.value=cur;}
-function resetFilters(){['fSearch','fGame','fCat','fImpact','fTier'].forEach(function(id){document.getElementById(id).value='';});
+function resetFilters(){['fSearch','fGame','fCat','fImpact','fTier','fRel'].forEach(function(id){document.getElementById(id).value='';});
   document.getElementById('fDays').value='30';buildGameTabs();render();}
 function filtered(){
   var q=document.getElementById('fSearch').value.toLowerCase().trim();
   var g=document.getElementById('fGame').value, cat=document.getElementById('fCat').value,
       im=document.getElementById('fImpact').value, ti=document.getElementById('fTier').value,
-      days=+document.getElementById('fDays').value, now=new Date();
+      rel=document.getElementById('fRel').value, days=+document.getElementById('fDays').value, now=new Date();
   return DATA.filter(function(r){
     if(g&&r.Game!==g)return false;
     if(cat&&(r.Category||'')!==cat)return false;
     if(im&&(r.Likely_Sales_Impact||'')!==im)return false;
     if(ti&&(r.Tier||tierFor(r.Source))!==ti)return false;
+    if(rel&&relOf(r)!==rel)return false;
     if(q&&String(r.Title||'').toLowerCase().indexOf(q)===-1)return false;
     if(days){var dt=rowDate(r);if(!dt||daysBetween(now,dt)>days)return false;}
     return true;});
@@ -540,10 +550,11 @@ function render(){
     ch.textContent=(diff>=0?'▲ +':'▼ ')+pct+'% vs prior 7d';ch.className='sub '+(diff>=0?'up':'down');}
   else{ch.textContent='vs prior 7d: n/a';ch.className='sub';}
   drawImpact(rows);drawCat(rows);
-  drawTable('watchBody',rows.filter(function(r){return r.Likely_Sales_Impact==='High';}),false);
+  var highRows=rows.filter(function(r){return r.Likely_Sales_Impact==='High'&&relOf(r)!=='Rumor/Leak';});
+  drawTable('watchBody',highRows,false);
   drawTable('feedBody',rows,true);
   document.getElementById('feedCount').textContent=rows.length+' items';
-  document.getElementById('watchCount').textContent=rows.filter(function(r){return r.Likely_Sales_Impact==='High';}).length+' items';
+  document.getElementById('watchCount').textContent=highRows.length+' items';
   document.getElementById('kTotalSub').textContent=(+document.getElementById('fDays').value?('last '+document.getElementById('fDays').value+' days'):'all time');
 }
 function counts(rows,key){var m={};rows.forEach(function(r){var k=r[key]||'Other';m[k]=(m[k]||0)+1;});return m;}
@@ -573,14 +584,17 @@ function drawTable(bodyId,rows,withSource){
     else{av=String(a[sortKey]||'').toLowerCase();bv=String(b[sortKey]||'').toLowerCase();}
     return av<bv?-sortDir:av>bv?sortDir:0;});
   var body=document.getElementById(bodyId);
-  var cols=withSource?7:5;
+  var cols=withSource?8:5;
   if(!rows.length){body.innerHTML='<tr><td colspan="'+cols+'" class="empty">No items match these filters.</td></tr>';return;}
   body.innerHTML=rows.slice(0,300).map(function(r){
     var dt=rowDate(r),ds=dt?dt.toISOString().slice(0,10):'';
     var imp=r.Likely_Sales_Impact||'Unknown';
     var tier=r.Tier||tierFor(r.Source);
+    var rel=relOf(r), relCls=rel==='Confirmed'?'rel-ok':(rel==='Rumor/Leak'?'rel-warn':'rel-mid');
+    var relLbl=rel==='Confirmed'?'✓ Confirmed':(rel==='Rumor/Leak'?'⚠ Rumor/Leak':'Reported');
     var title=r.URL?'<a href="'+esc(r.URL)+'" target="_blank" rel="noopener">'+esc(r.Title)+'</a>':esc(r.Title);
-    var extra=withSource?('<td><span class="chip '+(tier==='Official'?'chip-official':'chip-media')+'">'+tier+'</span></td>'+
+    var extra=withSource?('<td><span class="chip '+relCls+'">'+relLbl+'</span></td>'+
+      '<td><span class="chip '+(tier==='Official'?'chip-official':'chip-media')+'">'+tier+'</span></td>'+
       '<td><span class="chip">'+esc(r.Source||'')+'</span></td>'):'';
     return '<tr><td>'+ds+'</td><td>'+esc(r.Game)+'</td><td>'+esc(r.Category||'')+
       '</td><td><span class="badge b-'+imp+'">'+imp+'</span></td>'+extra+
