@@ -1,15 +1,34 @@
 {
-  "_comment": "Source configuration for the news fetcher. Edit here or via the dashboard's Source Manager (which can export this file). Fields: game, category_id, source_type, source_id, active. source_type = steam | hoyolab | valorant | fandom_new | reddit_rss.",
-  "sources": [
-    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "hoyolab",  "source_id": "2",     "active": true },
-    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "hoyolab",  "source_id": "2:2",   "active": true },
-    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "hoyolab",  "source_id": "6",     "active": true },
-    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "hoyolab",  "source_id": "6:2",   "active": true },
-    { "game": "Zenless Zone Zero", "category_id": "ZZZ", "source_type": "hoyolab",  "source_id": "8",     "active": true },
-    { "game": "Zenless Zone Zero", "category_id": "ZZZ", "source_type": "steam",    "source_id": "4162040", "active": true },
-    { "game": "Valorant",          "category_id": "VAL", "source_type": "valorant", "source_id": "en-us", "active": true },
+  "_comment": "Source config. Fields: game, category_id, source_type, source_id, active, (optional) match. Types: steam | hoyolab | valorant | rss | newsapi | fandom_new | reddit_rss. steam/hoyolab/valorant are Official (first-party). rss/newsapi/fandom/reddit are Media/Community. 'match' keeps only headlines containing that keyword (used to filter a site-wide outlet feed down to one game).",
 
-    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "fandom_new", "source_id": "genshin-impact.fandom.com", "active": false },
-    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "fandom_new", "source_id": "honkai-star-rail.fandom.com", "active": false }
+  "sources": [
+    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "hoyolab",  "source_id": "2",       "active": true },
+    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "hoyolab",  "source_id": "2:2",     "active": true },
+    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "hoyolab",  "source_id": "6",       "active": true },
+    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "hoyolab",  "source_id": "6:2",     "active": true },
+    { "game": "Zenless Zone Zero", "category_id": "ZZZ", "source_type": "hoyolab",  "source_id": "8",       "active": true },
+    { "game": "Zenless Zone Zero", "category_id": "ZZZ", "source_type": "steam",    "source_id": "4162040", "active": true },
+    { "game": "Valorant",          "category_id": "VAL", "source_type": "valorant", "source_id": "en-us",   "active": true },
+
+    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "rss", "source_id": "https://news.google.com/rss/search?q=%22Genshin+Impact%22+when:14d&hl=en-US&gl=US&ceid=US:en", "active": true },
+    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "rss", "source_id": "https://news.google.com/rss/search?q=%22Honkai+Star+Rail%22+when:14d&hl=en-US&gl=US&ceid=US:en", "active": true },
+    { "game": "Zenless Zone Zero", "category_id": "ZZZ", "source_type": "rss", "source_id": "https://news.google.com/rss/search?q=%22Zenless+Zone+Zero%22+when:14d&hl=en-US&gl=US&ceid=US:en", "active": true },
+    { "game": "Valorant",          "category_id": "VAL", "source_type": "rss", "source_id": "https://news.google.com/rss/search?q=%22Valorant%22+game+when:14d&hl=en-US&gl=US&ceid=US:en", "active": true },
+
+    { "game": "Industry", "category_id": "IND", "source_type": "rss", "source_id": "https://feeds.ign.com/ign/games-all",     "active": false },
+    { "game": "Industry", "category_id": "IND", "source_type": "rss", "source_id": "https://www.gamespot.com/feeds/news",     "active": false },
+    { "game": "Industry", "category_id": "IND", "source_type": "rss", "source_id": "https://www.pcgamer.com/rss/",            "active": false },
+    { "game": "Industry", "category_id": "IND", "source_type": "rss", "source_id": "https://www.polygon.com/rss/index.xml",   "active": false },
+    { "game": "Industry", "category_id": "IND", "source_type": "rss", "source_id": "https://www.eurogamer.net/feed",          "active": false },
+    { "game": "Industry", "category_id": "IND", "source_type": "rss", "source_id": "https://gamerant.com/feed/",              "active": false },
+    { "game": "Industry", "category_id": "IND", "source_type": "rss", "source_id": "https://www.thegamer.com/feed/",          "active": false },
+    { "game": "Industry", "category_id": "IND", "source_type": "rss", "source_id": "https://www.dexerto.com/feed/",           "active": false },
+
+    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "newsapi", "source_id": "Genshin Impact",    "active": false },
+    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "newsapi", "source_id": "Honkai Star Rail",  "active": false },
+    { "game": "Zenless Zone Zero", "category_id": "ZZZ", "source_type": "newsapi", "source_id": "Zenless Zone Zero", "active": false },
+    { "game": "Valorant",          "category_id": "VAL", "source_type": "newsapi", "source_id": "Valorant game",     "active": false },
+
+    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "fandom_new", "source_id": "genshin-impact.fandom.com", "active": false }
   ]
 }
