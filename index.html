@@ -98,6 +98,8 @@
   .b-Low{background:var(--low)}.b-None{background:var(--none)}.b-Unknown{background:var(--none)}
   .chip{display:inline-block;padding:2px 9px;border-radius:6px;font-size:11px;font-weight:600;
     background:var(--panel-2);border:1px solid var(--line);color:var(--dim)}
+  .chip-official{border-color:#2c6a4d;color:#7ee0ad}
+  .chip-media{border-color:#6a5a2c;color:#f5c877}
 
   /* controls */
   .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:end}
@@ -185,6 +187,8 @@
       <div class="ctl"><label>Category</label><select id="fCat" onchange="render()"><option value="">All</option></select></div>
       <div class="ctl"><label>Sales impact</label><select id="fImpact" onchange="render()">
         <option value="">All</option><option>High</option><option>Medium</option><option>Low</option><option>None</option></select></div>
+      <div class="ctl"><label>Source tier</label><select id="fTier" onchange="render()">
+        <option value="">All</option><option>Official</option><option>Media</option></select></div>
       <div class="ctl"><label>Window</label><select id="fDays" onchange="render()">
         <option value="0">All time</option><option value="7">7 days</option><option value="14">14 days</option>
         <option value="30" selected>30 days</option><option value="90">90 days</option></select></div>
@@ -239,7 +243,7 @@
         <thead><tr>
           <th onclick="sortFeed('date')">Date</th><th onclick="sortFeed('Game')">Game</th>
           <th onclick="sortFeed('Category')">Category</th><th onclick="sortFeed('Likely_Sales_Impact')">Impact</th>
-          <th onclick="sortFeed('Source')">Source</th><th onclick="sortFeed('Title')">Title</th>
+          <th onclick="sortFeed('Tier')">Tier</th><th onclick="sortFeed('Source')">Source</th><th onclick="sortFeed('Title')">Title</th>
         </tr></thead><tbody id="feedBody"></tbody>
       </table></div>
     </div>
@@ -327,11 +331,13 @@
     <p class="sub" style="margin:6px 0 16px">Choose the type, then fill in the details. It's added instantly and previews live news in your browser.</p>
     <div class="ctl"><label>1 · Source type</label>
       <select id="nType">
-        <option value="steam">steam — a game on Steam</option>
-        <option value="hoyolab">hoyolab — HoYoverse games</option>
-        <option value="valorant">valorant — Valorant official news</option>
-        <option value="fandom_new">fandom_new — a wiki (backup)</option>
-        <option value="reddit_rss">reddit_rss — a subreddit (backup)</option>
+        <option value="steam">steam — official, a game on Steam</option>
+        <option value="hoyolab">hoyolab — official, HoYoverse games</option>
+        <option value="valorant">valorant — official, Valorant news</option>
+        <option value="rss">rss — media, any news feed / Google News link</option>
+        <option value="newsapi">newsapi — media, keyword across outlets (needs key)</option>
+        <option value="fandom_new">fandom_new — community wiki (backup)</option>
+        <option value="reddit_rss">reddit_rss — community subreddit (backup)</option>
       </select></div>
     <p class="note" id="typeHint" style="margin:8px 0 0"></p>
     <div class="ctl mt"><label>2 · Game name</label><input type="text" id="nGame" placeholder="e.g. Wuthering Waves"></div>
@@ -358,20 +364,41 @@ var DEFAULT_SOURCES = [
   {game:'Honkai: Star Rail',category_id:'HSR',source_type:'hoyolab',source_id:'6:2',active:true},
   {game:'Zenless Zone Zero',category_id:'ZZZ',source_type:'hoyolab',source_id:'8',active:true},
   {game:'Zenless Zone Zero',category_id:'ZZZ',source_type:'steam',source_id:'4162040',active:true},
-  {game:'Valorant',category_id:'VAL',source_type:'valorant',source_id:'en-us',active:true}
+  {game:'Valorant',category_id:'VAL',source_type:'valorant',source_id:'en-us',active:true},
+  {game:'Genshin Impact',category_id:'GI',source_type:'rss',source_id:'https://news.google.com/rss/search?q=%22Genshin+Impact%22+when:14d&hl=en-US&gl=US&ceid=US:en',active:true},
+  {game:'Honkai: Star Rail',category_id:'HSR',source_type:'rss',source_id:'https://news.google.com/rss/search?q=%22Honkai+Star+Rail%22+when:14d&hl=en-US&gl=US&ceid=US:en',active:true},
+  {game:'Zenless Zone Zero',category_id:'ZZZ',source_type:'rss',source_id:'https://news.google.com/rss/search?q=%22Zenless+Zone+Zero%22+when:14d&hl=en-US&gl=US&ceid=US:en',active:true},
+  {game:'Valorant',category_id:'VAL',source_type:'rss',source_id:'https://news.google.com/rss/search?q=%22Valorant%22+game+when:14d&hl=en-US&gl=US&ceid=US:en',active:true},
+  {game:'Industry',category_id:'IND',source_type:'rss',source_id:'https://feeds.ign.com/ign/games-all',active:false},
+  {game:'Industry',category_id:'IND',source_type:'rss',source_id:'https://www.gamespot.com/feeds/news',active:false},
+  {game:'Industry',category_id:'IND',source_type:'rss',source_id:'https://www.pcgamer.com/rss/',active:false},
+  {game:'Industry',category_id:'IND',source_type:'rss',source_id:'https://www.polygon.com/rss/index.xml',active:false},
+  {game:'Industry',category_id:'IND',source_type:'rss',source_id:'https://www.eurogamer.net/feed',active:false},
+  {game:'Industry',category_id:'IND',source_type:'rss',source_id:'https://gamerant.com/feed/',active:false},
+  {game:'Industry',category_id:'IND',source_type:'rss',source_id:'https://www.thegamer.com/feed/',active:false},
+  {game:'Industry',category_id:'IND',source_type:'rss',source_id:'https://www.dexerto.com/feed/',active:false},
+  {game:'Genshin Impact',category_id:'GI',source_type:'newsapi',source_id:'Genshin Impact',active:false},
+  {game:'Honkai: Star Rail',category_id:'HSR',source_type:'newsapi',source_id:'Honkai Star Rail',active:false},
+  {game:'Zenless Zone Zero',category_id:'ZZZ',source_type:'newsapi',source_id:'Zenless Zone Zero',active:false},
+  {game:'Valorant',category_id:'VAL',source_type:'newsapi',source_id:'Valorant game',active:false}
 ];
 
+var OFFICIAL_TYPES={steam:1,hoyolab:1,valorant:1};
+function tierFor(st){return OFFICIAL_TYPES[st]?'Official':'Media';}
+
 var TYPE_HINTS = {
-  steam:'Source ID = Steam appid (e.g. ZZZ 4162040). Clean & stable.',
-  hoyolab:'Source ID = game id (2 Genshin, 6 HSR, 8 ZZZ, 1 HI3). Add :2 for Events, :3 for Info.',
-  valorant:'Source ID = country code (en-us). Needs a free HenrikDev key (Settings) for preview.',
-  fandom_new:'Source ID = wiki domain, e.g. genshin-impact.fandom.com. Noisier — use as backup.',
-  reddit_rss:'Source ID = subreddit name (no r/). Noisy & commercial-restricted — backup only.'
+  steam:'Source ID = Steam appid (e.g. ZZZ 4162040). Official, clean & stable.',
+  hoyolab:'Source ID = game id (2 Genshin, 6 HSR, 8 ZZZ, 1 HI3). Add :2 for Events. Official.',
+  valorant:'Source ID = country code (en-us). Official. Needs a free HenrikDev key (Settings) for preview.',
+  rss:'Source ID = any feed URL (IGN, GameSpot, or a Google News search link). Media coverage.',
+  newsapi:'Source ID = search keyword (e.g. game name). Media. Needs a NewsAPI key in GitHub.',
+  fandom_new:'Source ID = wiki domain, e.g. genshin-impact.fandom.com. Community — backup.',
+  reddit_rss:'Source ID = subreddit name (no r/). Community, commercial-restricted — backup only.'
 };
 
 /* ================= sample fallback ================= */
 function d(n){var x=new Date();x.setDate(x.getDate()-n);return x.toISOString();}
-function mk(g,c,s,t,db,cat,imp){return {Pulled_At:d(db),Game:g,Category_ID:c,Source:s,Title:t,
+function mk(g,c,s,t,db,cat,imp){return {Pulled_At:d(db),Game:g,Category_ID:c,Source:s,Tier:'Official',Title:t,
   URL:'https://www.hoyolab.com/',Published_Date:d(db),Category:cat,Likely_Sales_Impact:imp,Reviewed:'N'};}
 var SAMPLE=[
  mk('Genshin Impact','GI','hoyolab','Version 5.6 "Nightsong" Update Notice',1,'Update','High'),
@@ -466,16 +493,18 @@ function uniq(k){return Array.from(new Set(DATA.map(function(r){return r[k];}).f
 function fillSel(id,allLbl,vals){var s=document.getElementById(id),cur=s.value;
   s.innerHTML='<option value="">'+allLbl+'</option>'+vals.map(function(v){return '<option>'+esc(v)+'</option>';}).join('');
   s.value=cur;}
-function resetFilters(){['fSearch','fGame','fCat','fImpact'].forEach(function(id){document.getElementById(id).value='';});
+function resetFilters(){['fSearch','fGame','fCat','fImpact','fTier'].forEach(function(id){document.getElementById(id).value='';});
   document.getElementById('fDays').value='30';buildGameTabs();render();}
 function filtered(){
   var q=document.getElementById('fSearch').value.toLowerCase().trim();
   var g=document.getElementById('fGame').value, cat=document.getElementById('fCat').value,
-      im=document.getElementById('fImpact').value, days=+document.getElementById('fDays').value, now=new Date();
+      im=document.getElementById('fImpact').value, ti=document.getElementById('fTier').value,
+      days=+document.getElementById('fDays').value, now=new Date();
   return DATA.filter(function(r){
     if(g&&r.Game!==g)return false;
     if(cat&&(r.Category||'')!==cat)return false;
     if(im&&(r.Likely_Sales_Impact||'')!==im)return false;
+    if(ti&&(r.Tier||tierFor(r.Source))!==ti)return false;
     if(q&&String(r.Title||'').toLowerCase().indexOf(q)===-1)return false;
     if(days){var dt=rowDate(r);if(!dt||daysBetween(now,dt)>days)return false;}
     return true;});
@@ -529,17 +558,17 @@ function drawTable(bodyId,rows,withSource){
     else{av=String(a[sortKey]||'').toLowerCase();bv=String(b[sortKey]||'').toLowerCase();}
     return av<bv?-sortDir:av>bv?sortDir:0;});
   var body=document.getElementById(bodyId);
-  var cols=withSource?6:5;
+  var cols=withSource?7:5;
   if(!rows.length){body.innerHTML='<tr><td colspan="'+cols+'" class="empty">No items match these filters.</td></tr>';return;}
   body.innerHTML=rows.slice(0,300).map(function(r){
     var dt=rowDate(r),ds=dt?dt.toISOString().slice(0,10):'';
     var imp=r.Likely_Sales_Impact||'Unknown';
+    var tier=r.Tier||tierFor(r.Source);
     var title=r.URL?'<a href="'+esc(r.URL)+'" target="_blank" rel="noopener">'+esc(r.Title)+'</a>':esc(r.Title);
-    var src=withSource?'<td><span class="chip">'+esc(r.Source||'')+'</span></td>':'';
-    var srcPos=withSource;
+    var extra=withSource?('<td><span class="chip '+(tier==='Official'?'chip-official':'chip-media')+'">'+tier+'</span></td>'+
+      '<td><span class="chip">'+esc(r.Source||'')+'</span></td>'):'';
     return '<tr><td>'+ds+'</td><td>'+esc(r.Game)+'</td><td>'+esc(r.Category||'')+
-      '</td><td><span class="badge b-'+imp+'">'+imp+'</span></td>'+
-      (withSource?'<td><span class="chip">'+esc(r.Source||'')+'</span></td>':'')+
+      '</td><td><span class="badge b-'+imp+'">'+imp+'</span></td>'+extra+
       '<td>'+title+'</td></tr>';
   }).join('');
 }
@@ -557,14 +586,16 @@ function renderSales(){
   var host=document.getElementById('salesCards'); if(!host)return;
   var winEl=document.getElementById('salesDays'); var win=winEl?+winEl.value:14; var now=new Date();
   var W={High:3,Medium:1,Low:0.2,None:-0.6,Unknown:0};
-  var cards=uniq('Game').map(function(g){
-    var evs=DATA.filter(function(r){if(r.Game!==g)return false;var dt=rowDate(r);return dt&&daysBetween(now,dt)<=win;});
+  var cards=uniq('Game').filter(function(g){return g!=='Industry';}).map(function(g){
+    var inWin=DATA.filter(function(r){if(r.Game!==g)return false;var dt=rowDate(r);return dt&&daysBetween(now,dt)<=win;});
+    var official=inWin.filter(function(r){return (r.Tier||tierFor(r.Source))==='Official';});
+    var mediaCount=inWin.length-official.length;
     var score=0,highs=0,mediums=0;
-    evs.forEach(function(r){var im=r.Likely_Sales_Impact;score+=(W[im]||0);
+    official.forEach(function(r){var im=r.Likely_Sales_Impact;score+=(W[im]||0);
       if(im==='High')highs++;else if(im==='Medium')mediums++;});
-    var drivers=evs.filter(function(r){return r.Likely_Sales_Impact==='High'||r.Likely_Sales_Impact==='Medium';})
+    var drivers=official.filter(function(r){return r.Likely_Sales_Impact==='High'||r.Likely_Sales_Impact==='Medium';})
       .sort(function(a,b){return (rowDate(b)||0)-(rowDate(a)||0);}).slice(0,5);
-    return {game:g,score:score,highs:highs,mediums:mediums,drivers:drivers};
+    return {game:g,score:score,highs:highs,mediums:mediums,drivers:drivers,mediaCount:mediaCount};
   }).sort(function(a,b){return b.score-a.score;});
 
   host.innerHTML=cards.map(function(c){
@@ -581,8 +612,9 @@ function renderSales(){
       var t=r.URL?'<a href="'+esc(r.URL)+'" target="_blank" rel="noopener">'+esc(r.Title)+'</a>':esc(r.Title);
       return '<div class="sig-driver"><span class="dt">'+ds+'</span><span class="badge b-'+(r.Likely_Sales_Impact||'Unknown')+'">'+r.Likely_Sales_Impact+'</span><span>'+t+'</span></div>';}).join('')
       :'<div class="note">No high or medium-impact news in this window.</div>';
+    var buzz=c.mediaCount?'<p class="note" style="margin:0 0 10px">📰 '+c.mediaCount+' media article'+(c.mediaCount===1?'':'s')+' on this game in the window (see News Feed → Media).</p>':'';
     return '<div class="card"><div class="sig-head"><h3 style="margin:0">'+esc(c.game)+'</h3>'+
-      '<span class="badge '+cls+'">'+dir+'</span></div><p class="sig-reason">'+reason+'</p>'+
+      '<span class="badge '+cls+'">'+dir+'</span></div><p class="sig-reason">'+reason+'</p>'+buzz+
       '<div class="sig-drivers">'+drivers+'</div></div>';
   }).join('')||'<div class="card empty">No games yet — add a source.</div>';
 }
@@ -638,7 +670,7 @@ function previewSource(i){
     var seen={};DATA.forEach(function(r){seen[r.URL]=1;});var added=0;
     items.forEach(function(it){if(!it.url||seen[it.url])return;seen[it.url]=1;var cls=classify(it.title,it.native);
       DATA.push({Pulled_At:new Date().toISOString(),Game:s.game,Category_ID:s.category_id,Source:s.source_type,
-        Title:it.title,URL:it.url,Published_Date:it.published||new Date().toISOString(),
+        Tier:tierFor(s.source_type),Title:it.title,URL:it.url,Published_Date:it.published||new Date().toISOString(),
         Category:cls.category,Likely_Sales_Impact:cls.impact,Reviewed:'N'});added++;});
     initFilters();render();renderSales();
     toast(added?('Added '+added+' live items from '+s.game):'Already up to date for '+s.game);
@@ -666,6 +698,16 @@ function fetchSourceLive(s){
       .then(function(r){return r.json();}).then(function(j){return(((j.query)||{}).recentchanges||[]).map(function(c){
         return {title:c.title,url:'https://'+id+'/wiki/'+encodeURIComponent(String(c.title).replace(/ /g,'_')),published:c.timestamp||'',native:''};});});
   }
+  if(t==='rss'){return fetch(proxied(id)).then(function(r){return r.text();}).then(function(x){
+    var doc=new DOMParser().parseFromString(x,'text/xml');
+    var nodes=[].slice.call(doc.getElementsByTagName('item')).concat([].slice.call(doc.getElementsByTagName('entry')));
+    return nodes.map(function(e){
+      function gt(tag){var el=e.getElementsByTagName(tag)[0];return el?el.textContent:'';}
+      var link=gt('link');var le=e.getElementsByTagName('link')[0];if(le&&le.getAttribute('href'))link=le.getAttribute('href');
+      return {title:(gt('title')||'').trim(),url:(link||'').trim(),
+        published:(gt('pubDate')||gt('published')||gt('updated')||'').trim(),native:''};});});
+  }
+  if(t==='newsapi'){return Promise.reject('NewsAPI runs in the scheduled pull (needs a key in GitHub)');}
   if(t==='reddit_rss'){return fetch(proxied('https://www.reddit.com/r/'+encodeURIComponent(id)+'/.rss?limit=25'))
       .then(function(r){return r.text();}).then(function(x){var doc=new DOMParser().parseFromString(x,'text/xml');
         return Array.prototype.map.call(doc.getElementsByTagName('entry'),function(e){var link=e.getElementsByTagName('link')[0];
