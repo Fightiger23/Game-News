@@ -204,6 +204,24 @@ def tier_for(source_type):
     return "Official" if source_type in OFFICIAL_TYPES else "Media"
 
 
+# Words that signal a headline is a leak/rumor rather than confirmed news.
+LEAK_WORDS = ["leak", "leaks", "leaked", "rumor", "rumour", "rumored", "rumoured",
+              "reportedly", "datamine", "datamined", "data mine", "allegedly",
+              "unconfirmed", "speculation", "supposedly", "reported to"]
+
+
+def reliability_for(tier, title):
+    """Confirmed = straight from the publisher. Rumor/Leak = headline uses leak
+    language. Reported = reputable secondary coverage that isn't a leak."""
+    if tier == "Official":
+        return "Confirmed"
+    t = str(title).lower()
+    for w in LEAK_WORDS:
+        if w in t:
+            return "Rumor/Leak"
+    return "Reported"
+
+
 # ------------------------------------------------------------------ classifier
 CLASSIFY_RULES = [
     {"words": ["maintenance", "compensation", "server", "downtime"],         "category": "Maintenance", "impact": "None"},
@@ -332,6 +350,7 @@ def main():
             errors.append("%s [%s]: %s" % (src.get("game"), st, e))
             continue
         match = str(src.get("match", "")).strip().lower()
+        tier = tier_for(st)
         for it in items:
             url = it.get("url")
             if not url or url in seen:
@@ -347,7 +366,8 @@ def main():
                 "Game": src.get("game", ""),
                 "Category_ID": src.get("category_id", ""),
                 "Source": st,
-                "Tier": tier_for(st),
+                "Tier": tier,
+                "Reliability": reliability_for(tier, it.get("title", "")),
                 "Title": it.get("title", ""),
                 "URL": url,
                 "Published_Date": it.get("published", ""),
