@@ -144,13 +144,64 @@ def fetch_reddit_rss(subreddit):
     return out
 
 
+def _tag(el):
+    return el.tag.split("}")[-1]
+
+
+def fetch_rss(url):
+    """Generic feed reader — handles both RSS 2.0 (<item>) and Atom (<entry>).
+    Use for gaming-media outlets (IGN, GameSpot, etc.) or any feed URL."""
+    body = http_get(url, headers={"User-Agent": DEFAULT_UA})
+    root = ET.fromstring(body)
+    out = []
+    for it in [e for e in root.iter() if _tag(e) in ("item", "entry")]:
+        title, link, pub = "", "", ""
+        for ch in it:
+            t = _tag(ch)
+            if t == "title" and not title:
+                title = (ch.text or "").strip()
+            elif t == "link" and not link:
+                link = ch.get("href") or (ch.text or "").strip()
+            elif t in ("pubDate", "published", "updated") and not pub:
+                pub = (ch.text or "").strip()
+        if title:
+            out.append({"title": title, "url": link, "published": pub, "native_category": ""})
+    return out
+
+
+def fetch_newsapi(query):
+    """Keyword news across many outlets via NewsAPI.org. Needs NEWS_API_KEY.
+    Note: NewsAPI's free tier is for development only — use a paid plan or GNews
+    for commercial/production use."""
+    key = os.environ.get("NEWS_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("NEWS_API_KEY not set (needed for newsapi sources).")
+    url = ("https://newsapi.org/v2/everything?q=" + urllib.parse.quote(query)
+           + "&language=en&sortBy=publishedAt&pageSize=25&apiKey=" + urllib.parse.quote(key))
+    data = json.loads(http_get(url))
+    out = []
+    for a in data.get("articles", []):
+        out.append({"title": a.get("title", ""), "url": a.get("url", ""),
+                    "published": a.get("publishedAt", "") or "", "native_category": ""})
+    return out
+
+
 FETCHERS = {
     "steam": fetch_steam,
     "hoyolab": fetch_hoyolab,
     "valorant": fetch_valorant,
     "fandom_new": fetch_fandom_new,
     "reddit_rss": fetch_reddit_rss,
+    "rss": fetch_rss,
+    "newsapi": fetch_newsapi,
 }
+
+# First-party publisher feeds vs. third-party press coverage.
+OFFICIAL_TYPES = {"steam", "hoyolab", "valorant"}
+
+
+def tier_for(source_type):
+    return "Official" if source_type in OFFICIAL_TYPES else "Media"
 
 
 # ------------------------------------------------------------------ classifier
@@ -280,9 +331,14 @@ def main():
         except Exception as e:
             errors.append("%s [%s]: %s" % (src.get("game"), st, e))
             continue
+        match = str(src.get("match", "")).strip().lower()
         for it in items:
             url = it.get("url")
             if not url or url in seen:
+                continue
+            # Optional keyword filter — keep only headlines mentioning it (e.g.
+            # filter a site-wide outlet feed down to one game).
+            if match and match not in str(it.get("title", "")).lower():
                 continue
             seen.add(url)
             cls = classify(it.get("title", ""), it.get("native_category", ""))
@@ -291,6 +347,7 @@ def main():
                 "Game": src.get("game", ""),
                 "Category_ID": src.get("category_id", ""),
                 "Source": st,
+                "Tier": tier_for(st),
                 "Title": it.get("title", ""),
                 "URL": url,
                 "Published_Date": it.get("published", ""),
