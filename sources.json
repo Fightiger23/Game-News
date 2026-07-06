@@ -1,0 +1,15 @@
+{
+  "_comment": "Source configuration for the news fetcher. Edit here or via the dashboard's Source Manager (which can export this file). Fields: game, category_id, source_type, source_id, active. source_type = steam | hoyolab | valorant | fandom_new | reddit_rss.",
+  "sources": [
+    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "hoyolab",  "source_id": "2",     "active": true },
+    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "hoyolab",  "source_id": "2:2",   "active": true },
+    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "hoyolab",  "source_id": "6",     "active": true },
+    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "hoyolab",  "source_id": "6:2",   "active": true },
+    { "game": "Zenless Zone Zero", "category_id": "ZZZ", "source_type": "hoyolab",  "source_id": "8",     "active": true },
+    { "game": "Zenless Zone Zero", "category_id": "ZZZ", "source_type": "steam",    "source_id": "4162040", "active": true },
+    { "game": "Valorant",          "category_id": "VAL", "source_type": "valorant", "source_id": "en-us", "active": true },
+
+    { "game": "Genshin Impact",    "category_id": "GI",  "source_type": "fandom_new", "source_id": "genshin-impact.fandom.com", "active": false },
+    { "game": "Honkai: Star Rail", "category_id": "HSR", "source_type": "fandom_new", "source_id": "honkai-star-rail.fandom.com", "active": false }
+  ]
+}

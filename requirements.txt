@@ -1,0 +1,2 @@
+# fetcher.py uses only the Python standard library — no packages required.
+# This file is kept so `pip install -r requirements.txt` in CI is a no-op-safe step.
