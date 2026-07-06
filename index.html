@@ -133,6 +133,23 @@
     opacity:0;pointer-events:none;transition:.25s;z-index:50}
   .toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
   .empty{padding:34px;text-align:center;color:var(--dim-2)}
+  /* modal */
+  .modal-overlay{position:fixed;inset:0;background:rgba(4,6,12,.72);backdrop-filter:blur(3px);
+    display:none;align-items:center;justify-content:center;z-index:60;padding:20px}
+  .modal-overlay.show{display:flex}
+  .modal{background:linear-gradient(180deg,var(--panel),var(--bg-2));border:1px solid var(--line);
+    border-radius:16px;padding:24px;width:100%;max-width:470px;box-shadow:0 24px 60px rgba(0,0,0,.6);animation:fade .2s ease}
+  .modal .ctl input,.modal .ctl select{width:100%}
+  .modal-x{background:transparent;border:0;color:var(--dim);font-size:18px;cursor:pointer;padding:2px 8px}
+  .modal-x:hover{color:var(--text);transform:none}
+  /* sales signal cards */
+  .sig-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .sig-reason{font-size:13px;color:var(--dim);margin:10px 0 12px}
+  .sig-drivers{display:flex;flex-direction:column;gap:7px;font-size:12.5px}
+  .sig-driver{display:flex;gap:8px;align-items:baseline}
+  .sig-driver .dt{color:var(--dim-2);white-space:nowrap;font-size:11.5px}
+  .dir-spike{background:var(--good)}.dir-up{background:var(--medium);color:#231a05}
+  .dir-flat{background:var(--none)}.dir-dip{background:var(--high)}
   code{background:#0d1017;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:12px;color:var(--accent-2)}
 </style>
 </head>
@@ -164,7 +181,7 @@
     <select id="fGame" style="display:none" onchange="render()"><option value="">All games</option></select>
     <div class="controls">
       <div class="ctl" style="flex:1"><label>Search headlines</label>
-        <input type="text" id="fSearch" class="search" placeholder="Search titles, e.g. banner, version, VCT…" oninput="render()"></div>
+        <input type="text" id="fSearch" class="search" placeholder="Search headlines…" oninput="render()"></div>
       <div class="ctl"><label>Category</label><select id="fCat" onchange="render()"><option value="">All</option></select></div>
       <div class="ctl"><label>Sales impact</label><select id="fImpact" onchange="render()">
         <option value="">All</option><option>High</option><option>Medium</option><option>Low</option><option>None</option></select></div>
@@ -230,66 +247,38 @@
 
   <!-- ============ SALES IMPACT ============ -->
   <div class="view" id="view-sales">
-    <div class="banner" style="margin-bottom:var(--gap)">
-      <b>Integration-ready — sample data shown.</b> This is the "why did sales spike or drop" view. The news timeline is real;
-      the sales line below is placeholder. To go live, Lizhen drops a sales file (by game + date) and wires it in —
-      see the note under the chart. Sales figures must stay private, so keep this behind a login (never on the public Pages URL).
+    <div class="row between" style="margin-bottom:var(--gap);flex-wrap:wrap;gap:12px">
+      <div><h3 style="margin:0;font-size:16px">Sales signal by game</h3>
+        <p class="sub" style="margin:4px 0 0">A prediction of whether marketplace sales are likely to <b>spike</b> or <b>dip</b>, based on the high- and medium-impact news in the selected window.</p></div>
+      <div class="ctl"><label>Window</label><select id="salesDays" onchange="renderSales()">
+        <option value="7">Last 7 days</option><option value="14" selected>Last 14 days</option><option value="30">Last 30 days</option></select></div>
     </div>
-    <div class="card">
-      <div class="row between">
-        <div><h3>News events vs. sales</h3><p class="sub">Each marker is a high-impact announcement. Line = sales index for the selected game.</p></div>
-        <div class="ctl"><label>Game</label><select id="sGame" onchange="drawSales()"></select></div>
-      </div>
-      <canvas id="salesChart" style="max-height:340px"></canvas>
-      <div class="legend">
-        <span><i class="sw" style="background:var(--accent)"></i>Sales index (sample)</span>
-        <span><i class="sw" style="background:var(--high)"></i>High-impact news</span>
-        <span><i class="sw" style="background:var(--medium)"></i>Medium-impact news</span>
-      </div>
-      <div class="banner mt">
-        <b>How Lizhen connects real sales:</b> export sales as <code>sales.json</code> in the form
-        <code>[{"game":"Genshin Impact","date":"2026-06-01","value":1234}, …]</code>, drop it next to this file, and the chart
-        auto-overlays it against the news markers. The engine can then flag anomalies (rolling mean ± std-dev) and attribute
-        them to nearby events, accounting for announcement-vs-effective-date lag.
-      </div>
+    <div id="salesCards" class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr))"></div>
+    <div class="banner mt">
+      <b>How the prediction works:</b> new banners &amp; version updates (High impact) push demand up → <b>spike likely</b>;
+      events &amp; cosmetics (Medium) give a mild lift; maintenance/downtime (None) can cause a short dip; esports/dev news barely moves sales.
+      <br><b>To validate against real numbers:</b> drop a <code>sales.json</code> next to this file shaped like
+      <code>[{"game":"Genshin Impact","date":"2026-06-01","value":1234}]</code> and we'll compare predicted vs. actual and flag anomalies.
+      Keep real sales private — never on the public Pages URL.
     </div>
   </div>
 
   <!-- ============ SOURCES ============ -->
   <div class="view" id="view-sources">
-    <div class="grid" style="grid-template-columns:1fr;gap:var(--gap)">
-      <div class="card">
-        <h3>Add a source</h3>
-        <p class="sub">Add a game feed. It's saved here instantly, previews live news in-browser, and is included when you export <code>sources.json</code> for the scheduled fetcher.</p>
-        <div class="controls">
-          <div class="ctl"><label>Game</label><input type="text" id="nGame" placeholder="e.g. Wuthering Waves"></div>
-          <div class="ctl"><label>Category ID</label><input type="text" id="nCid" placeholder="e.g. WW" style="min-width:110px"></div>
-          <div class="ctl"><label>Source type</label>
-            <select id="nType">
-              <option value="steam">steam</option><option value="hoyolab">hoyolab</option>
-              <option value="valorant">valorant</option><option value="fandom_new">fandom_new</option>
-              <option value="reddit_rss">reddit_rss</option>
-            </select></div>
-          <div class="ctl"><label>Source ID</label><input type="text" id="nSid" placeholder="appid / gid / country / wiki domain"></div>
-          <button onclick="addSource()">+ Add source</button>
+    <div class="card">
+      <div class="row between">
+        <div><h3>Configured sources</h3><p class="sub">The automatic pull collects every <b>active</b> source. After adding or changing sources, click <b>Export sources.json</b> and commit that file to GitHub so the scheduled pull stays in sync.</p></div>
+        <div class="row">
+          <button onclick="openAddModal()">+ Add source</button>
+          <button class="ghost mini" onclick="copySources()">Copy JSON</button>
+          <button class="ghost mini" onclick="exportSources()">Export sources.json</button>
+          <button class="ghost mini" onclick="resetSources()">Reset to default</button>
         </div>
-        <p class="note mt" id="typeHint"></p>
       </div>
-
-      <div class="card">
-        <div class="row between">
-          <div><h3>Configured sources</h3><p class="sub">The scheduled fetcher pulls every <b>active</b> source. Export and commit this to keep the timer in sync.</p></div>
-          <div class="row">
-            <button class="ghost mini" onclick="copySources()">Copy JSON</button>
-            <button class="ghost mini" onclick="exportSources()">Export sources.json</button>
-            <button class="ghost mini" onclick="resetSources()">Reset to default</button>
-          </div>
-        </div>
-        <div class="tbl-wrap"><table>
-          <thead><tr><th>Active</th><th>Game</th><th>Cat ID</th><th>Type</th><th>Source ID</th><th>Actions</th></tr></thead>
-          <tbody id="srcBody"></tbody>
-        </table></div>
-      </div>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Active</th><th>Game</th><th>Cat ID</th><th>Type</th><th>Source ID</th><th>Actions</th></tr></thead>
+        <tbody id="srcBody"></tbody>
+      </table></div>
     </div>
   </div>
 
@@ -297,36 +286,62 @@
   <div class="view" id="view-settings">
     <div class="grid" style="grid-template-columns:1fr 1fr;gap:var(--gap)">
       <div class="card">
-        <h3>Data source</h3>
-        <p class="sub">By default this reads <code>data.json</code> (refreshed by GitHub Actions). You can also point it at any CSV/JSON URL.</p>
-        <div class="ctl"><label>Data URL (optional)</label><input type="text" id="dataUrl" class="search" placeholder="data.json or a published CSV link"></div>
-        <div class="row mt"><button onclick="loadData(document.getElementById('dataUrl').value)">Load</button>
-          <button class="ghost" onclick="loadData('data.json')">Reload data.json</button></div>
+        <h3>Where the news comes from</h3>
+        <p class="sub">This dashboard reads a file called <code>data.json</code>, which GitHub refreshes automatically on a schedule. <b>You normally never need to touch this.</b> Use the box only if you want to test a different data file.</p>
+        <div class="ctl"><label>Data file / URL (advanced)</label><input type="text" id="dataUrl" class="search" placeholder="leave blank — defaults to data.json"></div>
+        <div class="row mt"><button onclick="loadData(document.getElementById('dataUrl').value)">Load this file</button>
+          <button class="ghost" onclick="loadData('data.json')">Reload latest news</button></div>
       </div>
 
       <div class="card">
-        <h3>Live preview key (HenrikDev)</h3>
-        <p class="sub">Optional. Lets the in-browser "Preview" button pull Valorant news. Stored only in your browser. The scheduled fetcher uses the repo secret instead.</p>
-        <div class="ctl"><label>HenrikDev API key</label><input type="password" id="henrikKey" class="search" placeholder="paste free key from api.henrikdev.xyz/dashboard"></div>
-        <div class="row mt"><button class="ghost" onclick="saveHenrik()">Save key</button></div>
+        <h3>Valorant preview key <span class="pill">optional</span></h3>
+        <p class="sub">Only needed if you want the <b>Preview</b> button in the Sources tab to pull Valorant news instantly in your browser. The automatic scheduled pull already uses the key you saved in GitHub, so most people can ignore this.</p>
+        <div class="ctl"><label>HenrikDev API key</label><input type="password" id="henrikKey" class="search" placeholder="free key from api.henrikdev.xyz/dashboard"></div>
+        <div class="row mt"><button class="ghost" onclick="saveHenrik()">Save key in this browser</button></div>
       </div>
 
       <div class="card">
-        <h3>AI categorization <span class="pill">coming soon</span></h3>
-        <p class="sub">Roadmap: replace keyword rules with a Claude classifier for accurate type + impact in any language. Add the key as a repo secret and flip <code>USE_AI_CLASSIFIER</code> — no dashboard change needed. Not active yet.</p>
-        <div class="ctl"><label>Anthropic API key</label><input type="password" disabled placeholder="enable later — set as GitHub secret"></div>
+        <h3>Smarter categorization <span class="pill">coming later</span></h3>
+        <p class="sub">Right now, news is sorted into categories using simple keyword rules. Later, we can let <b>Claude (AI) read each headline</b> and judge its type and sales impact far more accurately — even in other languages. This isn't switched on yet; when you're ready, add an Anthropic key in GitHub and flip one setting.</p>
+        <div class="ctl"><label>Anthropic API key</label><input type="password" disabled placeholder="not active yet"></div>
       </div>
 
       <div class="card">
-        <h3>About the pipeline</h3>
-        <p class="note">Ingest → Classify → Overlay on sales → Insight. News is pulled on a schedule by GitHub Actions
-        (the "timer"), categorized into Banner / Update / Event / Maintenance / Esports / Cosmetic / Other with a likely
-        sales impact, and rendered here. No Google Sheet, no server.</p>
+        <h3>How it all works</h3>
+        <p class="note"><b>1. Collect</b> — GitHub automatically pulls official news from each game on a timer.
+        <b>2. Categorize</b> — each item is tagged (Banner / Update / Event / Maintenance / Esports / Cosmetic / Other) with a likely sales impact.
+        <b>3. Show</b> — it appears here in the dashboard.
+        <b>4. Predict</b> — the Sales Impact tab turns high-impact news into a spike/dip signal.
+        No Google Sheet and no server to maintain.</p>
         <p class="note mt" id="genInfo"></p>
       </div>
     </div>
   </div>
 
+</div>
+
+<!-- Add-source popup -->
+<div class="modal-overlay" id="addModal">
+  <div class="modal">
+    <div class="row between"><h3 style="margin:0">Add a source</h3><button class="modal-x" onclick="closeAddModal()">✕</button></div>
+    <p class="sub" style="margin:6px 0 16px">Choose the type, then fill in the details. It's added instantly and previews live news in your browser.</p>
+    <div class="ctl"><label>1 · Source type</label>
+      <select id="nType">
+        <option value="steam">steam — a game on Steam</option>
+        <option value="hoyolab">hoyolab — HoYoverse games</option>
+        <option value="valorant">valorant — Valorant official news</option>
+        <option value="fandom_new">fandom_new — a wiki (backup)</option>
+        <option value="reddit_rss">reddit_rss — a subreddit (backup)</option>
+      </select></div>
+    <p class="note" id="typeHint" style="margin:8px 0 0"></p>
+    <div class="ctl mt"><label>2 · Game name</label><input type="text" id="nGame" placeholder="e.g. Wuthering Waves"></div>
+    <div class="ctl mt"><label>3 · Category ID (short code)</label><input type="text" id="nCid" placeholder="e.g. WW"></div>
+    <div class="ctl mt"><label id="sidLabel">4 · Source ID</label><input type="text" id="nSid" placeholder=""></div>
+    <div class="row mt" style="justify-content:flex-end;gap:10px">
+      <button class="ghost" onclick="closeAddModal()">Cancel</button>
+      <button onclick="addSource()">Add source</button>
+    </div>
+  </div>
 </div>
 <div class="toast" id="toast"></div>
 
@@ -412,10 +427,10 @@ function loadData(url){
     if(objs && objs.length && ('Likely_Sales_Impact' in objs[0])){
       DATA=objs; setStatus('Live · '+objs.length+' items',false);
     } else { setStatus('Loaded but no valid items — showing sample',true); }
-    initFilters(); render(); renderSources(); drawSales();
+    initFilters(); render(); renderSources(); renderSales();
   }).catch(function(e){
     setStatus('No data.json yet — showing sample data',true);
-    initFilters(); render(); renderSources(); drawSales();
+    initFilters(); render(); renderSources(); renderSales();
   });
 }
 function parseCSV(t){var rows=[],f='',row=[],q=false,i=0;for(;i<t.length;i++){var c=t[i];
@@ -432,8 +447,6 @@ function initFilters(){
   fillSel('fGame','All games',uniq('Game'));
   fillSel('fCat','All',uniq('Category'));
   buildGameTabs();
-  var sg=document.getElementById('sGame');
-  var games=uniq('Game'); sg.innerHTML=games.map(function(g){return '<option>'+esc(g)+'</option>';}).join('');
 }
 function buildGameTabs(){
   var host=document.getElementById('gameTabs'); if(!host)return;
@@ -539,36 +552,52 @@ function exportFeedCsv(){
   download('news_export.csv',csv,'text/csv');toast('Exported '+rows.length+' rows');
 }
 
-/* ================= sales overlay (sample, integration-ready) ================= */
-var salesTried=false, SALES=null;
-function drawSales(){
-  var sel=document.getElementById('sGame'); if(!sel.value&&sel.options.length)sel.value=sel.options[0].value;
-  var game=sel.value; if(!game){return;}
-  if(!salesTried){salesTried=true; fetch('sales.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;})
-    .then(function(j){if(j){SALES=j;drawSales();}}).catch(function(){});}
-  var now=new Date(),days=[],labels=[];
-  for(var i=29;i>=0;i--){var dt=new Date();dt.setDate(now.getDate()-i);days.push(dt);labels.push(dt.toISOString().slice(0,10));}
-  var line;
-  if(SALES){var byd={};SALES.filter(function(s){return s.game===game;}).forEach(function(s){byd[s.date]=s.value;});
-    var last=100;line=labels.map(function(k){if(k in byd)last=byd[k];return last;});}
-  else{line=sampleSales(game,labels);}
-  var newsPts=DATA.filter(function(r){return r.Game===game;}).map(function(r){var dt=rowDate(r);if(!dt)return null;
-    var k=dt.toISOString().slice(0,10),idx=labels.indexOf(k);if(idx<0)return null;
-    var imp=r.Likely_Sales_Impact;if(imp!=='High'&&imp!=='Medium')return null;
-    return {x:k,y:line[idx],imp:imp,title:r.Title};}).filter(Boolean);
-  upsert('salesChart','line',{labels:labels,datasets:[
-    {label:'Sales index',data:line,borderColor:'#7c8bff',backgroundColor:'rgba(124,139,255,.12)',fill:true,tension:.3,pointRadius:0,borderWidth:2},
-    {label:'News',type:'scatter',data:newsPts,parsing:false,showLine:false,
-      pointBackgroundColor:newsPts.map(function(p){return p.imp==='High'?'#ff5d6c':'#ffb547';}),
-      pointBorderColor:'#0b0d13',pointBorderWidth:1.5,pointRadius:6,pointHoverRadius:8}
-  ]},{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){
-    if(c.datasetIndex===1){var p=newsPts[c.dataIndex];return (p.imp+' · '+p.title).slice(0,70);}
-    return 'Sales index: '+Math.round(c.parsed.y);}}}},scales:axes(true)});
+/* ================= sales signal (news-driven spike/dip prediction) ================= */
+function renderSales(){
+  var host=document.getElementById('salesCards'); if(!host)return;
+  var winEl=document.getElementById('salesDays'); var win=winEl?+winEl.value:14; var now=new Date();
+  var W={High:3,Medium:1,Low:0.2,None:-0.6,Unknown:0};
+  var cards=uniq('Game').map(function(g){
+    var evs=DATA.filter(function(r){if(r.Game!==g)return false;var dt=rowDate(r);return dt&&daysBetween(now,dt)<=win;});
+    var score=0,highs=0,mediums=0;
+    evs.forEach(function(r){var im=r.Likely_Sales_Impact;score+=(W[im]||0);
+      if(im==='High')highs++;else if(im==='Medium')mediums++;});
+    var drivers=evs.filter(function(r){return r.Likely_Sales_Impact==='High'||r.Likely_Sales_Impact==='Medium';})
+      .sort(function(a,b){return (rowDate(b)||0)-(rowDate(a)||0);}).slice(0,5);
+    return {game:g,score:score,highs:highs,mediums:mediums,drivers:drivers};
+  }).sort(function(a,b){return b.score-a.score;});
+
+  host.innerHTML=cards.map(function(c){
+    var dir,cls,reason;
+    if(c.score>=3){dir='▲ Spike likely';cls='dir-spike';
+      reason=c.highs+' high-impact release'+(c.highs===1?'':'s')+' (new banners / version updates) in the last '+win+' days — strong upward pressure on demand. Likely sales spike; prioritise stock and marketing.';}
+    else if(c.score>=1){dir='▲ Mild uptick';cls='dir-up';
+      reason='Some demand drivers ('+c.highs+' high, '+c.mediums+' medium) — expect a modest lift rather than a major spike.';}
+    else if(c.score<=-0.4){dir='▼ Dip risk';cls='dir-dip';
+      reason='Mostly maintenance / downtime and no new content — activity and sales may soften short-term.';}
+    else{dir='~ Flat';cls='dir-flat';
+      reason='No significant demand drivers in this window — sales are likely stable.';}
+    var drivers=c.drivers.length?c.drivers.map(function(r){var dt=rowDate(r),ds=dt?dt.toISOString().slice(0,10):'';
+      var t=r.URL?'<a href="'+esc(r.URL)+'" target="_blank" rel="noopener">'+esc(r.Title)+'</a>':esc(r.Title);
+      return '<div class="sig-driver"><span class="dt">'+ds+'</span><span class="badge b-'+(r.Likely_Sales_Impact||'Unknown')+'">'+r.Likely_Sales_Impact+'</span><span>'+t+'</span></div>';}).join('')
+      :'<div class="note">No high or medium-impact news in this window.</div>';
+    return '<div class="card"><div class="sig-head"><h3 style="margin:0">'+esc(c.game)+'</h3>'+
+      '<span class="badge '+cls+'">'+dir+'</span></div><p class="sig-reason">'+reason+'</p>'+
+      '<div class="sig-drivers">'+drivers+'</div></div>';
+  }).join('')||'<div class="card empty">No games yet — add a source.</div>';
 }
-function sampleSales(game,labels){var seed=0;for(var i=0;i<game.length;i++)seed+=game.charCodeAt(i);
-  var v=100+seed%40,out=[];labels.forEach(function(k,i){v+=Math.sin((i+seed)/3)*6+((i*seed)%7-3);
-    var hit=DATA.some(function(r){return r.Game===game&&r.Likely_Sales_Impact==='High'&&rowDate(r)&&rowDate(r).toISOString().slice(0,10)===k;});
-    if(hit)v+=22;out.push(Math.max(40,Math.round(v)));});return out;}
+
+/* ================= add-source modal ================= */
+function openAddModal(){document.getElementById('addModal').classList.add('show');
+  ['nGame','nCid','nSid'].forEach(function(id){document.getElementById(id).value='';});
+  document.getElementById('nType').value='steam';updateTypeHint();}
+function closeAddModal(){document.getElementById('addModal').classList.remove('show');}
+function updateTypeHint(){var t=document.getElementById('nType').value;
+  document.getElementById('typeHint').textContent=TYPE_HINTS[t]||'';
+  var ph={steam:'Steam appid, e.g. 4162040',hoyolab:'2 Genshin · 6 HSR · 8 ZZZ · 1 HI3 (add :2 for Events)',
+    valorant:'country code, e.g. en-us',fandom_new:'wiki domain, e.g. genshin-impact.fandom.com',
+    reddit_rss:'subreddit name, e.g. GenshinImpact'};
+  document.getElementById('nSid').placeholder=ph[t]||'';}
 
 /* ================= sources manager ================= */
 function loadSources(){try{var s=JSON.parse(localStorage.getItem(LS.sources));if(Array.isArray(s)&&s.length)return s;}catch(e){}
@@ -588,8 +617,7 @@ function addSource(){
   var g=val('nGame'),c=val('nCid'),t=val('nType'),s=val('nSid');
   if(!g||!s){toast('Game and Source ID are required');return;}
   SOURCES.push({game:g,category_id:c||g.slice(0,3).toUpperCase(),source_type:t,source_id:s,active:true});
-  saveSources();renderSources();initFilters();
-  ['nGame','nCid','nSid'].forEach(function(id){document.getElementById(id).value='';});
+  saveSources();renderSources();initFilters();closeAddModal();
   toast('Source added — previewing live news…');
   previewSource(SOURCES.length-1);
 }
@@ -612,7 +640,7 @@ function previewSource(i){
       DATA.push({Pulled_At:new Date().toISOString(),Game:s.game,Category_ID:s.category_id,Source:s.source_type,
         Title:it.title,URL:it.url,Published_Date:it.published||new Date().toISOString(),
         Category:cls.category,Likely_Sales_Impact:cls.impact,Reviewed:'N'});added++;});
-    initFilters();render();drawSales();
+    initFilters();render();renderSales();
     toast(added?('Added '+added+' live items from '+s.game):'Already up to date for '+s.game);
   }).catch(function(e){toast('Preview blocked by browser/CORS — scheduled fetcher will still pull it');});
 }
@@ -677,8 +705,9 @@ document.querySelectorAll('.tab').forEach(function(t){t.onclick=function(){
   t.classList.add('active');document.getElementById('view-'+t.dataset.view).classList.add('active');
   document.getElementById('filterBar').style.display=(t.dataset.view==='overview'||t.dataset.view==='feed')?'block':'none';
 };});
-document.getElementById('nType').onchange=function(){document.getElementById('typeHint').textContent=TYPE_HINTS[this.value]||'';};
-document.getElementById('typeHint').textContent=TYPE_HINTS.steam;
+document.getElementById('nType').onchange=updateTypeHint;
+document.getElementById('addModal').onclick=function(e){if(e.target===this)closeAddModal();};
+updateTypeHint();
 
 /* init */
 (function(){
