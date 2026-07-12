@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-12T07:56:15.391644+00:00",
-  "total": 1648,
-  "new_this_run": 15,
+  "generated_at": "2026-07-12T12:51:33.656179+00:00",
+  "total": 1652,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -20933,6 +20933,62 @@
       "Title": "Valorant Mobile Could Receive a Global Release Announcement at Gamescom - players.com.ua",
       "URL": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc1puVDdFOFNUaFBMdXAxeUdKS1NYUU9ZQnpHaW9teEtYcXpxUXNER1k1Qlh0MG9pcEg3Z3pNLXhBRV9NYzNteGZwbHUzak5jb0FpN3d3ckRKc1duVEpIenRJWTFYLThaNGNqbFV0ckFBUmlaSUJwaFJKazNYMWhCTjVsUzJxdnd1U0Vsb2VmbHAwWlpiWllHeEh4MFdZeG0tdkdQQVp4THZmX0l6NlHSAa4BQVVfeXFMUHNablQ3RThTVGhQTHVwMXlHSktTWFFPWUJ6R2lvbXhLWHF6cVFzREdZNUJYdDBvaXBIN2d6TS14QUVfTWMzbXhmcGx1M2pOY29BaTd3d3JESnNXblRKSHp0SVkxWC04WjRjamxVdHJBQVJpWklCcGhSSmszWDFoQk41bFMycXZ3dVNFbG9lZmxwMFpaYlpZR3hIeDBXWXhtLXZHUEFaeEx2Zl9JejZR?oc=5",
       "Published_Date": "Fri, 10 Jul 2026 06:39:51 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-12T12:51:26.365723+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Rumor/Leak",
+      "Title": "New Genshin Impact 7.0 Odette Leaks Prove The Character Is A Must-Have - ScreenRant",
+      "URL": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wdlNYd2xkR2ZCZTlPWmRjdzlaOC1zSWJSRFozSmxjRnYtbi10Y01kU09iLU9XeWdNQi01Uy1jMkg4bS05VmZRUUM3dWF6aklObWduYlRRcHY2QVZ1YzZKTG1velljNnJONHVjTFJnV1Rjd29ESVFRT2tkbjJNZw?oc=5",
+      "Published_Date": "Fri, 10 Jul 2026 07:00:21 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-12T12:51:28.446956+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai: Star Rail – Check Out the New Animated Short ‘Your Ending, My Beginning’ - GameSpace.com",
+      "URL": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMDhaazJwWEpFZExpdC1lTXJfREhqMkx6WlFDUDFpckdsSUFpXzA0Uk5ROWdZbGYzQVB0RmJTMEJSZGI2Z2tMcjRCXzE0SzU5WEF2WTJqcVJfY0JySEh0aWcydWx2ZkJNcnFjMXZ6SFdDbGdQWWYzUzdDcThOTWpZOTVuNEtlZ0wxOTVROG9kUU42YXBINUlHbEZLRDV5SUdiUVIxSlBObEMwaTlKNkNyM2RfcmIzQQ?oc=5",
+      "Published_Date": "Sun, 12 Jul 2026 06:30:51 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-12T12:51:32.155994+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Swaglord9000 wins GC Oceania Split 2, qualifies for GC Pacific LAN in Valorant's growing esports ecosystem - Crypto Briefing",
+      "URL": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVNlBKN2tiUEdZQUx3SlUwb0FJdTluTXZTVDI5X1hONVJpdXVFVlJPSHVMVGlWU0FtRjUwY1NNUFJpMjJyeXZDOXc3TGJnRXR3bllTRjBGWGIzb1RQZnd1d19jdTM3bUFfTVR4RnRBWjg1MG5XcHVB?oc=5",
+      "Published_Date": "Sun, 12 Jul 2026 12:17:26 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-12T12:51:32.156032+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Nightblood Gaming vs NRG Academy (Bo3) - Ladbrokes",
+      "URL": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZTNlaDV6OEQ5OHJlOHltSlRWS05WOTBvbkdOYjdoRUx5MzdGT090Yk02STJ5MVlqRjU1d1BaVVN6ZzNLem55ME5PMFY4enhlamdLOVh6dVROeEVWUWdieWtDTmRVSnlDWWMzVWFRbzB6cjQwOHZsblVhVFhxSlVkZ1p6ZklVdFBUc25BcmFBdXNHYzNVSlctVWU2Q1l4LXExTnNqcjdUQzRtWXAxSHpmMWRyaWY0N2lPOWd5ZzJIQlg1RVZKanplWjNUdWxhWWZlTWNJRG1B?oc=5",
+      "Published_Date": "Thu, 09 Jul 2026 22:05:12 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
