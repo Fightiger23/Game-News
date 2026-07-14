@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T19:09:04.675571+00:00",
-  "total": 1726,
-  "new_this_run": 19,
+  "generated_at": "2026-07-14T01:16:36.072274+00:00",
+  "total": 1730,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -22025,6 +22025,62 @@
       "Title": "100 Thieves Defeat NRG to Win EWC 2026 in NA Derby - Insider Gaming",
       "URL": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oVzVoQTZUTU1IWWxtRl9QZlVDeko2a0dsaDE4SXM0YXVWT0hPdEsxVjhUUDlmamlxbHRyS2VPZUhhS2JacU5PTmlnYzNETXhCUEQwWWRuUXVJdUFaRnAxa3F5V2tMQ0lPWXRmeFB3?oc=5",
       "Published_Date": "Sun, 12 Jul 2026 17:56:05 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-14T01:16:30.806973+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Hands on with the Honkai: Star Rail v4.0 experience - Gaming Age",
+      "URL": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMkh4SlJPWk1sa1BFVHV6RGRrZ3E1dlZXbmo0UjRPV2JVZVluSnItWENKRFlmRXZtWUpzS0ZqVkd2dVVVY0NERnRZdEFhYXd2NVZCMkswQW5TVmZfSWFwTVFYTGhEejJQZU1rZFRSV0ZiUlluNG1fQ1ZlVDNkb0VJaExtOFVON1BRdWfSAY8BQVVfeXFMUE1oMno0LUFxUUdlMXl3TDJpSXpMS1VmUzRhMHJiR2lTV3NpWmJkSndhbkd2NnM5NzE5RlRtVXc5NXYxel80Sl9LdG9SYWRGRVpZOG85N1hZR2NhU0V5YWQwYjBUWG5XYmxlYlMwZ3pIUzNnVWdyRjFKUmVNNi1iWTlNeDdZVVlObWo5RjNTeFk?oc=5",
+      "Published_Date": "Mon, 13 Jul 2026 14:32:27 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-14T01:16:34.572057+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Esports World Cup 2026: Team Heretics and Gentle Mates knocked out of Valorant Playoffs - Gamereactor UK",
+      "URL": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTi1UT2RpRnRpblVhN190UVhzdDZqSEZ1aUZGeVhEM3RSa3dPYXpxakpxS0hTZ0x5cno4VF9rclE4Mzc1a0prYkhxb0FlTmVKbGFRc05RdWRhZWRSNkV1a3B2TVBid25wUzRwUUZXUFMtR0FDVkdnWF94WG56Uk1ZVUJKS3dBX2VZUXBTLTRRaEhGZjVHbE51UVpMRVdFSFB6T1kwUXh0anBlRXRCbllGTzNuc2toWTFIU2dYdUYtbXBRS05BWUd1MjZ3?oc=5",
+      "Published_Date": "Fri, 10 Jul 2026 12:00:02 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-14T01:16:34.572094+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "EWC Week 1 Recap: 100 Thieves Defeat Valorant World Champs - Insider Gaming",
+      "URL": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN0tzVHhuOXJJQ2VqeTFla2dvOGpONmhRQ0EyczZFbUQtZnROaTdSZFZHcGdyendPRUd5eDZMVnI2NjdjUk9WTnI1N2ZaOGVFalJWSy1rdGRNbU9QejRuZndvZVdMRWxjbzVxN0ZEdFY2bUp2azVZLWRVdGRKbWtKTVNlVDBBSGFZUS1NUEtn?oc=5",
+      "Published_Date": "Mon, 13 Jul 2026 16:22:31 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-14T01:16:34.572106+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "SENARA The Sacrament Sets Sail on Steam This July - Invision Game Community",
+      "URL": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSW9ldjNja2VOR2liMWZQVWFJRkt1MDVqUzFkRFpkSVFaTHZxOHMxc3V4Skt5ZnhBbmoycFgxUVhrcEQtUFRkQjliRWxudUIzS3VtbUp0QkV6eXJzYUs0RWtza1BqOW9kV1k5bmI4Wm1reHFtRk9icEhhQ2JRM1BPcVBUa3EyOHN5dVE?oc=5",
+      "Published_Date": "Mon, 13 Jul 2026 16:14:29 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
