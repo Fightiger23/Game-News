@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-07-16T18:53:28.952101+00:00",
+  "generated_at": "2026-07-17T01:26:36.658836+00:00",
   "total": 1943,
-  "new_this_run": 14,
-  "errors": [],
+  "new_this_run": 0,
+  "errors": [
+    "Genshin Impact [rss]: HTTP Error 503: Service Unavailable",
+    "Honkai: Star Rail [rss]: HTTP Error 503: Service Unavailable",
+    "Zenless Zone Zero [rss]: HTTP Error 503: Service Unavailable",
+    "Valorant [rss]: HTTP Error 503: Service Unavailable"
+  ],
   "events": [
     {
       "Pulled_At": "2026-07-06T08:25:23.269189+00:00",
