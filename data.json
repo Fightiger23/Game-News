@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T07:55:44.748283+00:00",
-  "total": 2105,
-  "new_this_run": 11,
+  "generated_at": "2026-07-19T12:48:24.569025+00:00",
+  "total": 2111,
+  "new_this_run": 6,
   "errors": [],
   "events": [
     {
@@ -27333,6 +27333,90 @@
       "Published_Date": "Thu, 16 Jul 2026 12:18:49 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-19T12:48:16.807299+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact's Competitor to Get an Anime - Wuthering Waves: Elysium Teaser Revealed - ixbt.games",
+      "URL": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUtuNnVyUHZiMmxrajlySVdwUzdBdlpPQmxPd0ZXNlFNbERTVHlCOXRGY19IUWNjMDR6dkFWaHFCTmlwTFR4dEZVd29hRkdVck5IRjZmaDkxa1o3V2dzX25GZ3NKR2FmV3lod1prN0VJRjlhSkVzRGp3NFFOSkpMbk9tSWNTSzlwcGZqS29KQnRROVMteUIxa3R0ajlhZGxZY0M5UmRyb1laWUFmWkRheVFhU3ZwSVZWMGlHeVFhQ3XSAcYBQVVfeXFMT3FYWktQWE9YU0lyOE9MVXpFRG00WHRvaHJRVjNka3hGbndQMjNfeTV2anVCRWhLQlJXQUdrZFhfVW9jNmF0TlhfSVVvaHFZY2NOOER2QThoeWp6aFdKSGVWa293dFNsQXFxNG80S1hObE1faDlFMEJMQldjbWJBb0JINEd4U3dpLU1rN2Y3a3lzZk1DZFYtS0dibVd3X3FWckRQaDhBNjVmYU5tNkVFWlBYendWWEFMb2liS1M4Q0JYVGtvekhn?oc=5",
+      "Published_Date": "Sun, 19 Jul 2026 08:56:37 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-19T12:48:16.807337+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact confirms next wave of free 5-stars: To Temper Thyself and Journey Far returns - MSN",
+      "URL": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRGpvU01QeExxSzdzNlpaSTE1aHhZZlJFNVBXekN5MThWSHdaYlg2bk92RmVlUV9vdVRINnNBZlZiNnRfLXNWVjVCT2J3S3YxbzFhRHJSajFLdlZna095dmNFRFFHWUlwaC11MU5zcTRVV0ZudDU1TE4xVUo0bWF3TTNTM0VEdW5tLWU2Z1Z4RlZWeFB1OV9wUHI0cUZ5eW5RY3o1czBLbkpuUHJteEtrdm84YWpwZERXdW1VYUJwOUY4RDc4RmpvVWQzVWhWMzhuRGkzOXQweVA4WU5H?oc=5",
+      "Published_Date": "Thu, 16 Jul 2026 23:21:50 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-19T12:48:18.980880+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Hsr 4.4 Livestream Code & Time (Honkai Star Rail 4.4) - IMDb",
+      "URL": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kenpMT29hb0Q2N3M3Z3RITkRXeTRNRlFIVnhOOHk4dUtvY3BvYi16ZWw2SldIclhBbmtYRDE4R0ZvbS16MUpYUGpsdDdxRzc1UE9SbDBrT3ZaeXZhc1ZKOVU2MXpRaWs?oc=5",
+      "Published_Date": "Fri, 17 Jul 2026 22:17:51 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-19T12:48:18.980943+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "All Honkai Star Rail 4.4 Shiftmation puzzle location and solutions in Fallen Star's Cradle - Sportskeeda",
+      "URL": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaW81R0VXb05Ma2xiUzh2REtJN0otLTBoZ2UwallsOTM4aHhLZllfVkZaTHRWZmM1dkEydzZNUnpMWXlMWEMzWFlTRHV1YWxINnJlaDNSdURCdUE5c0hxSVRPVUxJMUdmT0ZtajRsYjJPTzNvWGoyeTZ4LUVfX3RoNm9rQ1RVMzh1Q3dYTWpPQTFHR0ZnbzA1TV9KaXZiZU5wRG9ETVBHYUNMTjJNZnpPNEQ2SWNzdW9Ya3BV?oc=5",
+      "Published_Date": "Sat, 18 Jul 2026 14:48:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-19T12:48:21.032815+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero coming to Xbox on PC with Play Anywhere support this July - MSN",
+      "URL": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVJ5ZzRFMzF6OG1HMU1qZVA0VVVvNlV6QVZwSjFLSzJEaGQ4VHo0U1FXWlNZQmVmVXQ3MWNpd0I3dGVFYko5U1pqZFFsYWhtNUtzY0pKZTlyWmxsMl9aS1FJOXhjeTBfaUlUaDlsOXZsMHdmZnQzNi1xVi0xbFdDV0NDY0RMR215UW5QeEJLOVM5UTRtekc5TVdzNUdZWC1jREhfNmFhNU83SDd2blUxMk5FMlFlZjA2ZEVlWnFBSzBxWmtvVno5M0NFdzVGdEJyZGE0?oc=5",
+      "Published_Date": "Sat, 18 Jul 2026 20:59:38 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-19T12:48:21.032849+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero Version 3.1 Launches July 29 With New Agents, Second-Anniversary Rewards, and Xbox PC Release - OtakuKart",
+      "URL": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGJ0d0d1d0hpOEU3ZVFYem43RUVGMDFvNDQ5SlZ0bUNvYXp0ODdzV2lrYmFHYXB2MEFyVVVSSEhPaEJuZ1FUbzBjSnRfNGVoZExKY3h5QWxVNnZjOTZoYzBHbnlGSU9IVlZyYlZ1YTJtOFZSNmIwQlU0czFxdU84QktrelVHQ2NRRWVIeHZEdm91NGlvVzk0d3U2NDhuYVpubVk5b0IwdkVDaFk1MVpiNFdnZzdsNXlSeGM0ajFXa3NSblRRYmx0aXY4OTY?oc=5",
+      "Published_Date": "Sun, 19 Jul 2026 11:12:56 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
       "Reviewed": "N"
     }
   ]
