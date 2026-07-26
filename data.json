@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T08:05:04.124846+00:00",
-  "total": 2422,
-  "new_this_run": 10,
+  "generated_at": "2026-07-26T12:53:54.041033+00:00",
+  "total": 2427,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -31771,6 +31771,76 @@
       "Published_Date": "Sat, 25 Jul 2026 03:21:47 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-26T12:53:46.886447+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Furina Build Guide - Weapons, Artifacts, & More - Genshin - Mobalytics",
+      "URL": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04cWFPVUFwdUswYWY5V01iSWw2SWxIM3RSWlpNeEhOcmd0WkZMX3NNQ0FlMmNiek1zN0lmUEszMkw4YWFPOUdieEs1dzREOTZjbUJUd0dsUmM2dGR0N2dFY1ZHVjA4MXR1VmdoVDlxM2tHRmFM?oc=5",
+      "Published_Date": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-26T12:53:46.886480+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Clorinde (Top) - Navia (Bottom) | Spiral Abyss 6.7 | Genshin Impact Luna VIII - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBiTmF5SXA5RE5nay1pVF9kVWVJR3dGYzdUZ05lUHFQTEZQT0d0cUFhZjAwUjZfWjhKeEI4TThPVXNKQQ?oc=5",
+      "Published_Date": "Sun, 26 Jul 2026 08:54:59 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-26T12:53:50.693100+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Testing Various Norma Teams vs Pompey; From F2P to Premium | Deadly Assault | ZZZ (3.0) - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmN0xpeFd2RGlVT2xoMndkSFF5QVdOMUUwSVRBazJTSFhqeXA0LWlqRTJYQUhRWEdzMkpWOGxUblA1Zw?oc=5",
+      "Published_Date": "Sat, 25 Jul 2026 19:09:48 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-26T12:53:52.540880+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Gentle Mates GC vs GIANTX GC Prediction & Betting Tip | VALORANT - EGamersWorld",
+      "URL": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcjVmOWFaSWdfdHpwQTZZN3F2eTFnTjBrTldjRGVIeGJaWkJNc01iV2NJSURJNXBQWE11VDN5d09Rb2xweVd0QXc5bUhldjRxZXNzSlVGNG55cFc1N0NxZmtxQ3ZpVzMzd20zc0RkWTBEN3NISUd3OVlkekNheDlhVEhDNEF4blZxRlVacTJWQ2I?oc=5",
+      "Published_Date": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-07-26T12:53:52.540909+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Fortnite Server Status: Is Fortnite Down? - Esports.gg",
+      "URL": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMGJ0Y2xJVHpVV1BJUVlaWUFrejRiSDQ0RXlBSlBlUGUtQWNMR3BQSWlVcS1fcEQzZEl5TVRkSk1uQmtYMnlFaEMzLTdlaVlIdDllZDVFX3VEYmdZVzNlVjU3b1FiQlJ2SkNMVmxuYndmNlRva09Dd2tXanFzZk5uUkl1alpOb2N0S2VIRUVIXzRkT05ycmFRY0N3?oc=5",
+      "Published_Date": "Mon, 20 Jul 2026 03:20:21 GMT",
+      "Category": "Maintenance",
+      "Likely_Sales_Impact": "None",
       "Reviewed": "N"
     }
   ]
