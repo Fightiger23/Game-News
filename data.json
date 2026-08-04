@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T13:42:10.877527+00:00",
-  "total": 2880,
-  "new_this_run": 7,
+  "generated_at": "2026-08-04T19:16:56.651304+00:00",
+  "total": 2885,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -38183,6 +38183,76 @@
       "Published_Date": "Tue, 04 Aug 2026 11:52:13 GMT",
       "Category": "Update",
       "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T19:16:49.397833+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact 7.0: Snezhnaya Release Date & Features - MMOs.com",
+      "URL": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RZncxQjI2Zm1MWmpSX2tscHNTcW92ekdDV05XMmFIdlhVV2NQMjlGVXktQ2lKMTRFNG5pWFdmaWJDclE4alFZbFk4dERYNUpUcWpYdjZtSDVOLVhSM3lvTlVJSHdFbGhNd0pPbkVTc1o?oc=5",
+      "Published_Date": "Mon, 03 Aug 2026 16:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T19:16:49.397883+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Imaginarium Theater August 2026: Enemies, buffs, and best characters - sportskeeda.com",
+      "URL": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON3pfVjdkUlZIQlg2bGZFX0E2ODFBRHkzeVdzTmpMTmZnX29DdnRKNzh0aXEyT1QtaFBzU09aSzJwY3JYMVFmVUxiZ0hVSzJMOXNHaUJaN1pXV2dVOThIYUU1QTRJaHR2QzNkSnNkNTNPeXh2WWxtYmRlVktPZmltcWVuN3NGTGRzSF91SWFkYUNRU2R4aVdwMzYxNE91VmpQUXNySkJqWTdaaHBuSDdTR1hn?oc=5",
+      "Published_Date": "Sat, 01 Aug 2026 14:35:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T19:16:53.258906+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "ZZZ – Remielle Unsheathes Her Wings During Decisive Battle - GameSpace.com",
+      "URL": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYVkzcmJfeEhyMGpRS0N1RHBvM3RtYkNhMkpxZ09VS0ZVa19ERVpGOHpDa0I5VG5Jc1V2MmxyejlrZFFTNS1ka3NlcmJ6SEVtSWN3cHMyOHRxZ1duUHgyRFFYMDd0THZnOEhocDFMcWd1blA3d1lDUExvRTdPel9VX0pkeklSZm1jZ015Zk9SQjA2U0s0eWotT0tyS0NJUQ?oc=5",
+      "Published_Date": "Mon, 03 Aug 2026 14:30:13 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T19:16:53.258978+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero launches a collaboration with Russian ballet - se7en.ws",
+      "URL": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1ZWaUZxUkYwQUZIbGNtc2NDRXc5SGpwSXU2VlFtU0lnWWhYM21MaEY2QVVHRlVrOUNZUktqYk5HYmRuNFl5dThyd2tGWkRHT0EyTTlyYkhHLWh0eGpFbnFOc01WZzBpS0JSWERSYTJCZkg2S2ViUkFWODJRRHQwZmxpa3g1cmVaNmpPaXRQX2RJdw?oc=5",
+      "Published_Date": "Tue, 04 Aug 2026 03:40:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T19:16:53.258990+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Odette release date, voice actors, and lore - Pocket Tactics",
+      "URL": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLSUltd2xHbm9qVWpGT1FFbzNsU1R4NlhLeGwzSmJHMnAxd0ZYMi1VTnhrQ1B3cGpDR2tlMkxmZExXeXlLaHJYU3B0YjVtUl9uUjljRFY3bGdYYkd4UGJRTQ?oc=5",
+      "Published_Date": "Tue, 04 Aug 2026 15:55:02 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
