@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T19:15:50.215175+00:00",
-  "total": 2853,
-  "new_this_run": 7,
+  "generated_at": "2026-08-04T01:19:17.767704+00:00",
+  "total": 2858,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -37805,6 +37805,76 @@
       "Published_Date": "Mon, 27 Jul 2026 20:46:31 GMT",
       "Category": "Cosmetic",
       "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T01:19:10.218200+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact and \"Vkusno - i tochka\" collaboration announced - it starts on August 17 - ixbt.games",
+      "URL": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcWxYQURWdlZCM2dZTDRzdnVHOFR3ZlVORTlKY0VWWG1nalJOM2dZY3U4MVB4aDJacEluMVQ4TTBiVy1jRUFuZUpDSEN1Sk9KcnJfYnRHUDd0RzUxNEJnc1Badk1HRlNUaE1ZblNpOEJJamszZjZnTnQ2NHRjWTQydXJzV191VzNzU2F2c2h1OVAwZVNYYTY0WFB4NUNlVFhmSGFGbWEtT1U3VDh1SVVLQjJEMHkxQjJ4c1HSAb8BQVVfeXFMTWhfaURmU0pwZHZwUzBrNjFvX3JVeXpmYXYyRzA2R0t3UDM1WEZVVS1hdGNoTEkwTGhmQzRxU05MM2hOMFRHRnZzR3RZUDdTOTFpd1lwN2RqenU3V3ItQndRQU4zVXdPWEVMUFBiTE9CMG9admRPR21MNzNTdUVZd01fV2FzelBKdERMQVdsYk1wLTB5ZE5KbjNKTW0xTm1lTXVwbzFMR2RINGR4UHNVV0REZFdvcUhfQW9YMF92YXc?oc=5",
+      "Published_Date": "Mon, 03 Aug 2026 17:56:02 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T01:19:10.218246+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Jhin, The Virtuoso | Genshin Impact Inspired Animation - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1zWVBtRmowZlhZUlJMR0JjLW93TWpPSHpXT2xRNTRQc25Vc0lKSjg2U0QxeFpEcTNZR2hIVG5fVE9WZw?oc=5",
+      "Published_Date": "Mon, 03 Aug 2026 20:09:39 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T01:19:14.263363+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Rumor/Leak",
+      "Title": "Zenless Zone Zero Miyabi build speculation and voice actor - Pocket Tactics",
+      "URL": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jc09FUnF0ZmVtREJwZzNQZmhkV2xpUWJXWFpBYjhJamEwS2JIQXRDR1RDWDJpYVlicFhITXFpeGxNbjloekZwLWxWblI0azNkQXZkc01jOUp5NlVCaWstVVNmdFA?oc=5",
+      "Published_Date": "Fri, 31 Jul 2026 10:10:40 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T01:19:14.263396+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Wuthering Waves showed off gameplay of Qingxiao and Jingran from patch 3.6. - Wotpack.ru",
+      "URL": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbzJHZExPY3FnSEpoZDdZZnNKSnl3eTQ3YUdGeVpNSGFuTXJTdFltZU95MVhQc0tnN2U0dkM3Q1VPVlNHbVZiRzJhQkpsRjRHNF9lQ2ZUTGlpU1BzRjRWbHd2MHAwenVNUlNFS1dTNVB5eXBhczdBUGIxb09MTHA1VWExMVRiY1lNX005Y3ZtZ2E1dTVsLXc?oc=5",
+      "Published_Date": "Sun, 26 Jul 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-04T01:19:16.267508+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Game Changers NA - VALORANT Esports | Schedule",
+      "URL": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtZmxCLUM2XzhHRW1fdnJjUUcyeUpSbUdSamRKYVoxX2ltNENzbGVSR1BySG41UjhFNWxSNl9sRGZmemJHVjE5QVpVam1rX1BKT2hUeDVBNmtMU1VaOGtRSGR1UU9YOGRRd0t4VWxKRE1mTlUxU0tjeUVDQjNOeUE?oc=5",
+      "Published_Date": "Wed, 29 Jul 2026 04:38:50 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
