@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T08:13:27.597700+00:00",
-  "total": 2900,
-  "new_this_run": 9,
+  "generated_at": "2026-08-05T13:38:37.903659+00:00",
+  "total": 2906,
+  "new_this_run": 6,
   "errors": [],
   "events": [
     {
@@ -38463,6 +38463,90 @@
       "Published_Date": "Wed, 29 Jul 2026 07:00:00 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-05T13:38:24.583159+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "hoyolab",
+      "Tier": "Official",
+      "Reliability": "Confirmed",
+      "Title": "\"Snap! Focus Showdown!\" Event Details",
+      "URL": "https://www.hoyolab.com/article/46150564",
+      "Published_Date": "2026-08-05T10:00:05+00:00",
+      "Category": "Notice",
+      "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-05T13:38:30.650705+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact: Everwinter Without Mercy Screenshot 1 - Kotaku",
+      "URL": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LNmFZV0xjNl9aVUp2QVYtTE5OWGo4VmotR1ZNV3hzWFhtLWlhbFdJcTBILVQtZ2xreXZtRVR1SVZkNDFpRGFRc1paY0k0emg5RXBkTkJWSlQ4QTJucjBnblZBRTVWenBLMEgyZEYzdHRUYU0zSFZIR1NjNVdoN1k?oc=5",
+      "Published_Date": "Tue, 04 Aug 2026 12:10:42 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-05T13:38:32.611464+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "dwproton-11.0-10 released with a fix for Honkai: Star Rail - GamingOnLinux",
+      "URL": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbWIzUV9SSTJCaklaODVEYVI1S205SEtZdnZLeFVGX1RXNWlxcXBtZ2JkbzVGUjhiWVJnYjBmUm82bkIzNmZsMV9KdS1yMHFLMEtSdUdKWGZORTl0U01GSlJIRFR3ZkhNaWxBc05OeDd2WFVVVDBCdFlnM0ZqaUVoR1BKWDNiZjIyLXFPN0ZqVFhCTHF5dzJQcXNNM3g?oc=5",
+      "Published_Date": "Wed, 05 Aug 2026 10:23:11 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-05T13:38:32.611531+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "10 Best Roleplay Games To Play On Android 2026 - thefutureofthings.com",
+      "URL": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR2VUSUdNN3kzRHN2YmUwako5TXJ3NXV3b2gyZURBY3FNeFd1aElJSUJlVE4xLW8zWVNES0FBbkNndWcwc1dONEY0R1pyWjlIZzJTdGRqSTV2TUlfNEVFeEhnY1JBT0pFRl9kOFNHZHpxSTFaRkJlR0RjQmRRRTNILVFuZlk?oc=5",
+      "Published_Date": "Wed, 05 Aug 2026 10:31:06 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-05T13:38:36.403459+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Last Chance Qualifier Americas - VALORANT Esports",
+      "URL": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbmNmM3ZBSFlmWjA0UXN3YnpoUDNtY3JGRkFTaFNocTlrNFpIMkt2NENkZzFEYko4LThLZEJEblhKMlpwQlBYWkp5SVlzV28wT0FUeFRjSWtrVW9PanpmX1NYRUY1emc5QjM0M1pHY19zU0VvU3FrY1lBbFJhbVZ0U0FvV3FsQVdfci1uX3ZKU2hIQQ?oc=5",
+      "Published_Date": "Thu, 30 Jul 2026 03:59:55 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-05T13:38:36.403518+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT Unveils Summit Map, New 3v3 Retake Mode, and Blackspyre Collection in Act 4 - technosports.co.in",
+      "URL": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45SUg1WFBpLWVsNWtZVkNBQ29hU3pqR1dxcWZmTlhhRUZmdDVOOEM4SFlBSGhlWGYyY0Z3eElrU3hJZFNKVzJCZGVHUFI0ME1NVWQzRmk4VE93TW5tZXBOSmpLeUpRRXZHVG0wekJRVm0?oc=5",
+      "Published_Date": "Wed, 05 Aug 2026 11:57:30 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
