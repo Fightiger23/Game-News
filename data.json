@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T23:47:49.386419+00:00",
-  "total": 2954,
-  "new_this_run": 8,
+  "generated_at": "2026-08-07T02:00:38.953799+00:00",
+  "total": 2955,
+  "new_this_run": 1,
   "errors": [],
   "events": [
     {
@@ -39219,6 +39219,20 @@
       "Published_Date": "Thu, 06 Aug 2026 11:20:24 GMT",
       "Category": "Event",
       "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-07T02:00:31.731256+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact 7.0 Livestream Codes - IMDb",
+      "URL": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1faVV3UGRFMXBSNzhTS29YVGZ5bUlxZkFtX2xQazJhZWV0NHprY1NQbEZSRGhkZVZ1R0VXb19aRkJjSHRnbWZvSWdvc1FLOVhJZ2dkbTJmSHZ4VHdnV1JyMQ?oc=5",
+      "Published_Date": "Fri, 31 Jul 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
