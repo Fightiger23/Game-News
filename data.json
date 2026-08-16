@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T12:15:32.261423+00:00",
-  "total": 3491,
-  "new_this_run": 10,
+  "generated_at": "2026-08-16T18:11:48.872555+00:00",
+  "total": 3495,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -46735,6 +46735,62 @@
       "Title": "How to play Viper in Valorant: Abilities, tips & tricks - Dexerto",
       "URL": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX3E2SlFJZnBCNEVQTXhKdUpzRzFrb0FKOGFCT3hPNU1XM1kxWUlLcWVOYk5PR3JGUl93UER6cC1JTmlDZEpEUFhlRWpfR3NCRzFNWUkwRVRyYlBJekRIc2RpSHRsa3gxTExLVVdZQW5hX3dTLVFfNXRkUDJ2TkpieWlIaUpGOWZ6b3ZiX1BUYVRyR3VtTlNIOTZNWQ?oc=5",
       "Published_Date": "Thu, 13 Aug 2026 18:03:23 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-16T18:11:41.711232+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact flickers in Snezhnaya and glitches after update 7.0 release - miHoYo presented first fixes - ixbt.games",
+      "URL": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRi0zdmVhdEFXUlBFcVZNTGExQUtiekhkak5Rc2dvdi1yaWN0ZkhBaUowVmZDWDZqRk5tNW5maWtkVGg4ZmxwZElLTC0wdU9rSndtZzRZSk9YQWVjRXdmd3hycVJfRkRDVTJyaVIya1l0VHJueGFEM190SEZUeUN0WE1IRnFVanlDOUQweFA1SzlLM05yOHFjaXVnV1BvWUNRejMwQVhVN0FtUlJhNmxZUWhTMjJ4M3g4YWd3SWlMalAtdHdaWnVMZENLbzRJZ9IB0wFBVV95cUxPdWsyaUljcXI0N3BHd3BiRHRxY1dUN3pTd3dWSnl2WlNKd01YOEQ2QWY1dFVrelAyNkhzdzJYNFlKVjlqNTNTdHJ4MXNoRDNoSm53dHFidEdPR0xfcmJ6dGo5a21XRmJsSjlUQl9mTklLOVFlV2R4QndyOU15WlYyMzFKZTcwV1I2bFNlcGhhcDJJbERxaUJJWDFjV1pBRjRFcUZCOWNMTGVUSmcwMm94S0dxbXVCa2pjMEhLM2NuNW8tNURZZl93dEljR25jWGMybUJz?oc=5",
+      "Published_Date": "Sat, 15 Aug 2026 17:05:21 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-16T18:11:41.711264+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "A Wedding Invitation from the Snegovik - Genshin Impact",
+      "URL": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMd0pvU1k1ZGE1Qk5oQjRoOFhLR0NlWkNLS0JVYVVTNnRkTGRVT1o2Qnk0cFlMbnR6a0FWUGt0MjFGTnVuVjVkWlg4NTZTdkE0blVreHhVUFpHM2FqY0FEUg?oc=5",
+      "Published_Date": "Sun, 16 Aug 2026 12:51:44 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-16T18:11:43.636833+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Gilgamesh in HSR: A guide to building the best build, top units, relics, and cones, and leveling - Wotpack.ru",
+      "URL": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVWGxkcU1XY2Y5cEJOTGRTdnl5R2M0RjlMQTlpLTgzVDBleWdXVU85V0hsSGJiQlFpU2ZfUF9TVUVkUTFiNFRRdkFfeE9VR1NMb3Y5NS1IMDNuQTU2clpQM25wNlgwX1hOWjJUWUx5bkNnSlJpUFg0aklma2M?oc=5",
+      "Published_Date": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-16T18:11:47.372368+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Cloud9 GC vs SEN Otters Prediction & Betting Tip | VALORANT - EGamersWorld",
+      "URL": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOW1pams3dkJzOGNlOXkxMS1FUXBsYVF6cVV4UklZZHVoNDZYWFlfNHg4Qmo5WW56MUtjR3BZRnUyblJaVjd1N3BVSjNPUDdjdzB2ZXB4Ynd5MWFidUljZFJRTWsxOGgwQkJwYm1KaUM4TkFQWG1neDBqcDdPcjVMNy14Q0VjNW1TMFE?oc=5",
+      "Published_Date": "Thu, 13 Aug 2026 07:18:33 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
