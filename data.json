@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T18:21:55.229755+00:00",
-  "total": 3862,
-  "new_this_run": 11,
+  "generated_at": "2026-08-25T00:33:51.926874+00:00",
+  "total": 3868,
+  "new_this_run": 6,
   "errors": [],
   "events": [
     {
@@ -51931,6 +51931,90 @@
       "Published_Date": "Tue, 18 Aug 2026 20:09:19 GMT",
       "Category": "Cosmetic",
       "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-25T00:33:44.359011+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact graphics issue causes unplayable state on Pixel 11 - Android Headlines",
+      "URL": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRkt2MmxqWFVZMGpSR0RRQXh4a200b1Q4RlhWQXFDUUFic04tcG5PZ0VncFpPcHh5bUlsWlFYbF91MmVMZXZIWGR2NDFiMUFtbHNZTTMtNjlXN2RwMTBJYlRuUXRCOU43d0NNRUF6V2xSa2RfbDFmcGFWQ0tPcTFmWWtybHZrblNkS2Zwb21vX3Rlb1hMMmhXY0NRUUUxb2FHSzFLTnhaMzhOZlZKR29uWA?oc=5",
+      "Published_Date": "Mon, 24 Aug 2026 21:23:46 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-25T00:33:46.425485+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai: Star Rail Is Heading to Astropolis — Is Version 4.5 Its Biggest Change Since Amphoreus? - inkl",
+      "URL": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS1hhU25tZXhsUnB3Vlo0d0x0ekp2Q1lndnJkVEN4UHRIQnoyUHdnTjcxMjZ3UWY5aWlRNl9xT2M5am1uaXhRelVyOVRGTXF4QTdQR2xlOGlKc2NITFVzRDVqVmZMZFNWWmdXVVJQR09FTkZQZEZkdi1LQ2JBVkNVTjFWcUdNWFdGamxDYzhUdlA1TjY2aE9YSjJOSnhqc2ZBb0dyeEVPSUF0Vnpna1JBNV9GLTJOaFZB?oc=5",
+      "Published_Date": "Mon, 24 Aug 2026 18:39:21 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-25T00:33:46.425540+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Best Guinaifen Honkai Star Rail build: Relics, Light Cones, Eidolons, & abilities - Dexerto",
+      "URL": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORElhaFZ5Q0VvbTIxWEpKVjlCNXhDdm13SGRjZGtNQ0VYcWJrRmJvSTZDSjFEb1F3UUpCaEUzclBRa0NkVEoxeXVSN2xxdzEtM2xyMGRVZTl3Tkp2bHd6a2ktSm45dzNvU3VLYUtiSXFHZmNDWjEwTmpYZ1E2TGpXbC0tR2NxenZmOC1UdVJwS1I?oc=5",
+      "Published_Date": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-25T00:33:50.426668+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT Champions Shanghai 2026 Qualified Teams - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdWVJQV8wRVNmWjVrVHhfeGRlbkc4TXVJRVF1S2F1aWNRY2IzQ1ZpeURSLVpkYjVBNkZCNUxmM1U3UXhPZmlzbkpBMXpBMmszRVlweDMxQTQ4N0FkQ2VDSHlXYjdCTUhUcUtyQjlIY0RuVXJyZlpaOTVncDNfUnFYX21xLTFmLTlxdGcyMmJuZVI1Q2l4MllB?oc=5",
+      "Published_Date": "Mon, 24 Aug 2026 12:44:58 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-25T00:33:50.426703+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Evil Geniuses GC vs 7VEN STARS Live Score on 2026-08-24 of Valorant VCT 2026: Game Changers Brazil Final Stage - GosuGamers",
+      "URL": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNY0hIVTJjZ0J5S2RQblZLQy1ZQTlmem9LeUZzbEFEeERMSE13Vy05cEd4Wm1aSnRRY0R0bWFwZnd4NU5mRUYwQnJaeW1HNjl3S3NjMElEYlQ0NUgxZzhfVnRpaV9mYldJLXJCSFJPeDJBdWZrRko4dlN6RU1mNDQ1d1dQTG05RGtkczZxRldPTEJZR2VzNVdtbE1YNFBRMTNUZmJDRU1zNnNSUFFJQXRqWWhpX1ExbzJuZWlOWGQyOVFjSWlaQmRBTzYzR0ZuOHJhdFlQeVdDRW8?oc=5",
+      "Published_Date": "Wed, 19 Aug 2026 09:03:53 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-25T00:33:50.426738+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Valorant tips to decipher Omen’s confusing Teleport audio cues - Dexerto",
+      "URL": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVlFldFBZQnlCbHVuUVdRU2M4Y25iREVuLW9HcXlwWkNhN2RJdUpTMFZWNHV5RUs3Z0NmcUhDQ1Q2dW9sY3FWVjBBeHNSa0hBUEs0dklDVTg3NC1LQmkwRzVNZnJiaDJwdTlVWEJsSzBwX1V6ZXBUMFVNVElqRGFoU1hlZGIyRl9IcVRodDIyeWxTMW9JUDZuUEFSYkVZaU9pbHVOcGRn?oc=5",
+      "Published_Date": "Tue, 18 Aug 2026 20:09:19 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
