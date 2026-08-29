@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T11:53:26.374883+00:00",
-  "total": 4132,
-  "new_this_run": 26,
+  "generated_at": "2026-08-29T15:51:49.596177+00:00",
+  "total": 4135,
+  "new_this_run": 3,
   "errors": [],
   "events": [
     {
@@ -55711,6 +55711,48 @@
       "Published_Date": "Thu, 27 Aug 2026 16:56:00 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-29T15:51:42.321504+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact 7.1 update: HoYoVerse confirms Vesna Strivozha as a new playable character from Snezhnaya - The Times of India",
+      "URL": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPYTB2eFRDZWpaRXNQNHFCQ3pmdTdRdnQ5Rm9jbXFmM21BMXpnMlNma0E0RUwyWE52a08tREJHaC1IQ2dpMmRsY1pHUTM5elV4UlhxcEMxTnNNd0QxZzhhdG56RDY4NEdmdWZENDdnV01aRk1IVThWYzd3VHI5N2hrellfcEhDMk1QbFUyd0ktaWJ1NXFoSEx6bWZsRGotMUE5c1VUY1FOT3hoZUxzeE5RM3RVQ0FXSFZRTXRBdDh2ZWtxY1k2MHpHNGJYMjg1RHhWeTRWWlNWN084NGlvZmtsSXpiaHkzakFsdkk5LXBrNlU5LVhpalJoR2lWOEpFUjV0TExSZHBCcU9zdVFsRDVQUdIBlgJBVV95cUxNQjJ5NXV1NldvWE50M3VnVVFqdkJaUXJwRXhQa2Rsd0tueXZYYjFaa2o1bExfNFpJNktBRXVwZlloRTVFMnh2S1RPUHVsNHNnUE9xVzhHMkUtTUo4YkVpbGtJQzRIRmY3M1cwS3ZDTXRSczBJaFpGeVdXRHBhekVJaGtpUWFBZUNRZVZFQ0ItcjduMzFESVRnN3poRHZkWU1lM3ZWS2w4TnFxWktVOE1FN3BlRXdlbnpxck1VZlB5ZV9rVXY1blA5dUw2UFVZVzNzRGxHY2tkbzlXajBKa0l6RURkR0M3azNUMW1sU0pFeEtURGhaZk1FSTdPWWoyOXJoemdmcF9JYVdkV0VtY1hxbC1Bd25kZw?oc=5",
+      "Published_Date": "Tue, 18 Aug 2026 07:00:00 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-29T15:51:44.226200+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "With You Once More (Cyrene Character Trailer)/Honkai: Star Rail [Music Box] - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoNi1nR2FHUGhmVmxmYk50Q21HQUQzVk1KMWdmdThsUE5FajdKRDRYbXEtUFlQNHo3T2huMnA5SGphU3dqbWZETGRQbEluaXZhNi1QTWZjc3M4NWJK?oc=5",
+      "Published_Date": "Tue, 25 Aug 2026 12:00:07 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-29T15:51:44.226231+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Best of Back to School 2026: The Charging Gear Worth Packing - Notebookcheck",
+      "URL": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVU1ua3AwNzhxVTQwNzM2SVZRWWZFaksxQ3NTWTJZMU9WMGdWRVdXal9TNGJhcV85NmZUc3Judy1MWVRBN3gyUmF4WG8wZFVQTkQ3bEM5d0VtbEtQTXNxTXNsbGtmN2VxQVN3bUN1cUdOcElVNEM2UnVzeXM1Y1UyeVRrRDF3a3pBNnBLalBHTEczN2NzMDlZWE1xWm00MERYaXpWM1B6aw?oc=5",
+      "Published_Date": "Mon, 24 Aug 2026 13:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
