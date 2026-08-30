@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:38:01.758189+00:00",
-  "total": 4170,
-  "new_this_run": 8,
+  "generated_at": "2026-08-30T20:11:55.900776+00:00",
+  "total": 4174,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -56241,6 +56241,62 @@
       "Title": "HyperX Omen 16 Valorant Edition review: 240Hz glory with a Valorant tax - digit.in",
       "URL": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYkIxbzBGeVBwZ1Y5UUl5UHZkdVJpZWpRakMtRTUxYWdqRmtRb1dFbzlmZ1V0NVhJVmZUV3lEdFBqdHA5cXV1QkhoN3ZJY0gzbEYyVWkyblpVa2lGNVZZYmh1Ul9GT1NiaGl2MGhUYklHTVhGNFFjM2w3NEpfeHJvMGVyd3VtSVMzN3VlMlFTOGtxaG9uNVkzUXFpRDdacXR5VzdxVnJUaXVTdmZGQmktOGxCZTExcC1x?oc=5",
       "Published_Date": "Sun, 30 Aug 2026 13:56:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-30T20:11:50.449198+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "So I voiced over Phainon's crash out in Honkai Star Rail... - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sSm53azNlNVBMYXBNS3BobFRMbTZMRHhWckdTQl94Nzc5R3doTmt3ZThyNWdubDhrWGYwdGtfX2FaUkNreTNOUVdCTHFlTkt6RlBiZzdfTmZmNld6?oc=5",
+      "Published_Date": "Sat, 29 Aug 2026 16:12:15 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-30T20:11:50.449250+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "How to uninstall Honkai Star Rail on PC & mobile - Dexerto",
+      "URL": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2JhVThPNEh1c3U4R0VBNFl5cVpvY1BDRC1xWGtQMXlHT3JXdWRiS3RvTWltRzAzdkFmdUZ0clRJMDJaZ0xWeWxNLTlCVldPYUstbGtRUEdnVVpzYnIzS1p5UFlMVWFySm5zYlNXck5iUmdjV1I4ZVRpTTRka0FWejcwRGlmZnNOc1BBSFJ2Nmo1ZmxqckVOMw?oc=5",
+      "Published_Date": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-30T20:11:52.419512+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "【Anoko x Camille】 MoeChakkaFire (モエチャッカファイア) - Zenless Zone Zero 【Cover】 - t.co",
+      "URL": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zTHZYWkU3SVdSX3lSRUVyYkw3VEZiel83N3J2c0JoWG0wVHpSN0MyRnQyUUdxOHAwRlZv?oc=5",
+      "Published_Date": "Sun, 30 Aug 2026 16:00:06 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-08-30T20:11:54.400543+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "HyperX OMEN 16 Valorant Edition Laptop Review - Comics Gaming Magazine",
+      "URL": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYXNQOHB5VEdyc004RTZSYmQ3bllaZjZMUXFPZm5NR0haMFY3RmVFLXl0em1oTy1LYjhqaGkyZ0NjVFF4SUlYdUVNR0pFcVJ1RTdPZ3luQ19uS0tkNmh6ZllVVDI5WHNCTkFFbG5vSkVRQ1B0QmFDeU5LWjZIRlIwSHFSRk5RSzNhb2RR?oc=5",
+      "Published_Date": "Sun, 30 Aug 2026 18:00:00 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
