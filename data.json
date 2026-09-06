@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T14:31:38.273296+00:00",
-  "total": 4577,
-  "new_this_run": 7,
+  "generated_at": "2026-09-06T19:41:50.849236+00:00",
+  "total": 4582,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -61941,6 +61941,76 @@
       "Published_Date": "Sun, 06 Sep 2026 05:30:53 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-06T19:41:43.717862+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "The Most Beautiful Coincidence in Dailies?! (Genshin Impact PS5) - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPNThzVWRkZGJFeWdoUlZiYzJNN1JjNjlSUDZPZjhkMjlMTm1pMlJOWEhxSlpQSWF5X3JhSXVMNDNpR3l1dmttNzZZbWNTa2t4em1TV0c4bV84UTNI?oc=5",
+      "Published_Date": "Sun, 06 Sep 2026 16:08:20 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-06T19:41:49.349011+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VCT 2026: Americas Stage 2 - Valorant - Viewership, Overview, Prize Pool - Esports Charts",
+      "URL": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwRTc4MDVULWhUSGZ5WmxBQ1JreGVFVVB3TFo3MU0waFQ1SG1LUlhHcGdMWmdabnhYbVdRUDQ1VWdKUW1VRXhHejA5OUVLa1NmT3dKZHlSOU5DQ0c5WmNLVERfRWxmQXZEWUFsYmhYRTExeFVyRUE?oc=5",
+      "Published_Date": "Sun, 06 Sep 2026 17:44:27 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-06T19:41:49.349060+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Akave Esports Black vs KRÜ Blaze — VCT Game Changers Latin America - Regional Final 2026 - Esports News UK",
+      "URL": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTFfZDlYMzNZVEpkeVk4LUpsSzdoTXhKdkkyV2pqUmxVSlczZ1NvdlB0SzFCMWp5c3J5RG00U29NeUYtczdJcnBDOWRadHM2a2JpRDBPQkluTEw5eGNRNXFmblphZEJYd0ZYV0ppbU5yR3ZGbVVMV1ZpUUkyS3h1Q2FaNVNHWl9sd3dV?oc=5",
+      "Published_Date": "Sun, 06 Sep 2026 14:42:56 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-06T19:41:49.349074+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT reveals Summit and a 3v3 bomb mode to practice retakes - Dot Esports",
+      "URL": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvekRSSXZBVTFWc3VhaFpKbkIzU1JlZFJzZm5wQzNfcFpVaGxrUExkR1FOUkFlQ1BWU2dPNURtTGRZdHZNSHdmMEZIQXNVLUlYSUlPQnFTeUE3OU5yb0tNRFJDTXJzZFI0R0Fr?oc=5",
+      "Published_Date": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-06T19:41:49.349101+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Jake Sin Acknowledges Indonesia's Impact on the Rise of Valorant Esports in the Pacific region! - Dunia Games",
+      "URL": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcTNDUUNhcnZFNnZDNG1xNzhma0FRSWgyOVhJWUdaWWE1SzZRdmJOS3o0U1VNY2QzNEJZdUw2eFRzcmhHWUNJakZxaGhtclQwcm11RVVwMmIzVTJ2b1dyNE50YnJHbWFRYzM4LWFkMXl1YWU3WTd1T2ZXRXRHY2t4T3h6VXB2SXdDZVhZelVjSUNyVVBkUGYzNXdYcmZFdUtaWDY1dDRRN3h2UXg0c29sdUZxTk9kOUM4WVFzNGhkNXFWTW1oX2NXYk01aWR2U1BZVXY0em5RQndxUQ?oc=5",
+      "Published_Date": "Sun, 06 Sep 2026 12:07:06 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
