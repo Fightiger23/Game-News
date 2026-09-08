@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T15:32:23.776882+00:00",
-  "total": 4645,
-  "new_this_run": 9,
+  "generated_at": "2026-09-08T20:25:01.011315+00:00",
+  "total": 4651,
+  "new_this_run": 6,
   "errors": [],
   "events": [
     {
@@ -62893,6 +62893,90 @@
       "Published_Date": "Tue, 08 Sep 2026 11:20:08 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-08T20:24:53.711888+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "The most profitable gacha games of August 2026 have been named - Genshin Impact, HSR, and ZZZ revenue dropped - ixbt.games",
+      "URL": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPazRqODAwUjh0c1dleXlTSWlHc1I2MzNPRHdpS2ZaMTFZaXRUbEM2ai0wZkFpSlhZVnlPTFpiWHg5c1NIcUJ3N0NMUmxRNF9FMkhRY2tFcGpmSV96M08yeWxFbTh2Nm8zT0tXdUo4bi05YUVyd2JsSzFJdW1qMzFsZW8yVEZmbHBiVW9RRGhWNHZrZFpmd1R1MmFpaXVqQ2Y1Z1I1ekZWLWRiZnc0TmZOdU9EWFFKNS1WdUlZb3NZbnlHVVloeHfSAcsBQVVfeXFMTzRpRkV2VHlSNmhrdk5wbm13c01ud2VlTlVKaFR5cW5leS1odHFWWjU1NGlHSG4yRTVWTFUtZFVuUC1jMEx4cU00WDRtMjR5cWhoSko3QzIwMGQ3dzhNekdQOUcwVDJvT3lkS3RneWpZRXdtX0h1U2g2elViOWp1X2M3Q0NoNi1wY2lVc1hraUtnUnlWNkFncW1jcy11UGhkR2pCMm9aYzlRTnN6M05EQlRaX3NzVTZkVmEzR05HU3Y5Y1VLSlNaRmFHRkk?oc=5",
+      "Published_Date": "Tue, 08 Sep 2026 17:45:21 GMT",
+      "Category": "Banner",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-08T20:24:55.659927+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai: Star Rail Shared Myriad Celestia Trailer ‘Deep Waters’ - GameSpace.com",
+      "URL": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTGVvMGVJdks0V3RCakFCbHFYc1JFSzVsc0pGQ0JSVmUyaTNQUnlPdnVpVnhCQUE3cTJhb3psNXQzbGpjbzhiZkdGVkRTQUNRNURKOWI1Z2JKdnhLTUM1NXVGRFMxb2xCSnFNc2h3bXhmRGE5dVdNT3RSME5VV3k5QXdZcExoSTJ0SU1uY0xhUVZ6bTZBdW5qcHV4N29zcHRneFE?oc=5",
+      "Published_Date": "Tue, 08 Sep 2026 10:30:07 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-08T20:24:55.659995+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "The most profitable gacha games of August 2026 have been named - Genshin Impact, HSR, and ZZZ revenue dropped - ixbt.games",
+      "URL": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNGlGRXZUeVI2aGt2TnBubXdzTW53ZWVOVUpoVHlxbmV5LWh0cVZaNTU0aUdIbjJFNVZMVS1kVW5QLWMwTHhxTTRYNG0yNHlxaGhKSjdDMjAwZDd3OE16R1A5RzBUMm9PeWRLdGd5allFd21fSHVTaDZ6VWI5anVfYzdDQ2g2LXBjaVVzWGtpS2dSeVY2QWdxbWNzLXVQaGRHakIyb1pjOVFOc3ozTkRCVFpfc3NVNmRWYTNHTkdTdjljVUtKU1pGYUdGSdIBywFBVV95cUxPNGlGRXZUeVI2aGt2TnBubXdzTW53ZWVOVUpoVHlxbmV5LWh0cVZaNTU0aUdIbjJFNVZMVS1kVW5QLWMwTHhxTTRYNG0yNHlxaGhKSjdDMjAwZDd3OE16R1A5RzBUMm9PeWRLdGd5allFd21fSHVTaDZ6VWI5anVfYzdDQ2g2LXBjaVVzWGtpS2dSeVY2QWdxbWNzLXVQaGRHakIyb1pjOVFOc3ozTkRCVFpfc3NVNmRWYTNHTkdTdjljVUtKU1pGYUdGSQ?oc=5",
+      "Published_Date": "Tue, 08 Sep 2026 17:45:21 GMT",
+      "Category": "Banner",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-08T20:24:55.660043+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai Star Rail Pela build - Pocket Tactics",
+      "URL": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLUGNxV1Nhck10ajYzTV95N0J3ZFgwcVBaUW5mbDZ5cGJOSFN5aDB4ZFp1d0xYejJCYXo4Z1dqNXhBN1VoTnZwenZGY0llZDR6ZUpWaklTSmd3RlZSNEFZQg?oc=5",
+      "Published_Date": "Sun, 06 Sep 2026 15:20:19 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-08T20:24:57.556427+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero – Check Out Claret EP ‘Link Up’ - GameSpace.com",
+      "URL": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS2xEdGdHeml1ZUhlRjUtU3MtdGVqck4tdTlaeWdIZ1lVXzRJUFgzcXBhZXFFYm91RnQxOXhDY25pNS16V09WV3dWbXZLaF9xRGZOR0RuRDNCeFNicU5wMmtFdWs4QTl1ekVtUG9IcEE2Yi1CeUhYdFgxRnlTckVnMk8yX1BqYy1sNlY2RGdDcw?oc=5",
+      "Published_Date": "Tue, 08 Sep 2026 10:00:06 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-08T20:24:59.511156+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Rumor/Leak",
+      "Title": "Leaked: VALORANT Champions 2026 Bundle Features Phantom, Melee, and Missing Flex - Pley.gg",
+      "URL": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GdEVzQWt1a0RFdXVhSnA3d2JrZzAwem1CckNPanJuZVpXZ3BDZlNPbXR3eXVmUGRhTFhKWlRGQ25BU0FUN3c1ajQzdWR0V2FiQi1hY1VmMlpjVmM?oc=5",
+      "Published_Date": "Tue, 01 Sep 2026 06:40:51 GMT",
+      "Category": "Cosmetic",
+      "Likely_Sales_Impact": "Medium",
       "Reviewed": "N"
     }
   ]
