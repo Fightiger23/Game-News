@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T20:52:30.978727+00:00",
-  "total": 4620,
-  "new_this_run": 6,
+  "generated_at": "2026-09-08T01:47:41.027928+00:00",
+  "total": 4621,
+  "new_this_run": 1,
   "errors": [],
   "events": [
     {
@@ -62543,6 +62543,20 @@
       "Published_Date": "Mon, 07 Sep 2026 07:43:12 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-08T01:47:39.527751+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "TenZ Coinbase One Shot 1v1 VALORANT Tournament Offers 1 Bitcoin Grand Prize - Shane the Gamer",
+      "URL": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSno3NEt4Vlh6QklnVWZLeFBqZjk5ekhiV1hBMjZvRFpEaVNWRFpVRE16cWNWNHdRcVg3WmlCVkNlLWlQak9pOVJ1UTVGc3poZXNTNXlaQjlPajQ0SFRndWxuV0tHbklRRFdvUE5iU0N3SmNlb191bDFZTGRJOFZxZGI2N3Y5SjYtbUZhbHUyWkRkUUZPTzhKOGN1ZGR5blhDMms0WTRkd2lGYXRvNDRXWQ?oc=5",
+      "Published_Date": "Mon, 07 Sep 2026 23:50:00 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
