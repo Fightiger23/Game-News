@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T15:27:22.804489+00:00",
-  "total": 4686,
-  "new_this_run": 12,
+  "generated_at": "2026-09-09T20:08:40.510842+00:00",
+  "total": 4690,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -63467,6 +63467,62 @@
       "Published_Date": "Tue, 01 Sep 2026 20:22:17 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-09T20:08:33.096866+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Best Arlecchino Genshin Impact build: Weapons, Artifacts, team comp, & more - Dexerto",
+      "URL": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONzFhTHBXbDF5dWZ0Z1I0bjRCclBRbVFOME5xOWp2NkYxOTlDQVZaS0pjQ2FIeE1WNVVBSHg4eG56LTg0dGVOdEhYV1NwV3ZrMF9DX2FQSG1RekRxeHZJUGQyTV9oSlA2b1cxMG5CMFNlVVNGekg0SXAwV0RkdUlva0pmLWlfdGdycWlCS3loQ0d1cXlzN3BuSVFzQWt4ZHc4cUFsdjN2azRYM1dVMGE1WkxKSQ?oc=5",
+      "Published_Date": "Mon, 07 Sep 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-09T20:08:35.105493+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "5 Of The Best UGREEN Accessories For Samsung Users - bgr.com",
+      "URL": "https://news.google.com/rss/articles/CBMiekFVX3lxTE15elB0SGFDVUx0WmFIY1RldFlucVRfWFlLNzZrMmk5RGhySHAwMndvcEpwM1FLbVB0LTN3endjMm91NV9SSXlTWVRFclJSeFFSWlRobWw4WWlycU5zZGdFNTRkMXNIZDAxOTd5ZkZLYW9VeDBsNXpsejFn?oc=5",
+      "Published_Date": "Wed, 09 Sep 2026 16:17:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-09T20:08:37.053289+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero News, Trailer, Guides, and More - GameRant",
+      "URL": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMXzlBTm1oQzRwMHlOZDVlSGJUMlBOVXpFUURlTWhfdFM3U00xaEVWWmR5VjRXUXh3QWduS2M3SzdrLTFfSTRyQ2ZFMWphSjRYTTZ4RkhBaUpZNWxnVDg2V3B3WQ?oc=5",
+      "Published_Date": "Wed, 09 Sep 2026 04:51:04 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-09T20:08:39.010672+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "LOUD VS G2 - VALORANT Esports",
+      "URL": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96X0I3WEtDUGJnbkkteGxFdHlHZzMxbENIQUgxanp3ZTVhNmwxS21TTk1Eb2UxbzBUNjBTcU44MUVzWV85eEJBeXlubGQ0REw3ejZmVDcwVHhBcXpJUVBmX0JXLTNtTTNMelE?oc=5",
+      "Published_Date": "Sat, 05 Sep 2026 06:47:22 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
