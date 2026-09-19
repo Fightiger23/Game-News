@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T09:51:30.656157+00:00",
-  "total": 5230,
+  "generated_at": "2026-09-19T14:57:43.367259+00:00",
+  "total": 5235,
   "new_this_run": 5,
   "errors": [],
   "events": [
@@ -71083,6 +71083,76 @@
       "Published_Date": "Sat, 19 Sep 2026 06:44:23 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-19T14:57:35.938041+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin’s Mondstadt Statue of the Seven is out now — here is how to get it - Kursiv Media Узбекистан",
+      "URL": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcDV5X2ZmVVJlVjZETUVENU0tdmNFNDRDNDlpVjdKMFd5Mk11QndYVE1UM2tGeXVDR25QT1ZkZDU4SHZjMDRBYkpEbC1Xb2lHWXRzSm00VjVKWVZDTjNGbU9oY0F0cGJXeS0xdE9sUDlWUVNxaERKVkYzLTlUeXJXWlg0bWZxU1pj?oc=5",
+      "Published_Date": "Sat, 19 Sep 2026 10:17:25 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-19T14:57:35.938081+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Tips - Spiral Abyss Floor 11-1-2 - Easy Mode - 3 stars - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lZXFiNGZRdmhNQmtHcmE3a21QZk5ycm5hajlXX1F0dlo0T3huTU1MMWRJYl9BMWlzT2NMOXoyczZBTDJ4SjlnS2wzcThRLVlKVWhJYVpNQnM3b1pJ?oc=5",
+      "Published_Date": "Sat, 19 Sep 2026 05:02:58 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-19T14:57:37.903626+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "HoYoverse Nodusfall Preview: Dark Fantasy Action Game Revealed - games.gg",
+      "URL": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tQ2M2NUduTjdJMGRFbjRqSnVORXBFeTZxdEt2S0RYLVBONkx1aW91NFhtTnU2NXFJT0VGZVBDbXhNc0JQU29JVEwwaHpoZ1BsSFFicjRacmxFUFBVVU5mdmtMelRMSzc5Q29lcDJIaU4?oc=5",
+      "Published_Date": "Sat, 19 Sep 2026 13:23:21 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-19T14:57:39.889203+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Tactical Breach Wizards - IGN Adria",
+      "URL": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xdTl5RzlpcGpXWDRVZDhPb2pQY19uSXBwajBKRkdSSTJmbzZYVHB6TUI1bVFEVjNHc2Ywb0k4Wm1TUjdkUk0zZy0wQnNMOVN0Z244V2ptN3k?oc=5",
+      "Published_Date": "Fri, 18 Sep 2026 15:12:20 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-19T14:57:41.867139+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Gen.G GC and Fennel qualify for Game Changers Championship - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV0hMTDhQalpxV0NQdmlrdllPTVJ0YlpoTmQ2ZXZYY3hETTRrbTVFVU1ZQTN3UlhBYnk3c1VfZmtMb253VVk4UXNlWEROSEdoQzB2OWJWWXNoSXZXcXh2YVVzQXAzOWMzcC1kSGNiVW9EQVp3N2FINy1hVzNBRl82S0NET3VpRXRmUUVVZ3BVeEFfcWFJNEtrU3E1dUpERkl4WURMdA?oc=5",
+      "Published_Date": "Sat, 19 Sep 2026 12:58:34 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
