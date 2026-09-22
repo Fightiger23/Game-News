@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T21:19:05.366313+00:00",
-  "total": 5342,
-  "new_this_run": 9,
+  "generated_at": "2026-09-22T02:10:34.742908+00:00",
+  "total": 5347,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -72651,6 +72651,76 @@
       "Published_Date": "Fri, 18 Sep 2026 05:47:42 GMT",
       "Category": "Cosmetic",
       "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-22T02:10:27.478637+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "THIS IS PEAK - HoYoFair 2026 \"Project: Nord Express\" Genshin Impact REACTION - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFB6SEUySDAwX0tOSWNTNHFOOWo1cUlRSUhpaTVXR004cEdPd2o2YzV6SGItQzVWb1hNa1RZNmY4TTl5UQ?oc=5",
+      "Published_Date": "Mon, 21 Sep 2026 22:48:27 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-22T02:10:27.478681+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VENTI C0 Hexerei — FLINS C1 Lunar-Charged | Spiral Abyss 7.0 | Genshin Impact - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9pRTgzRFlLUFRGR0VBV3lYMlFibW1oQWtybUhBUE1INGNrWDJUaU5IeERhZUhmdC1mcXV3U3RncTF1Zw?oc=5",
+      "Published_Date": "Sun, 20 Sep 2026 22:32:10 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-22T02:10:29.475566+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai Star Rail Zenless Zone Zero crossover - TheSixthAxis",
+      "URL": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZjZiY0hzR2wxcGRMa0ctd0ktX05PZGRUSHhwTGJFLVFrLUVCU25uM3h0UjhmVjl5RmR5dUJDSHBuMXFVZUI5ZmYxc3JuLTNMUFBBUUNseExoNjdpZkwwZkktU1FUQTBNLWp2dTBiYlFwc3hVWHpWNnZES09xUC02VEZGakJLUXhhRjYtcFdWY1l1RmtIZTMydy1iSUNvM0FJSnhIbGZSMW1qajlaUkctNHQyS01BVUVtd3JOVXhBbGNqd1NrcDMwNXRRT1JlWFZabmFRWlRETVRoVUE?oc=5",
+      "Published_Date": "Mon, 21 Sep 2026 21:03:45 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-22T02:10:29.475593+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Nihilux Aha's Special Announcement in HSR 4.6 Special Program Ending Cutscene - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MQzhWS1hlT1FOTF96a0s1VXpRVURPMXRuX2N4ejl0X3FXamUyU0laRlBWTjBQcWRHX0c5WUFWQUlyV1BsTHZReVZjQ2xWUV9BVE1fVmVwTVNTMHF4?oc=5",
+      "Published_Date": "Sun, 20 Sep 2026 14:25:24 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-22T02:10:33.242758+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "これがゲームの本来の姿 #vtuber #VALORANT #shorts #湘南乃風 #睡蓮花 - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPTzJrZDg0WmZmN0w4cEFXSWhjVkt5cDNURmdGQWtURHRscEIzb25ZYnNQdGNCYmJ4UklOQlFCR085UFo2czU4RzlnTlBWOWFuVFcwMFp5Ql9meGw4?oc=5",
+      "Published_Date": "Mon, 21 Sep 2026 12:21:26 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
