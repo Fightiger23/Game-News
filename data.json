@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T20:52:25.028648+00:00",
-  "total": 5478,
-  "new_this_run": 6,
+  "generated_at": "2026-09-25T02:13:50.928551+00:00",
+  "total": 5482,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -74553,6 +74553,62 @@
       "Title": "G2 valyn: \"I had the most fun I've ever had on a stage\" - Sheep Esports",
       "URL": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR1ZMVG1adHdMNnRvdVlrNERKUUowU29UN3pxQjJhaVA2SURMdTBZS2pFY2cxb3hyZms2TlRSR1lGYVFLZlROaTc3Q0tVcS0wblhTbFlnemh5U0dWZVRXNHkzQ0QwVWY1QWFNUDV1emhWQ2h5QXB1d3ExWjVBMEpXNVdFckc5bXZGZjlEYVhHZ1BZVk9QbUVzMUpPWmRwV1JrNGVWMk5lSi1RRmtsdzhTTzRKSWVSUmZBWXZRRWlubmlHdw?oc=5",
       "Published_Date": "Thu, 24 Sep 2026 13:56:45 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-25T02:13:43.510172+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Who to Pick for 5 Star Standard Selector - Genshin Impact (7.1) - Mobalytics",
+      "URL": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jSElVV2E2eHlKUDFCQ29LRDZxZVpscVY0R2ZpTl9hZEl6NGYwZGpLa29Hb0ZFWDMyV1U5Z2oxbGxiaUx6aGZIeFVmUXZNNWxtZXlTZk1fV2dIcUhZR3BiWUdkM1FEcVZHN3RtLUYyNzBQUmt2dXZ2Mnl3?oc=5",
+      "Published_Date": "Wed, 23 Sep 2026 13:43:07 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-25T02:13:43.510212+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Merchandise Shows Childe and Columbina as Kids - Siliconera",
+      "URL": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeGpfbnFjbHdmU0RqX3FmZ3VqSEF6MUxkbkRrY3ZmdXFtWkoyM0JyMVJDVXNQSmFVaHV6XzBPYjNULXp5a2F0RUdUMkxLZmVVd2ZRa3BKclgteU1xRzlQUm83b3BocGdITUtVZnlHN0otX2RtMWMtOEE2MEhVY0tzam0tUmRyOVFoS0RablBuLUxSWGc?oc=5",
+      "Published_Date": "Thu, 24 Sep 2026 21:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-25T02:13:47.452024+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Newest Deadly Assault | No Shill | Haru Miyabi SBilly | 9 star Clear | 110k+ Score | ZZZ 3.2 - youtu.be",
+      "URL": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9IeUM2cGNaR0d5d3M1emxNNjhDX3I3Q3d4eHhVQWdlcXpVcFlJQUNGRkI1aFZMQXBJSGN6R3dmSmQzcWcwai1tc0Zn?oc=5",
+      "Published_Date": "Thu, 17 Sep 2026 12:00:10 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-25T02:13:49.428348+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "G2 valyn: \"I had the most fun I've ever had on a stage\" - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcXRVQTU5d0tBSGhhbWF4blhiU0wzLXVRVndpQ3ZmX1ZGdm9VNERERlRSNHFfSVdzNHBiRnhyYVhLdWxNaFBscjh1Z0FUa0c5d0xqTzRQaEdBdmpHTGlMRlJfLVZMbDRMdy1qWFZMMzM0dVpMdjM0dnh4VnlYUTFheWNfNTNHaHdpWEoxcjVtc0NmaUVmamdNVGcxandqN1YtWkQ3MGFWbG1xQ2NuUHVLM25PMDJ4TG9xUU5VNURKVENWUQ?oc=5",
+      "Published_Date": "Thu, 24 Sep 2026 22:28:26 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
