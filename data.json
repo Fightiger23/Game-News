@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T16:02:55.562618+00:00",
-  "total": 5511,
-  "new_this_run": 10,
+  "generated_at": "2026-09-25T20:49:45.303614+00:00",
+  "total": 5514,
+  "new_this_run": 3,
   "errors": [],
   "events": [
     {
@@ -75015,6 +75015,48 @@
       "Title": "NRG Beat Nongshim RedForce 2-0 at Valorant Champions 2026 - EGamersWorld",
       "URL": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbHVaU2w5aFdZUjNOY0ZfcWxJS3BKSUFjYm1rN3NiN1h0QUZKS3BNZGRqSExhcFIzVUJlQ1RpcnZtVGt4QmQ0ODd2djJwaHJOcDducXdlZ0ZCSXJrU0xCbjFxYjZ0MVVlYnZlZ3VSdHB6RTNLZEZNbnR5VjBTN0cwaUtkNjVjZlBieXhpWVUxTnd2MENwYVAwX1BPSm1UZnJ6Z0VpUkp6aFg?oc=5",
       "Published_Date": "Fri, 25 Sep 2026 11:24:34 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-25T20:49:41.865312+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Turning my Kei-Car to Zenless Zone Zero's Business Car - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5DUXh4Rll1NVI2UEMycnBMZ0x3NS1BbGJWTkRsanU5dG4xNEw4eThMR2tDV1lWNVFwWjVHVmY4T3lOZw?oc=5",
+      "Published_Date": "Fri, 25 Sep 2026 13:00:10 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-25T20:49:43.803419+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "WIWI VS FL - VALORANT Esports | Schedule",
+      "URL": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PYzNKX1o5S1pjb1hXTXZKS2hvTFpVUDdGSEQ2ZVBjT2g3b2hhM25GWkFZQTh3bWV4TVBZUmotbzIwSEQ3ZkI0aGkxSW56Z094Z1pTNjZaaEFzYTJLbUNjbkktVnNCd1ljai05V2l5SXpEQXZlcGVQcXVB?oc=5",
+      "Published_Date": "Sat, 19 Sep 2026 02:42:42 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-25T20:49:43.803468+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "KC avez: \"Any team can win the tournament, it's just all about momentum [...] I don't really care about the group\" - sheepesports.com",
+      "URL": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQamdpWnR6aXN5bmZHV0ZfOEVMYkZWVXBScm10Q0ZFdU16M1ByTHF2R0Uta0laZzIwRGdYOWtldDVDbi04bmRnSER4TkJBcFhUN1U5U1lUMWJ3cUl5ZW4xdmRSYlh6V1RldlVZUjBtRWNBb01vSENtckJGWWxPa1EwbDRreWJNVFBQLXpkU0xXWnFoekdvb0JJemlKdHk5QmdFcUN3cWpDR3Rfdlo3cGJPdW42YUxWVS0yY3hPYTljemppbFRaUFVlRXFNNnFtTmFOX2VYRg?oc=5",
+      "Published_Date": "Fri, 25 Sep 2026 15:33:12 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
