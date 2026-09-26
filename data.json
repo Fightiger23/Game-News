@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T20:49:45.303614+00:00",
-  "total": 5514,
-  "new_this_run": 3,
+  "generated_at": "2026-09-26T02:19:31.252962+00:00",
+  "total": 5519,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -75059,6 +75059,76 @@
       "Published_Date": "Fri, 25 Sep 2026 15:33:12 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-26T02:19:25.817865+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "What time does Honkai Star Rail version 4.6 release in your time zone? - Polygon.com",
+      "URL": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV0R5YWF2c0tCbWx0Mmd1SUNWSTc5aHRlcHRQYm8tZzYwY1hEdG1BdVpZcEV2eTRDNkFXYURCcVRNMHBySUwtdVMyNG5lS1h4YVRqZWZocE5rT0gyZ1NreUdUYnZpdnRqRHpSR2dzUXoxWnctVWQtRVd0WXE1WjctZHNZdGp6bnI0cEtF?oc=5",
+      "Published_Date": "Fri, 25 Sep 2026 22:01:15 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-26T02:19:25.817907+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Gilgamesh analyzing you for one minute ❤ [Honkai: Star Rail / 崩壊スターレイル] - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9qX0JCdm9WU2llZnpHQ1NFS0lKR2dQa0htRVBjcjFxN21XMXhHeDRpNWpkdFlBS3lzZW1hWU1PWXNpUQ?oc=5",
+      "Published_Date": "Fri, 25 Sep 2026 16:00:10 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-26T02:19:25.817926+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "UGREEN Nexode Air Charger Honkai: Star Rail Edition Review - outoftownblog.com",
+      "URL": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzQxdmk1emJIbUUxSEgtNlExUXBCaklBRmZZak5ZR2h6Yy1KTUt3MGtwWG12dkRJeDM3Z1RTY0NvWDAzcVdFQWhIUjFsWkF2cHlkWEhOR1R3NnE3a3g2NEJkQkpxNVl6NUUzNlFIT1VhTTROUjQyNXoxTkpTZS1fbzlWTk1FaDIzOUNkbtIBkgFBVV95cUxOQXFoYk40NjZEdmpfcFBIR21VQUl6Ri03V1FSWlNVWEVFS0dEOVhRaWZFZktaMFk5ZFZzTGpTcmtYaHJBWmdwMk1RSXR0aGFtQjdYQU4xMDBjSTRRS2Z5NmIzWVF5RHIzZk5zRFBMVEFfVEFxcGVBeXcxZmNCSXlhSHJwNnc1cU1CTWdLQmk1VTY4dw?oc=5",
+      "Published_Date": "Wed, 23 Sep 2026 05:11:42 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-26T02:19:27.785138+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Deadly Assault | Soldier Anby, Jane Doe & Ye Shunguang | Zenless Zone Zero 3.2 - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9yNmF0N2JMR1JEN3JnRmJBRE1Wb283dWF2ck80VnZQMkNGWEhTbS1saEhvTWdRdTkwWDhMd1JxSTd5QQ?oc=5",
+      "Published_Date": "Fri, 25 Sep 2026 19:39:29 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-26T02:19:29.752837+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Complexity Gaming shuts down after 23 years – Here's what we know - WIN.GG",
+      "URL": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54Ni1UTW1lVmFXWUpzY0N2NDFaTV8zVFZVUk1yTEFSMWlQOHBQOWpvSmdsZTJqcnc5aDNhRTlodkFVRDZKVVJHeDRMZ3R0eTlVS3MtNEtWbw?oc=5",
+      "Published_Date": "Fri, 25 Sep 2026 14:55:25 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
