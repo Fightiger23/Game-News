@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T10:57:16.090025+00:00",
-  "total": 5572,
-  "new_this_run": 16,
+  "generated_at": "2026-09-27T15:55:25.461465+00:00",
+  "total": 5576,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -75869,6 +75869,62 @@
       "Title": "VALORANT Champions: Global Esports falls to Team Vitality, drops to elimination match - ABS-CBN",
       "URL": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONFRzVDQyQVhnVzh0aDB3a3RMMXZzSlBCS0piZTd3MnBtd2g0aF85TjhPZGVzclVYMWNfWVZneG9vcnV3RXlYYjhHM1lkcGhnSjBLUGJPS0hMeWRmMDQzek5mYkE1c2p1LXFVWVlIZXd3QUxETHYtcnF3WEZmYldPMjlYcW85RThwTllHVWJzMnlVek9aVDdhczdURWNqa1FZWE9US2tVOThOam5qMHctVlNHWEZkXzNPZnlPcTdxNWU0bWV2TFlHYVJrd1hKZUFDYWg4bnpNYw?oc=5",
       "Published_Date": "Sat, 26 Sep 2026 13:22:50 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T15:55:20.076224+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai Star Rail 4.6: Here is the release date, end time and maintenance timings - The Economic Times",
+      "URL": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMlVyblBTb09VUFRFektncUo4elRvdE5VR0dHWFVvOTZYdlNDZHQzbkp3cnp0bHZseEdsLVFuZ294TVBJTTBScnl2YjRQanE0RTlJc3V1RGR6R2ozRmM2eHowWVVzc3VzekEwZjYwOFJOeTNxM05RdTNuRGM5STU2NzZaM0wwTF9OQjFuS1lZOXZfTndMdklSMV85cXhFWmVJcENLM0RPMUVZQTA5cE91bnM5S0E5YXBBVkktRG9RMC1QMHVid3hOelRxemhycGh5NGp6NW5KczJQQmswSHNUVUIxcHdvSm1ocGfSAe8BQVVfeXFMTXR0dTFJeXBWNkNuS09seW40YWpmUGhlMzZtenRDOE1BazVUc3NSYm9laDhEXzhqVmE1ZjFEWFB4dGhOLWVQYW9sYW5jeVNfMmd6OFRQODBJZm1sMlRQM3Y4WnJCTFREZks5THk4TFlKRVliR3IzcGlqQ0RMMjR6am04WnBxSWJJNmxZVlJHR19SLVFLM2pibzFKRkdnb2t5V1B5MFJteFoyUlN5cFBRM3NRNlZxZFB1cTUzbzBjZXhab2czNVhiWDFsdEI2RzFtYmYyd25qYkk4Q1FjUEozVVJrX1ZyZFZsZ1VFWDg2U1k?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 13:25:10 GMT",
+      "Category": "Maintenance",
+      "Likely_Sales_Impact": "None",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T15:55:23.961278+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "100 Thieves Beat T1 2-0 at Valorant Champions 2026 - EGamersWorld",
+      "URL": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUWdQVnNhX0pELVM3QmJHZ2FKNnlUdVJRSUw1bWZuRHQtRW5hSDBDaUFvTC02WmRzT0szcEFvWVZnUE9fUXVwTFRpNXdvUHJOeWFkb1lraXMzRE8wVzM1Y29rQ182c2w4cFMwQmY4SC0wSzJacW9ZeGtPdmhlNlpxZTNXbF9TVTI0a3hOa2JmdE53Y0VMZWFfOENsR1IySHRBdlhMNGhBQlE?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 11:19:23 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T15:55:23.961307+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "FUT Esports Beat JD Gaming 2-0 at Valorant Champions 2026 - EGamersWorld",
+      "URL": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSktrZGJuMnJmWFVQU0lBQ3RWQlQyZFhhWlhNYy1CQ1JTazZ5eWtFdlFZZUdoWDdudGc5cTladGw2VENTLVJRSWdJX1ZKQURua0xzbFdFSERKV24wV2xxazFxR1pxMUNmOEJjMTc2VzFrUEVKWDlNazFPOGFkMHdvd2Rvek9QRG1BU1RFc1JxaHhPOXpSVU9mU2g5WTd6am1Bd0RCWk1kTDc?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 13:48:00 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T15:55:23.961320+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Riot Games bans teabagging and shooting dead bodies at Champions Shanghai - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkd3MEFYT3lRN2EtMlBIMTkwUGVubmRSSk0zYkZQOTVIeVp5emJHa2M5NnlBdHNDa3pWT1d4OEFPNFlJYzR4cWpxbWM5Q2xRVkJ4czRWcVZZVDNkamkzRmo0ZFdBSnNDZ0VRV05iOWxUN2tXVExieWExazVvZ3FOOUFpbFcxVkVfcEdGMkpnanItWWxEM1M2Q2dyTDJtVEUyZHpVTzR5bjU1Y0Mwc1FRRmZ5d3FNdmkx?oc=5",
+      "Published_Date": "Wed, 16 Sep 2026 17:15:48 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
