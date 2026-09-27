@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T15:55:25.461465+00:00",
-  "total": 5576,
-  "new_this_run": 4,
+  "generated_at": "2026-09-27T20:32:35.628549+00:00",
+  "total": 5582,
+  "new_this_run": 6,
   "errors": [],
   "events": [
     {
@@ -75927,6 +75927,90 @@
       "Published_Date": "Wed, 16 Sep 2026 17:15:48 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T20:32:30.310322+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai: Star Rail: How to Get Relic EXP Materials - Push Square",
+      "URL": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR3NNX011TXBlV3MydWVHcWxRRlVhWUd6Y1dOMVhQanZzVndOSFpKZWNVSXQtUE8xWWNyOXNIb25lWi1hZ3dHNDFQdWNuVldBWjZtWEZldjAzb0V5X25HNmVnd3dJazdvWnVmWlVpbTFsdVpqR0tMOEdKNmRzTlVSaXpqYlpTY3U5?oc=5",
+      "Published_Date": "Sat, 26 Sep 2026 14:49:52 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T20:32:30.310385+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Time until Honkai Star Rail 4.6 releases globally - Sportskeeda",
+      "URL": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1pTWXpSNnRGNzFJMi1TcDRrajcwd0NaeWZIbUJlN3V5b2ZpYkdtNG1VOHRNLUpEN1pFZThRZ2pwUFNoNC1lbFlzRVhRdE9QOWY4ODlfNmZDOFBlVHk5VDBZbk82WjI5MXRpbU1leHM3X0dVS0N2UC1XTkY4ZlZhOXNYT2JaUGtobzhv?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 16:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T20:32:30.310399+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "What time does Honkai Star Rail 4.6 maintenance start and end? - Sportskeeda",
+      "URL": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbXpUSk4xNVQ2VHVIdjJuR3FRV2Z6U2cwdXJTcHVjVmZlSmp1R3dxcDNHcnNMcm1kNEtMaHJLaDRPX3JaZ1VtR2dqS3YyLTlycTFzb0ZucVFwSWZuZktsaDc2MFViVkcwd01NV3VadE9IU3Z2bGFBbl93ZXVJbHQwVWgzbzdMNGV6aWFjMFlwRmpYbnNrZ0VJ?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 18:30:00 GMT",
+      "Category": "Maintenance",
+      "Likely_Sales_Impact": "None",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T20:32:34.128352+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "All teams qualified to VALORANT Game Changers Championship 2026 - Esports.gg",
+      "URL": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XN2VndUc4RXJlNDZrQUtNLTA0cGVRU0dvaUpvbHJjX1AyUDZGT0hGcVZoUFhzMFZ0VHV2M1FpNV9BQ3V0ZV9Sa2FlUXQ3R3pMWkNyTXFJVzZCZ0RxQzdIR1BZRWRhenU0Q1Rmd1lkXzB6S2FlUTIxRVowU2IzQQ?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 08:56:24 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T20:32:34.128395+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "JDG BerLIN: \"We want to prove to everyone in the world that VCT China is strong\" - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMThoYm1GXzYxMmoyYk12dTA2aVNjU0xmWHVOUTVLd18wM2RaSXZpbXltT3B4T1pueElqNTN6WHVkSWkteXYyNVM4M29UaHBJVXljZTBsdG5XV0JwLTVETldOZ290ZEFWcnhMUHMyc2VXNjVIaUdILVVBRDV4SWloeVl0STdVNmYzWEl1bU5qbTJiOWs1dWlyVkV2Mm5UY0o3MUE0OGppekdMVVA5TFY1YWNGbGFQSGFfeGs5dXhB?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 17:50:40 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-27T20:32:34.128409+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Valorant on PS5: why the console version exists at all, and what changed to get it there - PlayStation Universe",
+      "URL": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeXE5N0FLYmM1bUY5YmpZOE9rUjBXQV9NRU9VQm14Z2RYVGlpdUhzenJ3cGx0VUhEMTFkZGw2SDNHTXp6QzlWX2hxc1RjSERhWkNzSmdpRHZkWTlyWXdRUDlURDd1VjV0MHdrdmJwYjNBdzhoREJfZ0VrVkxSQm9ySy0wQTFoY0VsQ0c1QUo2R0k3ZEt3b19GREZBbDJnT1FxVlYxdEpORml6QWZldTdzdlBR?oc=5",
+      "Published_Date": "Thu, 24 Sep 2026 13:45:39 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
       "Reviewed": "N"
     }
   ]
