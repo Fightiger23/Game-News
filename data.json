@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T21:36:03.240438+00:00",
-  "total": 5688,
-  "new_this_run": 8,
+  "generated_at": "2026-09-30T02:44:51.094920+00:00",
+  "total": 5693,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -77495,6 +77495,76 @@
       "Published_Date": "Tue, 29 Sep 2026 08:49:20 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-30T02:44:49.594647+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT Champions 2026: Teams, dates, format and key storylines - Red Bull",
+      "URL": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53T0p5QWxSREVjR1lIeEtQNlhocVB0Uldyd0xrZnROLU1GaGZtdE41LVN3UDlVdVFhdktTNVZNZjY0NDBiU0liSDlHV3pvVEpIVmhVcmJGZ092VHBZRXlDSkpyZEI?oc=5",
+      "Published_Date": "Tue, 29 Sep 2026 10:54:20 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-30T02:44:49.594690+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Modern Warfare 4 adds ‘Collateral’ mode to rival CS2 and Valorant - Esports.gg",
+      "URL": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ25zeXBLUWVXQUlQZVlvc1VNVkY1eVdneXQyTktqenctc01WaUVrQ2FLcUNCNFVsUzhxcGpYRlozM1R2dkpVV2tRVUpzRjJwMndST0pTWTMxR3FNMnJkX3FXQ2V3Z0NQWjBxNVdhX2J4d3Q5ZVVHRVJTMXp6SUVhZ1U3YkdwQndvYUlaWW8wbXFPX3Y0Tm9xNDhJVjJwWWphSFE0?oc=5",
+      "Published_Date": "Tue, 29 Sep 2026 20:01:10 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-30T02:44:49.594720+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "FUT yetujey: \"I want to see playoffs, then I want to see more\" - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVpBSjh5MWxNYkhXQmxrUHFSWndwZ0Z1U3hlT3k2S1VPX29qRmZaR2dwUkRWQ0t1d1lpdThaT3dXRjJVOWNYOHZpQnNqbkV1X2V5ZUdLeHNVbENIcTJlenVSYmdrMFJaV21lZ3REZnByNUVTRm9LTjlhajk1Uk4zWkVPLVh1WEl0bDJOWU5VUm5ubk5iWFYzV2k1UVZSdDlJRDJzYml6ajRSZXc?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 13:15:32 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-30T02:44:49.594730+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Vitality vs LOUD: Best predictions and picks for VCT Champions 2026 - WIN.GG",
+      "URL": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXY3o3OU1LWGpiakxGWVJQRXpBMkNLUjdHcjgzVldtMDQ0OWFURUYwczZqMDdGVU40b3Rxem9iUVIwU2M4WmdvdFpqbGVtaWJuTWRlMlNab0NUdXhiSGdBLVZVaGJ5MUpmRlVkdlA1X3o?oc=5",
+      "Published_Date": "Tue, 29 Sep 2026 13:21:43 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-09-30T02:44:49.594739+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "How big is Valorant? PC, PS5 & Xbox file size - dexerto.com",
+      "URL": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01U0syZTZ4Y0tldzlLTjZIaXd2N3c1SjFFU1lkOVY1czJHMnRwWUNlcmRzMlhuNDJSOXJaM1ZIemtXYzhzUmJzYXhLZDBGX2NobWpjb0ZXZG1zeGl1RG1SZVoyMWN1ZXhNOEZUdFVB?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 22:27:13 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
