@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T17:56:11.732149+00:00",
-  "total": 5763,
-  "new_this_run": 28,
+  "generated_at": "2026-10-01T22:06:52.267870+00:00",
+  "total": 5769,
+  "new_this_run": 6,
   "errors": [],
   "events": [
     {
@@ -78545,6 +78545,90 @@
       "Published_Date": "Wed, 30 Sep 2026 23:00:00 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-01T22:06:45.025280+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "From Movie Sets to Experimental Games: Meet the Craftspeople Shaping Genshin Impact’s Miliastra Wonderland - Koreabizwire",
+      "URL": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYnlsZmdrbkQtUmI1MklmX2Qxa0Q5LXFldElrZ2JrWHo0Tm5kMmdoREhLMWhGOEo5aVlsbDNyVzhiQmZrUXowaGlyR0RoWGVhYW1JZEN1elBPbHU1R3NxRmxjSVFlLWVxZkNpZ0xQeEVqWDRCbkg2ZzlYRjlBdkJCQ2dBZU9SUzdTNDBmTUdsT080Sm9ISnBGY3htR2ZvakV4S1RFcktZd2JTa2pqU0JjZ0NqX2pKUllibkxiR0Y3TC1MS0pCOW9GaC1OVWstck5N?oc=5",
+      "Published_Date": "Thu, 01 Oct 2026 14:46:02 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-01T22:06:45.025320+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "1 Wriothesley 2 Punches 3 Bosses | Stygian Onslaught 7.1 | Genshin Impact - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1iVkNEYzAyenltRW5MUTFsa0tWS3VaVXJlRjNxZjFiYXpYZktfMzJRNGM2Z2EtYmFCTDAwcDhPS29lUQ?oc=5",
+      "Published_Date": "Thu, 01 Oct 2026 16:39:05 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-01T22:06:47.052248+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai Star Rail 4.6 Changed Russian Localization - miHoYo Announced Translation and Bug Fixes - ixbt.games",
+      "URL": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWXpNRUZyb3BqTll3U1ZtRjl5d1BkYnFYVmx5TmhNWEhjbldpa2RVbndHMVhXcDhzbFVIdzl0NUJaa3JXQlh6RG90MUk5aTBEZ2psMTFCclRsNFprRzJSSGVHcFN2eGlHUVZhTG1iN2pLSDNzZHR6ZHdqNm1fenBjcEhOOGZ4VHFlTmgyRFZVbVRweG5qZnJOWFI5VFpaT3F1M2FaVTBBMHpfUEhQeDMzZXluREs4c09fcDBVdUxucFRCNUJnVHpfT1c0NENtdENUN2hZRllsUXNjcm55VjVZYdIB5gFBVV95cUxOSGxtTWdQNUp0dWI3U1doRWRQUkZVemc5WlBkT010SW9POFZIZEowMkhjWEdiaFFTWU1scWdqeTNFSURzYkNGUlJhRUpOY3h2QTN2LTRHbVJvWHh6M24xZkVCYnBTR1ptcXk4RHZCSW9jdlp2dk5rWG1IZzNEb2RxZThMWnZnSU9vZGx4WVZhakRiSHV3LVQ2cjF6X21EWENmYWlDSHpTM1R0a0hKeU9hbHFSclpSeXRfbVJDNXNpUjUxcXl1UEllSm9oS1plRDU4SmFGeEhMcHJFOUJaeWxfQzl4anFSQQ?oc=5",
+      "Published_Date": "Thu, 01 Oct 2026 17:54:37 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-01T22:06:48.859860+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero Deadly Assault S46ㅣSigrid(M2W1) VS Ye Shiyuan the Thrall - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tdE81dlpESS00TzNDUGhYdFFkVVRJc3FuOG9HRFg1YVZzS3Bkb2pBUzlVWVgxTlRvdjlZWXlEc3pqQTlvdVdGRy1OLV9ncUJPTGpQa09IdjNnRy1EZng5MVFtbTB5TDg4c3RmUGkwcHNRUQ?oc=5",
+      "Published_Date": "Fri, 25 Sep 2026 05:08:53 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-01T22:06:48.859891+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Roxy Character Demo - \"A Mysterious Coffin Bearer\" | Zenless Zone Zero - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BZDRPR2laZVZLcDNXdFNZMVluRWhQZlNRYzV3Yzl6Mm1DZHlTdnQwcDhGSVlNbW1ORGF6RXJPZElDdlhZWWNCeUlJQ2RDb1Iyd0hUWmUtZHMtbUhD?oc=5",
+      "Published_Date": "Fri, 25 Sep 2026 03:59:58 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-01T22:06:50.767695+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT Champions Shanghai — Group Stage — Day 6 - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WRGFhMTF2ZzI3TmwybVowbFlHTWFGVlhFb2hfSm1VRjUzVlo0NUJ4X0RLalQzb3FzVUhxZkIyUUxQTHRidGtjdmhUS2Q?oc=5",
+      "Published_Date": "Wed, 30 Sep 2026 14:53:12 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
