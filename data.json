@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T21:31:16.056443+00:00",
-  "total": 5813,
-  "new_this_run": 10,
+  "generated_at": "2026-10-03T02:39:37.282447+00:00",
+  "total": 5819,
+  "new_this_run": 6,
   "errors": [],
   "events": [
     {
@@ -79245,6 +79245,90 @@
       "Published_Date": "Fri, 02 Oct 2026 17:30:04 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-03T02:39:29.863523+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Shared the Latest Story Teaser – The Swallows Return - gamespace.com",
+      "URL": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeUM2MGtkREh1aUlqdVV1UkZyeTdOeFVQaTB3cVNtbXVpWUtqY3BNZnlKYlJjTFB4cHZwRi1KQVYteGM0SWl2VktVdHgzVkdZNDBmdWdKSUMwbUhFSUZIQ1F6QzgydVQwWHpkckU4eVRrNk5oNEZJMTAtXzA5Vm1tdkF5WUpTYTVKQlNMNUduZEZLRGZMcUlEa29zdWNHNkE1bnZ3UnBzQS1EQQ?oc=5",
+      "Published_Date": "Fri, 02 Oct 2026 18:00:14 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-03T02:39:29.863562+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "From Movie Sets to Experimental Games: Meet the Craftspeople Shaping Genshin Impact's Miliastra Wonderland - Games Press",
+      "URL": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc3NZY1lzeGx2YjhxZkxpeXBSRWp0SVMya096RXFUNW1ZNXp6Vy1GSWxxRmRWYVhFU2IxXzFxQnpGNV9pNHloM2VpQ1JLZUUtdDdhUEdJeHNmUXU1MFdzWDM4cWtkZVhpQmI1Sk1NRDdua3FzdWtNZ3JPQnZWMDNscFNOYlJjVHN2NnZQWEp6TnVHYmtlWUFJWnktVmlDUQ?oc=5",
+      "Published_Date": "Thu, 01 Oct 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-03T02:39:31.793132+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Hoyoland sells out 34,000 tickets as Korean fans crowd Genshin, Honkai expo - CHOSUNBIZ - Chosunbiz",
+      "URL": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWtkS3lnLUVKcnFFRnZpMzh1MTkxVDVIX0ZRWHRLNlUtMzJidE1HUGNjOXNDNzlJSjFMdjgzYXJJRmd3dzFrXzFsU1laQm54eHhUNU5GcnZfckV0WmdiWGxBT1pZVEVYWVRRRWlRNGwwX19OV2FCdjNPajh1b1RJMEw3S2VrV1RHbEdmVTJn0gGOAUFVX3lxTFA5a2RLeWctRUpycUVGdmkzOHUxOTFUNUhfRlFYdEs2VS0zMmJ0TUdQY2M5c0M3OUlKMUx2ODNhcklGZ3d3MWtfMWxTWVpCbnh4eFQ1TkZydl9yRXRaZ2JYbEFPWllURVhZVFFFaVE0bDBfX05XYUJ2M09qOHVvVEkwTDdLZWtXVEdsR2ZVMmc?oc=5",
+      "Published_Date": "Fri, 02 Oct 2026 04:56:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-03T02:39:33.822261+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "What 'HoYoLand' Means to HoYoverse Fans - Inven Global",
+      "URL": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ0xfQmdZUm95OEl3VUxCSVpKa2VWdU15S0ZvemtlVW43WjJKQVEzNC15SS14Y0hCNE13djgtMVJZbkNEUlJGbFFpQUlvZlI5UFVqTXVKVDF5TWZkRldORUF2TkhHZXFZdmxqV1hpMnpNMzFCZnRHNHVKYnlHNndBdTRvcUxvWmc?oc=5",
+      "Published_Date": "Fri, 02 Oct 2026 12:07:02 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-03T02:39:35.782229+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT Champions 2026 Pick’Ems Guide: How to Play, Free Rewards, and Our Group Stage Predictions - Pley.gg",
+      "URL": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlSUN2MFF0SndDZnRyMW9xLUtmaFdtU21mZWRTTUJRWUNod18wbDhiZ19pajZwdi1QUUZBWExVZU9GaDhEQ25vLVI0X2xmUXcxQlNtRDNCRVktc0owVEE?oc=5",
+      "Published_Date": "Mon, 21 Sep 2026 11:29:52 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-03T02:39:35.782265+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Someone bought a second-hand CPU owned by a Valorant cheater, and it got them banned too - XDA",
+      "URL": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPelJJTWQtbjhwSzhaU25ob3RJUnljV3cwc3VZN3dBaFJjOGlNQ2ZQT3MxaTdEeXJabm1HcTJtN1NJZjZQTFpoRUpna3F4Wk01VDZkTmFiWWdWZ2l6ZmtoQXhZYjFzbW9CZVVjY1A5TGs2aUZQaFk5cDZxS2U5RHBhd2VZNzFlQlR4WU9NU3RpLXA5SXREcTIyWVIwTHNDWVRHTWxlUjEyTjhiekltc19KcnJSMUdKUEE?oc=5",
+      "Published_Date": "Fri, 02 Oct 2026 23:19:20 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
