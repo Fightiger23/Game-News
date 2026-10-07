@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T21:57:51.824559+00:00",
-  "total": 5994,
-  "new_this_run": 19,
+  "generated_at": "2026-10-07T03:02:55.123209+00:00",
+  "total": 5998,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -81777,6 +81777,62 @@
       "Title": "CS2 Pros Believe They Could Go Pro in VALORANT Within Two Years - TalkEsport",
       "URL": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJRUpIWTNTYlRfQW5XelY3NWptZG1xVENFdjUzV3JNQ2RGYjF0ZzRiRkNwNUJfUUhuVlItaXRTMC1CNnVzOXBiWGdOVHlDcnZWXzRoRHFaeFdvbFZwYjRVb3dvV2pZeGt3cDJkWVljU0UxTHM?oc=5",
       "Published_Date": "Tue, 06 Oct 2026 13:58:38 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-07T03:02:47.771547+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "GENSHIN IMPACT LUNAR NOELLE.EXE - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hSVgxU2tLMDUxS2NqWm9kUXBVOUpxNWlmUlJycElFcHZISHhodmVET2FUNDRTWG9oaUhMYl9GYUcyMy1MUW4xbGs1cHkwVlBuTUQ4VTZpRnphNV9V?oc=5",
+      "Published_Date": "Sat, 03 Oct 2026 09:00:37 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-07T03:02:51.650985+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Nodusfall Approaches to Monster Hunting With Aggressive Combat and MMO-Style Bosses - NoobFeed",
+      "URL": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KaS1XV1FlUGh5RnJ0YnMzRXpZbk92TjhsOTVMcl9pdFZLVjJGRnQ3N1I4bDFWeGFnekVSamFmYXBBNWFLYkNXLUotcXN2MTVuQnc1WHBIWFRnQldNWmtoUmNkZUNDZkx2RWRrQkE5aFV5Z21w?oc=5",
+      "Published_Date": "Tue, 06 Oct 2026 01:57:05 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-07T03:02:53.623024+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Game Changers Americas LCQ 2026: Everything You Need To Know - VALORANT Esports | Schedule",
+      "URL": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5SSUVqdWtRM1RPay05ZDRjVUFkOHJFV1JFSjNBNUctWVJSYXF2WTlPX1piMU5SM0h0OUVXbzZ0d1U3QlE5d0E1MGZScjVUeEZqdF9FLUJUcUpXd1g2X3ZnMjFQTWZXUWRfYzRj?oc=5",
+      "Published_Date": "Tue, 06 Oct 2026 19:04:27 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-07T03:02:53.623073+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "EU Takes Action Against 9 Gaming Companies Over Virtual Currency Practices - TalkEsport",
+      "URL": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcTZ5NGQzUGtrczIwTm1TSTdrN2EtbTZobzVLS0xkMEFrVGpYbFVqQTJWWkNlT1dfeUpfbUw0REFFVjFjWWdkaDRZNDdfT0FlZ0xXLVlQYXVnUUVUdHUzQ09VSEloZHNkSlJMSFpwaTlsd09qNkFyTmlvaFVJZVBVcTRleFlHZllGemNHWFhvdw?oc=5",
+      "Published_Date": "Sun, 04 Oct 2026 08:41:38 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
