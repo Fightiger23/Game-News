@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T22:35:28.512566+00:00",
-  "total": 6082,
-  "new_this_run": 15,
+  "generated_at": "2026-10-09T03:25:08.976749+00:00",
+  "total": 6087,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -83011,6 +83011,76 @@
       "Published_Date": "Wed, 30 Sep 2026 22:40:17 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-09T03:25:01.519759+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Part 12 von 19 Auf einen sorglosen Urlaub! - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuajJFZkxfMm5KenV3M2s1MUFoOW96OFFPbkUwT1B2MDJmeWVBTFYxVUlhdE5idDNYb1dxTGs0cnc5Yi1QUGhpSmY3aHZjTmxNcUFWRnFpMFNVZG9H?oc=5",
+      "Published_Date": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-09T03:25:03.502630+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai Star Rail tier list - Pearl added - Pocket Gamer",
+      "URL": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uNlpaek9lMXpHTTB5ZExnbTFTMGFDN1gzZVNBN0NIUVpldDhQbGFHdi1pd1dabW83WmlFLTU0cnBxQkd1WG1lWlQxTVAyVnlFTDRWYlQwTWZpRTBFSWx0WEVlMFRkdw?oc=5",
+      "Published_Date": "Sat, 03 Oct 2026 04:26:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-09T03:25:07.476593+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT Champions Shanghai Playoffs Set - Esports Insider",
+      "URL": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VTmVtSEhhS1BOalNyWHA4OXB2YzNQTUs5ZzJXNFZRaDVSbEJhZjc4Zk9objBzSGZCaFBWTU9QUE81WkNsYXVZd2VqSlo1MUpFbVdWa002ZEJuWnJzNjdWemlZX1hHNW54cjh1em9Bb1NqMlcxYmVtcEdlUQ?oc=5",
+      "Published_Date": "Mon, 05 Oct 2026 10:20:30 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-09T03:25:07.476621+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Weekend mornings!! | Valorant | Marvel Rivals - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lNkIwdUN3eDBUeDkxbF82SnA4dHlXT1JyUnlzNVpZdEk5SHExSDBmQnNxYVpFR2ZHMlhlbmRGQTRpdDFJamxCVmV5SFc?oc=5",
+      "Published_Date": "Sat, 03 Oct 2026 13:50:49 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-09T03:25:07.476639+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Paper Rex vs LOUD Betting Tips – Paper Rex Can Stop LOUD at VALORANT Champions - FreeTips",
+      "URL": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXR2alhQajRBOGl4MUMtUDFaam9zazI3U2xZMHBGbDd5SkFPbTR0TWxjRjJQdUM5d0hla0pQMFpITHFqdVBXcm9JMU9Lck0wNnJyT0RISTVOazVGUFkya3JhSDJhTVF3YWtKaEFROW9qTnBXWFhfQWFLS0VrdzNLNk0xem8?oc=5",
+      "Published_Date": "Tue, 06 Oct 2026 14:33:52 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
