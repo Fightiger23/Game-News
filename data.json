@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T11:43:42.938748+00:00",
-  "total": 6205,
-  "new_this_run": 11,
+  "generated_at": "2026-10-11T16:54:49.098323+00:00",
+  "total": 6210,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -84733,6 +84733,76 @@
       "Published_Date": "Sun, 04 Oct 2026 12:17:42 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T16:54:41.797837+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Ready to Spice Things Up! | The Latest on Escoffier - Genshin",
+      "URL": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96M24yUkY3d1hmeDlObGZTY2E5OUZwbGp1N2tVc3lFVVVEb2Nrc0lIYkxMTS1heEI0c2JidXdhRFpsQXhkZGl3V2k5SFZDMS01QkVaV2c2TFp5SnRaU3lsUw?oc=5",
+      "Published_Date": "Sun, 11 Oct 2026 12:11:15 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T16:54:43.758078+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Pearl Voice in 4 Different Languages (Skills & Ultimate) | Honkai: Star Rail Pearl - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5alkzTjladkNXMGpELU04QWhzN0pCNWpONkpaSWJLY2F5ZkM1UlBNdmVrblRJWlVOenlEdm83cVh3M1hWR2RzQUF1OXlZRHZfZXlwOFdCUG9kZjhZ?oc=5",
+      "Published_Date": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T16:54:43.758110+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "China queens! Yaoguang E0S1 DPS & Lingsha E0S0 DPS | MOC 12 | 4.6 | Honkai Star Rail - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42OUR2dnQ2bktyQ2tLeVI4elhZbGpzcmxsb0hqYms2RUd4Nm9FS2didWtOUW9vc3U3cEFaUDRKSWtqZ1RCNDBZTmgyaE1YY1VfdHVWMnZzckY3UjIy?oc=5",
+      "Published_Date": "Sun, 11 Oct 2026 03:07:18 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T16:54:43.758146+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai: Star Rail 4.6 Apocalyptic Shadow Starward Mode Guide - Strategy, Best Teams, & More - Phrasemaker",
+      "URL": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONWM1VWJ0eDNINjhwc0Naa1ZrUF9aTWZqX0gwTjBMS2R3OWVldE04WjFZQzVObFo3RUpOSU43SG9uMS15aGxhN0l5bkJLdWxTam9PUHFCRlBhTHU0SGdNMjdCQ2ZFM3BNaEpRYnBHVmJxay05SW42Rkc2ZWtiNGhhemxDdkZyUVFZTUNBSGQwRVQzcHR0bnM5ZDBHcndUdUpEVmphUl8yRzRYYW16U1RlRmJxZHU4V1hPTzVocXdzUWs?oc=5",
+      "Published_Date": "Sun, 11 Oct 2026 14:10:47 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T16:54:47.598162+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Aura Farming Gameplay in Valorant w/ gang | Valorant live India | !commands - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5NcVN3dC1zU0JVN0M1c2RZS0o4MTdRS3FGcUZiZ3llemtiSVBXZzZoZmRac0h4Y0VxamxsRC1SSWFIejhNZ3gxc1pNWQ?oc=5",
+      "Published_Date": "Sun, 04 Oct 2026 19:19:14 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
