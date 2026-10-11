@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T16:54:49.098323+00:00",
-  "total": 6210,
+  "generated_at": "2026-10-11T21:09:51.510125+00:00",
+  "total": 6215,
   "new_this_run": 5,
   "errors": [],
   "events": [
@@ -84803,6 +84803,76 @@
       "Published_Date": "Sun, 04 Oct 2026 19:19:14 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T21:09:44.263885+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "C0R1 DIRE - 7.1 Stygian Onslaught | Genshin Impact - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43OG9iTkV6UG5ZdERLcFRjbk5Ecy1vVjFwR3Fic0lUUGFJY1dMb2h1aEd3OWd0a3pRcmE2dzJncTNHQUF4WHlpN2Y1ZkN4MkxjQURheUpCc094SGJt?oc=5",
+      "Published_Date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T21:09:44.263932+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Danger! Adventure? VESNA! ✦ Genshin Impact Fan Animation #GenshinImpact #原神 - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2Tk8zdk5od0JxRE1FUFlhdDlmNV9jMmZDZ3R3WTg4QlRGSEtQclNfUFBiU2xTZHVQdEdxN0NLd3AyeC04XzNya2xxTG04N3I4NEJ3eU5oZl9ZUlEt?oc=5",
+      "Published_Date": "Fri, 02 Oct 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T21:09:44.263955+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Secret Tsarist Assignment Weekly Story Part 4 | Tsaritsa's Gift For The Children | Genshin Impact - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5WSVpodEZ4b3Y0SGhzX1JBR19XQVhiNlVVOUczUUlLeWxEczNhWS1kbDI5RjY4WnVGdHdfdHo4RmZndw?oc=5",
+      "Published_Date": "Sun, 11 Oct 2026 20:28:14 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T21:09:46.176927+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "HSR V4.6 Anomaly Arbitration Plight | 139 AV LEFT - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZbnZYMTVsdmNFMkUtalJOV2ZFcXFPU2JLZUJEUU1QNTJTMGJidVpaMXRDSkRuSkZSVDN5NldNY2NDeWpCQ1FMeE9faTZQYm5EVE5qRUFpbEJOS1gy?oc=5",
+      "Published_Date": "Thu, 08 Oct 2026 13:57:43 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-11T21:09:50.009990+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "IKEA Gaming Festival: Free VALORANT & Cosplay at Alexandra This Weekend - GameTrader.SG",
+      "URL": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV0pGeUpIdzJWTUpfWmNYcElxOGhqbDgwWDc0dkk0WElTOGhQdmpXUEViY2pQNHlGYjE1WU5mRUdGcVlGc2p3eWFZM2pvUmFRY0R6NF9MR2dmZzJMVUxFdVllaGF6cE1LaVJ5anB1ZURhVFo4eWd6dURKbUpHQWFDRw?oc=5",
+      "Published_Date": "Fri, 02 Oct 2026 14:21:57 GMT",
+      "Category": "Event",
+      "Likely_Sales_Impact": "Medium",
       "Reviewed": "N"
     }
   ]
