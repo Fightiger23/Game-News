@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T21:03:32.588252+00:00",
-  "total": 6364,
-  "new_this_run": 13,
+  "generated_at": "2026-10-15T02:08:43.863522+00:00",
+  "total": 6369,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -86959,6 +86959,76 @@
       "Published_Date": "Mon, 12 Oct 2026 22:41:14 GMT",
       "Category": "Cosmetic",
       "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-15T02:08:36.697470+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Is Skirk worth pulling in Genshin Impact 7.1? - Sportskeeda",
+      "URL": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd3VIWXpXV0hlZDBYbWFwaV8wcTUxVTdhZTUxeTdOUVhobHhZRDhleUF1T1NUVWM0ZHNuRXg3WmR3NlhwSmNwdC11d1pZbWlfYXJORTAtQzd5czQzT3dTYmlrbU04MzV1emw5a2p2OWJGZkpMZVgwc0lHeU5DQTh1S1hCVQ?oc=5",
+      "Published_Date": "Tue, 13 Oct 2026 16:50:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-15T02:08:42.363305+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Champions Shanghai Grand Finals Weekend Preview! - VALORANT Esports",
+      "URL": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd3NPYWg3cFg1VjZ3N0RYd1RTcEU5SVg0VmJsVDVzS1hrTm1ZcGEwSzVsOEoxNkJVS0RpTHNseU1LWHl2dDdieVZHTzh5VlB6ems1SzVZLVh2b3UycU1yV1BkcG5GUGF5bWxwWDlWSUhjWkZsV0ZKYWNtcnROWlM0ZFRraGwwWU0?oc=5",
+      "Published_Date": "Wed, 14 Oct 2026 12:03:05 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-15T02:08:42.363343+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT NEW POPMONZ SKIN BUNDLE IN-GAME SHOWCASE - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TaXFPSWZ2dmRDeWJRVTFJb09LcTVtWEI1TTR6YTdVdHZsT3d4U1pzaFZ4dG9kLTdsLWFHbWNjdGtDZ2pkTEhnRVpKNXQyYlFINElaeXRTQXN5SWQz?oc=5",
+      "Published_Date": "Tue, 13 Oct 2026 18:47:00 GMT",
+      "Category": "Cosmetic",
+      "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-15T02:08:42.363376+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "ardiis calls out Riot over VALORANT Vanguard anti-cheat failures - Dot Esports",
+      "URL": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcVh5RlREVXB3cjhJSnlybEZpd00xaHpiUTBkODBSUFhNVWNJb2h4VWNwZU10X3RQcDVaMFowZnh0UGpjWFJ2UHEtRUctRC1KRi1EMDRxblZJVVFDSTZ0S0hzeUdyZGpUVFBZV2Myd1JCaEh6MkFnSWRZNHlFb3Y3b2w5TUFLVDBy?oc=5",
+      "Published_Date": "Thu, 15 Oct 2026 00:39:00 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-15T02:08:42.363389+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Valorant Patch 13.08: Map Rating, Corrode Changes - games.gg",
+      "URL": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GbFk3WUJPOUJmNTZRYVNsVldyZ1RjV2lzMnhrRWh5bGI3Yml1SDRRTVN3cnVZYkt4Z2VGTldpRkdzWDd2M2ZJcDhiZG91b2hQbXhYQXkzR2hyT013NmU0X2J5VURMOFcyVHA3Uk9uanVEUQ?oc=5",
+      "Published_Date": "Wed, 14 Oct 2026 21:06:56 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
