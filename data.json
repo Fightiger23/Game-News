@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T10:16:23.365634+00:00",
-  "total": 6435,
-  "new_this_run": 22,
+  "generated_at": "2026-10-16T15:41:31.994421+00:00",
+  "total": 6440,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -87953,6 +87953,76 @@
       "Published_Date": "Tue, 13 Oct 2026 08:53:46 GMT",
       "Category": "Cosmetic",
       "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T15:41:28.467895+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero – Check Out Phoenix Demo ‘Do Not Die Challenge’ - GameSpace.com",
+      "URL": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOGpFaUNVZnJocHJEY0dFOGVLVkl2QjNLVkh3eUVjZTdHVndlcGNibnpwOXg4QTZ5V3E4RnlobkN1SXJTcWVNNzl5RnhkQTlwZk4tLTNRNEkxUUhGRHhTdTNMNmdWa1dsVXZ4SVM5NTVtV1ZndWZxcXdJMERIZjRCbFFPUEs1MmZtODJybUo1OC1BaURHZUNweE9sM3N2RnJjV3ZfcQ?oc=5",
+      "Published_Date": "Fri, 16 Oct 2026 08:00:55 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T15:41:28.467935+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero Version 3.3 brings playable mechs and a new sky island on October 21 - astig.ph",
+      "URL": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDlqV1Q1eHlyb2tnSGo1eHpqV3pVZ1R2eWRjT0M2cUx2dmt4VWtBVVI4UnV2YXJ1NU8xLUctR0Vya0lFM3dMU1Zua1U1REZ0eEhsNFhWSk1CZ2tiOS1POG11UnAyczlob2lXN0k0VU9HZ2xKT29ac2tWT0kyTE9BTnUtQWI?oc=5",
+      "Published_Date": "Fri, 09 Oct 2026 13:28:28 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T15:41:30.494214+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "G2 JAWGEMO: \"All the news about the roster changes kind of helped us out in one way\" - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDhQb2lTbmk4YjB6bTlBcHB0QTBQWWxnTFBYeFBBbjlyRHdQaER3aHFrV2cwX2RLSm9CcGluZ0g5Z3gtZnZBMkdmdFNQbXVVRlhBd01mNjlhZFR4UVhEMnFPcm9MUzd4QUlHTU5Pcl9JZldhdHQzRlg1MHZDSnpoR2ZlTm1pZ29GZjQ3aWNhMFJfYWR3ZGRzNkNiM3ZmMVBqTlFfX2JiYm91MmxiZWtRZktkV0NSVlpfM01qTEt1QWdkMVU?oc=5",
+      "Published_Date": "Mon, 12 Oct 2026 01:09:49 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T15:41:30.494245+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "The best IEMs for gaming 2026 - SoundGuys",
+      "URL": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15b0dMX040X3BJMy1MYjAycmsxYm13XzZPN0syNlI4X0tDZ1BxczNCek5iZlk0M0daOW1HRkpfLVhUNjhYbEI2RGk2cGFlZjZKS3dpSzNFNU5XQ051Y01Fd2NudlI?oc=5",
+      "Published_Date": "Wed, 14 Oct 2026 16:49:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T15:41:30.494267+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Riot Games Announces Revolutionary Format and Locations for VALORANT Champions Tour 2027 - Players",
+      "URL": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVDQ3eXFVa0JxbXVSekVNeDlOdHVYSldMTmN3MHA1dFBkRHlWUVAzc2VxR3hoLTZRR1c2VTZKZ1pIWjU0SGpYVVFuN19HS3lOeExBRXVrdjVJNXprOTNnQXhrRjNxY0RCckpPX3MyWkNsX2ZhTkxKSFNleXFKVDNsck5LMzU3cVRhUndMUDIyeTd6SmhBVUp6TW1zZkFKLVRYcXpvRjlYdG1FZHJ2Ni1EVV9Mc09jRFRpSlBsQ9IBxAFBVV95cUxQdGNqS29RcU9UYXhrSk1JQzdqWGQ0MFlfc2dfRFJQMmQyNEd0NjNzbnh0ZHZnX09Kel9DQ3pjUVhlcnlqWlRoeWtfZEsya0FFN2FOZHZNWEhYekFoZjBXQVBwMll6NzJ0c0IteXhpSkloZ01Ea1lQcFVoSC05SlpobVprdG0yRkhhaW04Q3BUdXRISWtucERrUTFOcEhhZFZXeEFNeWJxYkpITWJFa0ZFZEdhQTJPM29fdi1WcnpqZ2N6Y29O?oc=5",
+      "Published_Date": "Fri, 16 Oct 2026 04:31:00 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
