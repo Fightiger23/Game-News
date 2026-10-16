@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T20:37:56.719199+00:00",
-  "total": 6409,
-  "new_this_run": 9,
+  "generated_at": "2026-10-16T01:58:47.557559+00:00",
+  "total": 6413,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -87589,6 +87589,62 @@
       "Published_Date": "Thu, 15 Oct 2026 16:25:05 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T01:58:40.300194+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact players look to new competitor following lackluster updates - Dexerto",
+      "URL": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORHB5OGVtRVBiRlpyMmExWlFYRGxVbnVCRDNEN2hyLUhDX2ZaR3RLbl9jTkxWeTdoS010eXlua1gwY0lQRG1oQ2VKQ2tNRjFRY0E5el9KMEw3NC1Tenh6eC1UV2hfVl8tTkN4TThhb2VyRGhESnRzY0lSMXNrWFlIWnVOaDJOeXVwbW93eWpicmRhZEJGMkprNHdHbXliZ3BVUHI2MGdjRW9DZjhkM3M3cjNES3F0MklXRURqVzhsTQ?oc=5",
+      "Published_Date": "Sun, 11 Oct 2026 23:00:47 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T01:58:42.191078+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "The best games for girls - Pocket Tactics",
+      "URL": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oUEdPVmhQSFJRajNLdmwtV1Y0UWRuS0F4NWwxU21XUkF2RWhPams5WERmVW05S0dHQWtacGQ5OXJpZHpmdWNnMndsdnJWSlBuUnc?oc=5",
+      "Published_Date": "Mon, 12 Oct 2026 13:31:50 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T01:58:44.085963+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Anime Zero Tier List - Eurogamer.net",
+      "URL": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XeFNNaHZ4YXFRVmJuYzlYUmNXWFR2S2pzd29RbFpGLTlRRDhMWmhhNjVwREtKSjg4ZUFsckJ6Z2dyY2J2azNhZFFhMFNaQjdPRTUzdDFwMmZVdw?oc=5",
+      "Published_Date": "Wed, 14 Oct 2026 09:57:30 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-16T01:58:46.057375+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VCT PACIFIC CUP IN PH 🇵🇭 Manila is set to take the spotlight in the VALORANT esports scene as it hosts the inaugural VCT Pacific Cup from April 29 to May 23, 2027. The tournament is part of Riot Games’ revamped VALORANT Champions Tour (VCT) 202 - Facebook",
+      "URL": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29teU9DRU1wMFRLZUg3SUJRZ3RPZjd3UHpQbDRfeWdjbWRZQUJPXzd2MzZvTmFKcVFUUjh1cXY4YTNEYmR5WVhDekdWSGxTaU53REhYLUhRbVNrdmZ3S3RBQXpkdlZmdG0xQm9vbnNjcDZPWENVS2FpeWdXVWQ1cXE4d293eGdXZ0hIaE1Bckh5RmFXNXlFNVhJcFM2d1VLVGtQOVo5YTV1Z3ZGdWFVenVTcl9YVC1PcjF6aF9Ud2RsYnJLUHl3SjdVX0hrWjhaYUtpeGRkdzZnZnV3X0VN?oc=5",
+      "Published_Date": "Fri, 16 Oct 2026 00:06:53 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
