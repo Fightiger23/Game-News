@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T20:56:43.258867+00:00",
-  "total": 6732,
-  "new_this_run": 6,
+  "generated_at": "2026-10-23T02:19:03.596732+00:00",
+  "total": 6735,
+  "new_this_run": 3,
   "errors": [],
   "events": [
     {
@@ -92109,6 +92109,48 @@
       "Title": "VALORANT Champions 2026 All-pro team - Sheep Esports",
       "URL": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdjQ3UkpOS1piNTl6LUVTU1prTy1acjlYbGdSbUpDLUJFaVRzR2p3aUtnVnJfenNFeUFlY0tMTGFDSVF6cDJFRXpaWVRWN2VJNDBzaFFGT20xXzlQWkR3aXRrOEY0V0lGM0Z3ZGZUVWJxX1FKVjA1dGkyMS1MM29wUTZPSWxQQzA?oc=5",
       "Published_Date": "Thu, 22 Oct 2026 14:31:24 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-23T02:18:56.266759+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Version 7.2 ‘Hour of Ruin’ Special Program Announced for October 23 - Final Weapon",
+      "URL": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS2JISGI4ejBZdE5RaW5sNGRJQVM5b0VreU5jeEx5VFhkcU1HVUs0TTJRUnlhUkg0RGFTcm42MlF5OHh6Ui1PeDQ0dXF6dzItMzNpakpQbzBndkpTUnA2NUZkVks1b3JvbnNGcDE3Tklrck9mdkVRQmpwcEs2Ymw4TjNBaml5VFk?oc=5",
+      "Published_Date": "Thu, 22 Oct 2026 20:59:21 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-23T02:19:02.096546+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Gen.G Game Changers: Ready to Take on Championship in São Paulo - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYXNPNGpndUM1clJtZ05lYkxGNVN4UF9peFBsSERhdmUzT3dMZncxRVVBN05ROGg3QnEycVZpUm51SU9lelJvQm8xdEt5ZEZDSHd5T1dYa01paFJ5LTlHTjZob3VvWmFXTjZiTHVoNEdQT0RGM1dRcHZVZ3hUZGJhTkl3N0JXd3oydWNwVjN0bk5MZnl1Y2dfRUtZUXQ4SlB0VVV2MEc2RUJjLXM?oc=5",
+      "Published_Date": "Tue, 20 Oct 2026 09:37:42 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-23T02:19:02.096582+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Game Changers Championship - VALORANT Esports",
+      "URL": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSHFNUGdjWGVBUTk0bW1CZWFlcy1DWGtET1FOQ0xuWnZfSkZCVF80NDUyU2VrdFFwOEwxNmlybUVlb0RJRXRieWlKakUwdF9uWXJaYnRrMUdQeS1xb3plcG9obkJ4M1VQZXJRM3ExNEU3ZTJ6OU1lWEFTekg3NlhGaUlsdXVLYVRqdTFFSg?oc=5",
+      "Published_Date": "Thu, 22 Oct 2026 18:51:25 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
