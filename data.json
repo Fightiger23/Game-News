@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T20:44:21.688366+00:00",
-  "total": 6797,
-  "new_this_run": 19,
+  "generated_at": "2026-10-24T02:16:45.540383+00:00",
+  "total": 6802,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -93021,6 +93021,76 @@
       "Published_Date": "Thu, 22 Oct 2026 15:33:33 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T02:16:38.360045+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Version 7.2 Arrives on November 4 as Teyvat's Seven Nations Unite Against Looming Annihilation - Games Press",
+      "URL": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHRfbmZEZ1o4TVBwa2pYSkhSOGxQY0VxenlmV3h3cG91MUh3TG56VUNCWFJHUU1VbE1EcXNOdFQ1YVl0QjI1cWthbkc0Z3VPRXpWRmstcllsOXV0RFZJQnB5YnByYzN4Z3NScklaTzRPQ2I3THNZT3p3QTBRYjF6alBvamoyaVRzRGUzaFVRMlNERDBKLTlHd0JiQmpqU3dfenc?oc=5",
+      "Published_Date": "Fri, 23 Oct 2026 14:08:33 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T02:16:40.180996+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai: Star Rail Interastral Peace Gala One Take Event Guide - games.gg",
+      "URL": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jckxUTHRBWW5QZ1BNT0REUFZyRnUzQWt0WFlCZ0ZDbWtraUhKVWZPbzNTS3hXcjhvZmoxVU1KcjI2c3ZwRW9zN0tOV0F4UXVZNHQwUnBSOG9uR2dkdWdkSmNGSXFLN0d3QUZVRVltVVhVb3BKSTlTbDdwN3ljZw?oc=5",
+      "Published_Date": "Fri, 23 Oct 2026 22:39:10 GMT",
+      "Category": "Event",
+      "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T02:16:40.181027+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Mortenax Blade Build Guide: Best Relics, Teams, and Light Cones - games.gg",
+      "URL": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbzhRX2V5N1RLZ2VScEE5aTZMYkc3dVE2NURBTnJSYjBQUUxrbi1zRjFXcHFYOG1QUEY3VExRUVVxSjBYTmtaa3BhU3hCSzZ1VDJMTzBOOFE4d1RoaUl1dmtmOGp4R09pOV9iZWpKUWF3UFBIY0tlZl8ta3E5c0paT21oTGl4NVdXRUpxTnVRN2U?oc=5",
+      "Published_Date": "Fri, 23 Oct 2026 22:25:10 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T02:16:42.055835+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero Teases a New Agent Record Called Sunbringer - Happy Gamer",
+      "URL": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY09MalhPUTlVNm00N1F6X0dWd0Uxa01sRGhhZWNpejMwcm56N1dTdmxtc0FXNmswWEVpbHMwRE5obFhIMENLSjY5UVVkejE4bFB3R1Q0U1RvZkNVYWV6dXQ2dkx4TmNueVBmUnhDVWJlNzNoU25nelhEaFNQTjZCNVBXeXpiQQ?oc=5",
+      "Published_Date": "Fri, 23 Oct 2026 20:53:15 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T02:16:44.040248+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "M8 VS TLV - VALORANT Esports",
+      "URL": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93dkFyQm5YRjBqd3dibjdrZDYyS3AxaTZFSC0xQzJ2UlVmc2UySU95Y0xMT3BBa190QmtlN2h3R29qTkJQNzQ5cFFYWWhZa2ROcG5aVkRZQlo0Ulh3d19jVUtRLUhueVIwR0E?oc=5",
+      "Published_Date": "Fri, 23 Oct 2026 22:40:00 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
