@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T09:56:16.657391+00:00",
-  "total": 6819,
-  "new_this_run": 17,
+  "generated_at": "2026-10-24T14:59:00.780813+00:00",
+  "total": 6823,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -93329,6 +93329,62 @@
       "Published_Date": "Wed, 21 Oct 2026 10:11:40 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T14:58:53.359625+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Version 7.2 \"Hour of Ruin\" Arrives November 4 As All Seven Nations Of Teyvat Unite - Pokde.Net",
+      "URL": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoUmNESGVXZ2FJVTRlZU5FWGtZUnN0eUVhLTVTWXRZcElWem1EMjd3Y2tsU0h6WmFuQnpXbGpmVi05aEVJYlhreUEzMkNjWTgzRDlWalFkaUxhUm52MlFqZV9hREIwU3djdG4yemRWbw?oc=5",
+      "Published_Date": "Fri, 23 Oct 2026 12:40:30 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T14:58:57.185397+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero - Official Version 3.4: Void Hunter & Enchainer Agent Sunbringer Trailer - IGN",
+      "URL": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNek5KWFlwMktjRXBiaHQwMEVHVWNRTHhjcHhUQkxqWUtFcWZOYUgyRWtoZTAxZGVHU0RXZkNLSjM3TmRwYkVaRUFkcnZKdjZ4TGJyLXQ0dEp0RHNjS2dfZzZvdExPU2t4aTEzbjVXUW1TM084MGEwSm5XWGZrcUZNbnBaWTAzc2drcmJqdkRZYWRPUV9lYlZXWV9lWTRNLUZsRjQ0c0VseVBDWC1IN1dlTQ?oc=5",
+      "Published_Date": "Sat, 24 Oct 2026 13:54:06 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T14:58:59.280643+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "FUT Esports VS Fire Flux Esports ➥ VALORANT ➥ Betting Tips, Stream, LiveScore, Results on EGW☕ - EGamersWorld",
+      "URL": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN2k5SHpxejJVeGtoNTJ6b2FBa0pzUjVhV0dEdVpFMGVnN0UtdThKdGNoRkt6ZkJiOWNBcGN3RV9nY0pabVFDNVA3Mm03Mm1fNXQwZ0hZSm1IcXFWWjV0ZmJnQlpNSWJOOS13eVNhckhxd0FkSV83TGFMaWcwN1MxZGNSb3B5Q1dleEI5cFdzOXRqZXFzMzU2Ug?oc=5",
+      "Published_Date": "Sat, 24 Oct 2026 10:50:00 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-24T14:58:59.280673+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "M8 Nami: \"Now everyone knows who we are, that we're ready and that we're a fucking beast\" - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcTBYNGF1azdYYnRXS3NMaEFKc1YzN3Q0R1ZHaF9Kc3A2d3ZWeThQTjIzVEtIdGNvMWpVVG9sNkRaM2dqeXE3OWJMWVVDeE9ON2pUcFQxc1lGSUJwMFJqeGdac0hXR3lUTHdPX0tpbEJZNVdjX0liUHVjV29yYUpUdjh4VTJodHE2R0pfTEo5N3RsS0l1cXhfaUUyaUtSa1ladmtaWFFyY2t5aVd4NjMyTW5lX2xGajQwRTNEREVQRFlLWHE4S1E?oc=5",
+      "Published_Date": "Sat, 24 Oct 2026 12:51:36 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
