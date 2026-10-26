@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T17:47:13.355685+00:00",
-  "total": 6923,
-  "new_this_run": 1,
+  "generated_at": "2026-10-26T22:00:38.629734+00:00",
+  "total": 6928,
+  "new_this_run": 5,
   "errors": [],
   "events": [
     {
@@ -94785,6 +94785,76 @@
       "Published_Date": "Mon, 26 Oct 2026 06:31:13 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-26T22:00:30.881843+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact preps two new characters and a world-spanning fight against annihilation November 4 - Massively Overpowered",
+      "URL": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNGx4T09WYlZkYVlEY3NSMk01Wk9Md2VSb2YzMFdmcl9Qc2VoSWFhWEZRT2J3UlltRWlCNEJqUldWcktmU1AybWpMaGdZci1nRlZReXdvTkNwTUQ1R0c3NW1WNnZETUZNMnZDVldkRTM3bUw4akJNQmNhMWZPeGZOTDJrSDh2b1pvb2pYWF9YZU9zcGN2bEh5U3MybVRKRThfaGdwQVBXblVlX1ltRHhWNUd4eGVnX1NtcHhIcExKQUJEVk1ERUVyV0hLaWV3VE0?oc=5",
+      "Published_Date": "Mon, 26 Oct 2026 18:00:43 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-26T22:00:30.881891+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Free-to-Play Mobile Games Worth Spending On: A Beginner’s Guide for 2026 - Tech Junkie",
+      "URL": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFlTVVB5X2o5dW1RLWpUOEctQklEWmt6VEJid3dHNGRmTEpkTklpc3dnLTFGVEVQR2hZeHgwR0pmRGhrVFBvNkJ1ellKd0pVQ3ZNTlRXSzFfQkt6bE12dmtoVWV5Qzk4RF8zZ2g2LUt2eWtHNUdqcmFjTlJteExQcHpEWkd0clVEOGhvbHZiREUzRkdUemRURl8tMFFxUVE?oc=5",
+      "Published_Date": "Mon, 26 Oct 2026 18:24:13 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-26T22:00:32.740966+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "How to Downgrade Geometry Dash to Version 2.208 - TechStory",
+      "URL": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53V2lCdjg5aWNuWk1vNGFHX0ZLVEVsRTc2T29jRHlXdTFMUWw1TkNYdGdfWEdTMTVkZW16c1ZzRWQ5TGMxZHppajZKZ0JMc25NOGpGN19VX0Y3TVctTHNlR1U5eWxZVkdJeVFBcVRMU1M4MjNFVGo2TA?oc=5",
+      "Published_Date": "Sat, 17 Oct 2026 13:45:13 GMT",
+      "Category": "Update",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-26T22:00:37.129503+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Gen.G and Nova first teams eliminated from Game Changers Championship 2026 - Hotspawn",
+      "URL": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRE9aVmN6aEhaTkpSVXRGOHBSUE1lNVlTQzZPUXdzVzgwcG5mOEc3dk93eF83aVRmQTM0MGtCVGRIc1ZKTG9sT1U0cVpJZTcxYmJCcWV1RWRjZHJwcUdvU2UwYnExRjJGdVhnTmgyeDVPMThuMmdWUFZmNzZ3U0R0dFNsNHE1czA?oc=5",
+      "Published_Date": "Mon, 26 Oct 2026 19:52:30 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-26T22:00:37.129571+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Women’s esports: the players and teams behind the tournaments - Female First",
+      "URL": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb0IwSDg5cjloMEVjREhkNl9fVGpvcEJ2Z3o1bGdvdzAzc291enh1bnItLXlhcDgxN3RtX29ySXZwSG8tU0t3X2RqWGJlT0JnTkxtUm0yLVloc1FrY0liblhvb0pkUkhkMkpEbU5VUU9ZRHp1NHVBLVNTbUxCUkxJZ09LcGs3MDFqR25SMGlnclg5ZjdPWVFwdEJaTmM?oc=5",
+      "Published_Date": "Thu, 22 Oct 2026 20:48:00 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
