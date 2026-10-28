@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-27T21:32:50.558157+00:00",
-  "total": 6987,
-  "new_this_run": 7,
+  "generated_at": "2026-10-28T02:51:05.174944+00:00",
+  "total": 6993,
+  "new_this_run": 6,
   "errors": [],
   "events": [
     {
@@ -95681,6 +95681,90 @@
       "Published_Date": "Tue, 27 Oct 2026 20:41:41 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-28T02:50:59.820064+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Myths from the Maw - Gematsu",
+      "URL": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1raExNY2xycVJoQnc0NC1BVFhtdkFkdWNUZkNFYXozOHpLXzljWHI1dTBLVmctQy02YkxqQlVYWVNtczlRb3UyUFFMaDdsUkJVNV85N1FoR2x5TnhRczlJ?oc=5",
+      "Published_Date": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-28T02:50:59.820119+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Red Bull Partners With Team Apex Gaming, Backs Jonathan’s BGMI and Free Fire Rosters - TalkEsport",
+      "URL": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNnN4X2xDazJIZV82dzlCVjdMT1ZKYnlQallPU3Nrbi1oM0stM2MyTXB1YTBEZUttMG52bDgyLTVxLXZzZHpCalhxMzRTNHpDazZzako4ZUZxRDhfS1FaeXNKV3FQdUZfWl9FcmFsZFhmOUd6dC12aVF1TTVBRFJETkNYaWNNNlVIb3dHcUNqRklIa0ZMMS1DTlEzVy03bmdGTGI5MFRpblJZYU9CWF8xNFFhcEp1Zw?oc=5",
+      "Published_Date": "Mon, 19 Oct 2026 08:50:21 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-28T02:51:01.773147+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero 3.4 introduces Sunbringer and the Roxy teaser - Foro3D",
+      "URL": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdXpCN3VEV193RFBHRjFwZ0gxQzMtbm10SGtYeExtTWtpbThRaFhMSmFXZy15eEpnUGZSN2pnS0lTblhTRTFrSTZ4TE94NTI1MGNJeC1zN1JfbmVkcE8wWl9NaUpwanY0aUFmcmpIcXBkRUlQUC0zenNZTE4tZ1ZEeERXSHJObjBSdHpUbDE2dklqZ1h0Mk1vXzlMWkRDeEZzTU5wOQ?oc=5",
+      "Published_Date": "Tue, 27 Oct 2026 11:25:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-28T02:51:01.773175+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "The Zenless Zone Zero Hollow Games! - YouTube",
+      "URL": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xejVwbmgySFlvTG53U0JlLUl5dUpsQmVXZGppcWdWN1lvUGI5Mm9HOTJWWGRNalFDSGpacTE4emRSZm5HN1hkSHVHVWNvWVJFV1M3clk1VDVFZWht?oc=5",
+      "Published_Date": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-28T02:51:03.674737+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Don't stumble on Summit with this VALORANT map guide - Red Bull",
+      "URL": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCOVJoV3pXNk9maVI2UjhjMTQ4X0hMOW9ZRXk3LV9pcF8xZUJCX0VIdmREcDB1d01KNU1LUTA1N1BwazdadkNjNmtWWWUwNGliU2trcHZNYld2SzA0NVB5RWpDaHdWdw?oc=5",
+      "Published_Date": "Tue, 27 Oct 2026 22:29:09 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-28T02:51:03.674766+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Gentle Mates GC and Shopify Rebellion Gold advance to upper finals at Game Changers Championship 2026 - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbFEzejhYYU5ZUjBmdWtRYmduekk2SFJHMDFlcUg5eWh1a2VrYWQtZkpmaW14RzV2YTlrVVJuU2pRbTBnTGtGUFFXVUtVUGo0QkRaSG51UWQzTmNBOW9YM01YVnd0UnplUXlWT01NcVVKY1k1MjdJblFDUmMyaW15bUFUejJZSjh3UHZHX1VWaUdia20zZ3F2MDA4SEVteFhHNHJIWkJZLUE0c1lza2xWSDZCSEdGeVZvVkY0amgzUE5VZHlUTVlrZHlFVHRCeEZKWVVpSTBTOA?oc=5",
+      "Published_Date": "Tue, 27 Oct 2026 23:20:41 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
