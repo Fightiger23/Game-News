@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T22:08:30.682356+00:00",
-  "total": 7104,
-  "new_this_run": 17,
+  "generated_at": "2026-10-30T03:16:26.601933+00:00",
+  "total": 7108,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -97319,6 +97319,62 @@
       "Published_Date": "Thu, 29 Oct 2026 06:13:29 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-30T03:16:21.268124+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Honkai Star Rail Seele build - Pocket Tactics",
+      "URL": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90NFRFQWZnVHBxNWs1ZUFVM0c3UlllUXhsTlc1MjhWZkRza0h2bmJTT09BYlk5cFRYMzZSNllIZlFXeDVXWUpBckxSYlFDMUdLd1F2UXJuVWVFX180T2ZtTkRR?oc=5",
+      "Published_Date": "Sun, 25 Oct 2026 17:13:52 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-30T03:16:23.250183+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "GUNNAR Brings Orphie & Magus Glasses To Its Zenless Zone Zero Lineup On November 5 - GameDaily",
+      "URL": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4wRlF6TEh2MEF5Y3VBUHpOc0hRelhFd3NZdXBKWjBxRmJ6VDZuRVdORk1TMU9zWU1VdkVHaDU2OW85aFByc3JhQlEzMDZJeHFwY2dUUmxTTWFRaXRwV05HR1pJMzdiQzJrQ0NycjFEd1N6N09URzd5S0U1WFpUZw?oc=5",
+      "Published_Date": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-30T03:16:23.250214+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Gunnar Officially Partners With Zenless Zone Zero For New Eyewear - Bleeding Cool News",
+      "URL": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV2RLTlJLbmwxLWlCTzZJWnBmQzdtTjhFMHNadF95SHNudjAyYU5JZHpaVEdHUGxCT0xRZDVYSTFtV0hKTXhILVRmRDRoWXdmamNYT2JiWEdXZENpd0dLSmpDVmpDUmtXcHoxckR3d0kzY0Z4RGZPQUVnb0xNOFZJekpYWEtMM25ydXFGNjU3WEJvU1Z0OVVlSlM4M25GZjhCeGg3THdR?oc=5",
+      "Published_Date": "Fri, 30 Oct 2026 02:54:09 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-10-30T03:16:25.101763+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "The best VALORANT agents in 2026: Who to lock in for every role - Red Bull",
+      "URL": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10c0d1S1YySGtfdi1XRjR6ei1kY3BlNGtmeU9BS1hSMHpDaGJNR1FQMk5ERVUyVzVkSl94eTBOOTV1VlA5ZVRvWkg1Vmp6V3B6czktaGRSaGRQQUZRQ0dR?oc=5",
+      "Published_Date": "Tue, 27 Oct 2026 21:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
