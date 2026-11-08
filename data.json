@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-07T21:10:31.809299+00:00",
-  "total": 7556,
-  "new_this_run": 12,
+  "generated_at": "2026-11-08T03:00:40.133289+00:00",
+  "total": 7559,
+  "new_this_run": 3,
   "errors": [],
   "events": [
     {
@@ -103647,6 +103647,48 @@
       "Published_Date": "Sat, 07 Nov 2026 05:52:07 GMT",
       "Category": "Esports",
       "Likely_Sales_Impact": "Low",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-08T03:00:33.133048+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Character Trailer - \"Mitya: Everything's in Order\" | Genshin Impact - Genshin Impact",
+      "URL": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BSWxJWElzbGdONjc1RFhpMGFWNlVqb2FoaWtYZ093SlhLOVh4Vk1ZWkxxTXVsRXhzMFFSY3RnUFhqMUkzbll6ZVdwRzBBcHUxRzZuRi1Pcy1EZnJiVlRnLTczcw?oc=5",
+      "Published_Date": "Tue, 03 Nov 2026 05:30:04 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-08T03:00:33.133096+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Here's how you can talk to Vlast and get his chests in Genshin Impact - GameRant",
+      "URL": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcFhSa1NjMWQwd21XRkRETlVhQmJ2SFExTFhDVXp0WGtBU19lb3YzNWt0MWtLLXRQc0lLQUhTeTNXak5hZjRHX05XLTdqNE5GSHJVbnJkTDJJaVprREZyekw2UWNGaTBZaG1HUWpKcW1OOG8tcExCaDN0N0VvMUZaSENMTkNLcWl2QW1fTS1xZkM5aTA?oc=5",
+      "Published_Date": "Sat, 07 Nov 2026 03:50:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-08T03:00:36.844018+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "ZZZ Shows Gameplay for a Stellaron Hunter and a Singer from Penacony - Wotpack.ru",
+      "URL": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVTJ4NWI0ekdrSEphVTBQZENSaldHYmFOTVNzd0s3QzQ1eUpVSGlKSTZ6WUUzR08wYWZobzlaY0RiR01Jbjl5Z0pMLWJ0cWFuM2l2RWYyWGxmUFktejJ0RlFvOGlYdTF0aDhlRk5nSXNDWFlPZk5fb1ZFeHFmWlhtMVMzb2E5UG5ERHlIdW1ZWlY3THFlQUNuZEJZRGdBR1ZfRjNfa2xIcmw5R1hteXJJ?oc=5",
+      "Published_Date": "Sat, 07 Nov 2026 15:25:19 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
       "Reviewed": "N"
     }
   ]
