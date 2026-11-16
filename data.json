@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T22:12:35.981912+00:00",
-  "total": 7876,
-  "new_this_run": 11,
+  "generated_at": "2026-11-16T03:32:41.345994+00:00",
+  "total": 7879,
+  "new_this_run": 3,
   "errors": [],
   "events": [
     {
@@ -108127,6 +108127,48 @@
       "Published_Date": "Sun, 15 Nov 2026 19:15:56 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-16T03:32:34.508540+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact's \"The Bestowed Love\" Story Teaser Shows The Tsaritsa Healing Snezhnaya - GameFragger.com",
+      "URL": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQakZBWllmb0NocDZMd3Z0dGZNcmx6QXE4WVM0dHc2SWJUaW1mRFBXcE9sNW1sVUt3LVB1aDdxVWpfZUQ5ZlU2cWIyemd0UV81Tk5mTXpWcDZTaENFOGJlN2N5ZGJJZnBDZVZwRUxJZFg1Z0M1THM2M0tYSDJoZ2hrRmVUVnprdnZ3SFZoNWh3RUN5aHdVdE5ieDZFbng0TUtOeWJFV2drOEI3UFBRbkttSnRBdE9qcmRXbGpvemJIZFlNb0c4STZCdGxFWkFGUi1zT1ZVMUJSZ1A?oc=5",
+      "Published_Date": "Sun, 15 Nov 2026 22:11:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-16T03:32:34.508576+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Genshin Impact Teases a Novokitezhgrad Mystery Story - Happy Gamer",
+      "URL": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeGRDeEUxOWRDcDRNeF9Wc1BLc2ZBQ0pjZ3dFS2lpaXQwUHVJZUpwdE1rOVR1cDBfWHhLcnZZVmpyWXFpSUJnYUIxMm1wRnphM2MzWEVzMW9OVjhlSmJwdFhXR0UxVE1QdW1sVVRRZExCeWNTMFhIUzlhcG9OMEdaeG53Wlg4aXlK?oc=5",
+      "Published_Date": "Sun, 15 Nov 2026 23:13:05 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-16T03:32:39.845851+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Predator League Malaysia 2027: Open Qualifier - Valorant - Viewership, Overview, Prize Pool - Esports Charts",
+      "URL": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLW10dEU3Y1ZXQWNlM2tDNENvSksyb0RfVmxHR0w5cjhhV0gxUVJUQkttdGlqaHpNRzN3TktScEZOQk5qVmd0Z25ubUI4MFRJV2xabEFmcXB0TTRIc2hVLU9waWhfY0lZQlg5ck5lOW5fdzJCM1I3UHd2N0FXNm9RZERuemctbXFHUHpHbFhhQQ?oc=5",
+      "Published_Date": "Fri, 13 Nov 2026 23:38:37 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
