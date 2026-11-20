@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T23:58:45.230384+00:00",
-  "total": 7978,
-  "new_this_run": 17,
+  "generated_at": "2026-11-20T05:39:55.496662+00:00",
+  "total": 7982,
+  "new_this_run": 4,
   "errors": [],
   "events": [
     {
@@ -109555,6 +109555,62 @@
       "Published_Date": "Wed, 18 Nov 2026 19:23:42 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-20T05:39:48.662968+00:00",
+      "Game": "Genshin Impact",
+      "Category_ID": "GI",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Version 7.2 Event Wishes Notice - Phase II - Genshin Impact",
+      "URL": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqWmZzc2lUM3lQc0RnY18wOUhmUUstMV9qbkp2cS13ZjIzbFNjU25sZEJkTmJOcjR5YkpaQWl3LTF2VFlaMjhqSHNPelVpdERIazItb29mYkNxRHdYcmtBUVY1NA?oc=5",
+      "Published_Date": "Thu, 19 Nov 2026 08:55:43 GMT",
+      "Category": "Banner",
+      "Likely_Sales_Impact": "High",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-20T05:39:52.225566+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "[G-STAR 26] HoYoverse fandom gathers, a festival at the venue - 게임메카",
+      "URL": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05R2lidHRrdFlkYU1pWFN2cUR2Wnc1Y1J5Sk5CU2JHLUxKN05wOUdBS20zWGpZbmEzSHh3a19rbWZvZEVDN3I1QXFxclNNRmIyNXlUTTlWVUtfZw?oc=5",
+      "Published_Date": "Fri, 20 Nov 2026 04:24:15 GMT",
+      "Category": "Event",
+      "Likely_Sales_Impact": "Medium",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-20T05:39:52.225601+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Foreign game companies gain ground at G-Star as Korean majors sit out - Chosunbiz",
+      "URL": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlSzBPQ2d2dzN5WE9KT2V6VXNNYjM4bEsxTTNoQ1JjYzdsSGxPU3VFLVhYbWc1aDVMZ051ZzJPOVZNcjI4eEZFREJlMGsyTVRlbWtnSjlfRmZSZ2E2ZXk0U2pMc3JPVV9sLXlBN3d6c0VUQy1SUloxeDR30gGOAUFVX3lxTE54eFZhNFVjd1o3NmJxeU82SFZTYVNVU3czOVI4V1VUR2VRaW9PM3dYUk45WFJTVkl1MXlWMlNCTVJwXzAwZU5yNjhsZjE2TXRVVkVENHhhX1pFZFFMeGdUSVBySEd4aDJnOElMaFBNVTBuNUdRUExmUklQOGwyNXc2dUdPdEI3Um5HbGxGUEE?oc=5",
+      "Published_Date": "Thu, 19 Nov 2026 08:30:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-20T05:39:53.996510+00:00",
+      "Game": "Valorant",
+      "Category_ID": "VAL",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "VALORANT Radiant International Invitational 2026 to feature Team Vitality, Trace Esports, All Gamers, Gen.G, JD Gaming and Leviatán - Sheep Esports",
+      "URL": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUjJxV2dfUExoTUpwbWhOLURPM3RnVmFNRDdzRzc3S2V2VjlTSXNDZXlVRmJ1cGNGVkZmZ1hsVzVKX3dmSlJ1aU9fSHJ2TzBSR2VxZTlRZVNIM2ZnOXhlbS1QdjBCRXVrSUhndHMwb3JvTmh1N1c4QW81NDNGSzhHOVozbXo2MXdRV1F0d2hYWmVNOEtkVVNvOEMwX0pZRHI4U2JoRVJEV0VrN1NtV0lEaGtlbkV1NndNWmdzZmlzV3Rhd3AxcXR1c3B2N0M3TUNK?oc=5",
+      "Published_Date": "Thu, 19 Nov 2026 11:48:40 GMT",
+      "Category": "Esports",
+      "Likely_Sales_Impact": "Low",
       "Reviewed": "N"
     }
   ]
