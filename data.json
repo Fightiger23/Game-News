@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T22:31:35.349134+00:00",
-  "total": 8091,
-  "new_this_run": 5,
+  "generated_at": "2026-11-22T03:49:41.665354+00:00",
+  "total": 8093,
+  "new_this_run": 2,
   "errors": [],
   "events": [
     {
@@ -111134,6 +111134,34 @@
       "Reliability": "Reported",
       "Title": "Zenless Zone Zero 3.4 Special Program: Everything Revealed - GameDaily",
       "URL": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2MUpHeXNIZWdIRVNvQThQLVU3WjRmYm9CZ0o3djVvdzVWOEtTRkctZGRSbEVFRlctSHY4amFhQnFTUlc2c25yZmVuSUp2X2NvMG5sSTROZ3pyWExra2J0Nw?oc=5",
+      "Published_Date": "Sat, 21 Nov 2026 15:23:41 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-22T03:49:36.464954+00:00",
+      "Game": "Honkai: Star Rail",
+      "Category_ID": "HSR",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero Officially Confirms Free S-Rank Character This December - Comic Book Resources",
+      "URL": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14ajl4WmVtQVI2MG1HQXktWWtmaFFZdlVKTTdReEYzdjFfbjh0OUJiTk1tTTJ4Q2RPZmFSaHVJOEVET205SmFTa1pCcEhDMVVVME5Na09OYUNQc0QwUV91X2VfVkU1NmRZd1VLVmR4cXkyTklTcVFva0lOMy1xN2M?oc=5",
+      "Published_Date": "Sun, 22 Nov 2026 01:00:00 GMT",
+      "Category": "Other",
+      "Likely_Sales_Impact": "Unknown",
+      "Reviewed": "N"
+    },
+    {
+      "Pulled_At": "2026-11-22T03:49:38.329897+00:00",
+      "Game": "Zenless Zone Zero",
+      "Category_ID": "ZZZ",
+      "Source": "rss",
+      "Tier": "Media",
+      "Reliability": "Reported",
+      "Title": "Zenless Zone Zero 3.4 Special Program: Everything Revealed - Yahoo Tech",
+      "URL": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSFJ0Q3ZHem8zdkI1LV9Gc05BUzNlZlBieG9tTGZ2MThTUUhBTEdWVjhxNEY5elYzMHN4aWxHT09ycG9idHFiWlZLdWtET3UwX3pQUDA5RWlzU3ltRU1sVmRkZ2dBVjFJLXNMUTdEMXBxQjVnOGR0WU1XNHVRaTJGVA?oc=5",
       "Published_Date": "Sat, 21 Nov 2026 15:23:41 GMT",
       "Category": "Other",
       "Likely_Sales_Impact": "Unknown",
